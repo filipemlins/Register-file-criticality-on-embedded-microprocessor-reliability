@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.vhd linguist-detectable=true
+*.cpp linguist-detectable=false
+*.hpp linguist-detectable=false
+*.c linguist-detectable=false
+*.h linguist-detectable=false
+*.py linguist-detectable=false
+*.tcl linguist-detectable=false
+*.sh linguist-detectable=false

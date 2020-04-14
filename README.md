@@ -1,4 +1,4 @@
-# Register file criticality on embedded microprocessor reliability
+# Register file criticality on embedded microprocessor reliability (Fault Injector Register File)
  
  Related Articles and Dissertation:
  
