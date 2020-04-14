@@ -1,0 +1,9 @@
+
+26/10/2015 - 09:56:36
+impact.bin (readback binary) not found
+
+26/10/2015 - 09:58:28
+impact.bin (readback binary) not found
+
+26/10/2015 - 10:00:19
+impact.bin (readback binary) not found

@@ -1,0 +1,566 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Wed May 11 16:11:45 2016
+# Process ID: 7332
+# Log file: C:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.runs/impl_1/ps_0_wrapper.vdi
+# Journal file: C:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ps_0_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/ip/sem_0/sem_0.dcp' for cell 'example_controller'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.runs/sem_0_sem_vio_synth_1/sem_0_sem_vio.dcp' for cell 'example_hid/example_vio'
+INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc] for cell 'ps_0_i/processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.295440 which will be rounded to 0.295 to ensure it is an integer multiple of 1 picosecond [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:21]
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:30]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:31]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:32]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:33]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:34]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:36]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:37]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:38]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:39]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:40]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:42]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:43]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:44]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:45]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:46]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:48]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:49]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:50]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:51]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:52]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:54]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:55]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:56]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:57]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:58]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:60]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:61]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:62]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:63]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:64]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:66]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:67]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:68]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:69]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:70]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:72]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:73]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:74]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:75]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:76]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:77]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:78]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:79]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:80]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:81]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:82]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:83]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:84]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:85]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:86]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:87]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:88]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:89]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:90]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:91]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:92]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:93]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:94]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:95]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:96]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:97]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:98]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:99]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:100]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:101]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:102]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:103]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:104]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:105]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:106]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:107]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:108]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:109]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:110]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:111]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:112]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:113]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:114]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:115]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:116]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:117]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:118]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:119]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:120]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:121]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:122]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:123]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:124]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:125]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:126]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:127]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:128]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:129]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:130]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:131]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:132]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:133]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:134]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:135]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:136]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+INFO: [Common 17-14] Message 'Netlist 29-160' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc:136]
+Finished Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_processing_system7_0_0/ps_0_processing_system7_0_0.xdc] for cell 'ps_0_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_axi_gpio_0_0/ps_0_axi_gpio_0_0_board.xdc] for cell 'ps_0_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_axi_gpio_0_0/ps_0_axi_gpio_0_0_board.xdc] for cell 'ps_0_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_axi_gpio_0_0/ps_0_axi_gpio_0_0.xdc] for cell 'ps_0_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_axi_gpio_0_0/ps_0_axi_gpio_0_0.xdc] for cell 'ps_0_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_rst_processing_system7_0_102M_0/ps_0_rst_processing_system7_0_102M_0_board.xdc] for cell 'ps_0_i/rst_processing_system7_0_102M'
+Finished Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_rst_processing_system7_0_102M_0/ps_0_rst_processing_system7_0_102M_0_board.xdc] for cell 'ps_0_i/rst_processing_system7_0_102M'
+Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_rst_processing_system7_0_102M_0/ps_0_rst_processing_system7_0_102M_0.xdc] for cell 'ps_0_i/rst_processing_system7_0_102M'
+Finished Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/bd/ps_0/ip/ps_0_rst_processing_system7_0_102M_0/ps_0_rst_processing_system7_0_102M_0.xdc] for cell 'ps_0_i/rst_processing_system7_0_102M'
+Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/ip/sem_0_sem_vio/sem_0_sem_vio.xdc] for cell 'example_hid/example_vio'
+Finished Parsing XDC File [c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/ip/sem_0_sem_vio/sem_0_sem_vio.xdc] for cell 'example_hid/example_vio'
+Parsing XDC File [C:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/constrs_1/imports/example_design/sem_0_sem_example.xdc]
+Finished Parsing XDC File [C:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/constrs_1/imports/example_design/sem_0_sem_example.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.srcs/sources_1/ip/sem_0/sem_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.runs/sem_0_sem_vio_synth_1/sem_0_sem_vio.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 26 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 8 instances
+  RAM32X1S => RAM32X1S (RAMS32): 10 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 8 instances
+
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 510.563 ; gain = 293.246
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-1223] The version limit for your license is '2015.04' and will expire in -377 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.107 . Memory (MB): peak = 514.773 ; gain = 2.285
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.cache/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.1/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:1.1 for cell dbg_hub_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:1.1", from Vivado IP cache entry "9d188510f4d3a08a".
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1014.590 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 151f5d003
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:30 . Memory (MB): peak = 1014.590 ; gain = 25.031
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 4 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 14cd0dbd2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:31 . Memory (MB): peak = 1015.602 ; gain = 26.043
+
+Phase 3 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 23 cells.
+Phase 3 Constant Propagation | Checksum: 13646a654
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:31 . Memory (MB): peak = 1015.602 ; gain = 26.043
+
+Phase 4 Sweep
+INFO: [Opt 31-12] Eliminated 323 unconnected nets.
+INFO: [Opt 31-11] Eliminated 279 unconnected cells.
+Phase 4 Sweep | Checksum: 171b71808
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:32 . Memory (MB): peak = 1015.602 ; gain = 26.043
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1015.602 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 171b71808
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:32 . Memory (MB): peak = 1015.602 ; gain = 26.043
+Implement Debug Cores | Checksum: 1749d3ebf
+Logic Optimization | Checksum: 17debdeb2
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.13 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 6 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 12
+Ending PowerOpt Patch Enables Task | Checksum: 171b71808
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 171b71808
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1085.395 ; gain = 69.793
+INFO: [Common 17-83] Releasing license: Implementation
+39 Infos, 1 Warnings, 100 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:52 . Memory (MB): peak = 1085.395 ; gain = 574.832
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1085.395 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.runs/impl_1/ps_0_wrapper_drc_opted.rpt.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-1223] The version limit for your license is '2015.04' and will expire in -377 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: c79a63d6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 2 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.1 Pre-Place Cells
+Phase 2.1.1 Pre-Place Cells | Checksum: 2cc90810
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.148 . Memory (MB): peak = 1085.395 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.2 IO & Clk Clean Up
+Phase 2.1.2 IO & Clk Clean Up | Checksum: 2cc90810
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 2.1.3 Implementation Feasibility check On IDelay
+Phase 2.1.3 Implementation Feasibility check On IDelay | Checksum: 2cc90810
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 2.1.4 Commit IO Placement
+Phase 2.1.4 Commit IO Placement | Checksum: 37a548aa
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: c87148c9
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 2.2 Build Placer Netlist Model
+
+Phase 2.2.1 Place Init Design
+
+Phase 2.2.1.1 Init Lut Pin Assignment
+Phase 2.2.1.1 Init Lut Pin Assignment | Checksum: 10a9feecb
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 2.2.1 Place Init Design | Checksum: c7ec05b4
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 2.2 Build Placer Netlist Model | Checksum: c7ec05b4
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 2.3 Constrain Clocks/Macros
+
+Phase 2.3.1 Constrain Global/Regional Clocks
+Phase 2.3.1 Constrain Global/Regional Clocks | Checksum: c7ec05b4
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 2.3 Constrain Clocks/Macros | Checksum: c7ec05b4
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 2 Placer Initialization | Checksum: c7ec05b4
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 19bc0bd97
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 19bc0bd97
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: 1d3c58d3f
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 1cd4b8269
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 4.4 updateClock Trees: DP
+Phase 4.4 updateClock Trees: DP | Checksum: 1cd4b8269
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 4.5 Timing Path Optimizer
+Phase 4.5 Timing Path Optimizer | Checksum: 182147495
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 4.6 Small Shape Detail Placement
+
+Phase 4.6.1 Commit Small Macros & Core Logic
+
+Phase 4.6.1.1 setBudgets
+Phase 4.6.1.1 setBudgets | Checksum: 1cc6b1fb3
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 4.6.1.2 Commit Slice Clusters
+Phase 4.6.1.2 Commit Slice Clusters | Checksum: 269e9305d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 4.6.1 Commit Small Macros & Core Logic | Checksum: 269e9305d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns | Checksum: 269e9305d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 269e9305d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 4.6 Small Shape Detail Placement | Checksum: 269e9305d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 4.7 Re-assign LUT pins
+Phase 4.7 Re-assign LUT pins | Checksum: 269e9305d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 4 Detail Placement | Checksum: 269e9305d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 1d18964b1
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 6 Post Commit Optimization
+
+Phase 6.1 updateClock Trees: PCOPT
+Phase 6.1 updateClock Trees: PCOPT | Checksum: 1d18964b1
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 6.2 Post Placement Optimization
+
+Phase 6.2.1 Post Placement Timing Optimization
+
+Phase 6.2.1.1 Restore Best Placement
+Phase 6.2.1.1 Restore Best Placement | Checksum: bc2b115c
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-2.342. For the most accurate timing information please run report_timing.
+Phase 6.2.1 Post Placement Timing Optimization | Checksum: bc2b115c
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 6.2 Post Placement Optimization | Checksum: bc2b115c
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 6 Post Commit Optimization | Checksum: bc2b115c
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 5.2 Sweep Clock Roots: Post-Placement
+Phase 5.2 Sweep Clock Roots: Post-Placement | Checksum: bc2b115c
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 5.3 Post Placement Cleanup
+Phase 5.3 Post Placement Cleanup | Checksum: bc2b115c
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 5.4 Placer Reporting
+
+Phase 5.4.1 Restore STA
+Phase 5.4.1 Restore STA | Checksum: bc2b115c
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 5.4 Placer Reporting | Checksum: bc2b115c
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+
+Phase 5.5 Final Placement Cleanup
+Phase 5.5 Final Placement Cleanup | Checksum: 14dc663d3
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: 14dc663d3
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Ending Placer Task | Checksum: e6448438
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1085.395 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+53 Infos, 1 Warnings, 100 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.752 . Memory (MB): peak = 1085.395 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 1085.395 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.130 . Memory (MB): peak = 1085.395 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1085.395 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-1223] The version limit for your license is '2015.04' and will expire in -377 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design

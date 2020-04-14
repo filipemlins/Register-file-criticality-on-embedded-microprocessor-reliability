@@ -1,0 +1,477 @@
+26/08/2016 - 12:32:10 - board hard reseted
+26/08/2016 - 12:32:10 - no serial port. port is busy
+26/08/2016 - 12:32:19 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:32:21 - board hard reseted
+26/08/2016 - 12:32:30 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 12:32:32 - board hard reseted
+26/08/2016 - 12:32:40 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 12:32:43 - board hard reseted
+26/08/2016 - 12:33:30 - board hard reseted
+26/08/2016 - 12:33:30 - no serial port. port is busy
+26/08/2016 - 12:33:38 - ;267066;r4;FAILED;1;
+26/08/2016 - 12:33:40 - board hard reseted
+26/08/2016 - 12:33:49 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:33:51 - board hard reseted
+26/08/2016 - 12:34:00 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:34:02 - board hard reseted
+26/08/2016 - 12:34:11 - ;51523;r0;SUCCESS;0;
+26/08/2016 - 12:34:13 - board hard reseted
+26/08/2016 - 12:34:22 - ;578527;r8;SUCCESS;0;
+26/08/2016 - 12:34:24 - board hard reseted
+26/08/2016 - 12:34:32 - ;610191;r2;SUCCESS;0;
+26/08/2016 - 12:34:35 - board hard reseted
+26/08/2016 - 12:34:43 - ;51523;r0;SUCCESS;0;
+26/08/2016 - 12:34:45 - board hard reseted
+26/08/2016 - 12:34:54 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:34:56 - board hard reseted
+26/08/2016 - 12:35:05 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:35:07 - board hard reseted
+26/08/2016 - 12:35:16 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:35:16 - repeated outputs. board will be reseted
+26/08/2016 - 12:35:18 - board hard reseted
+26/08/2016 - 12:35:27 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:35:29 - board hard reseted
+26/08/2016 - 12:35:37 - ;75510;r8;SUCCESS;0;
+26/08/2016 - 12:35:40 - board hard reseted
+26/08/2016 - 12:35:48 - ;62716;r4;FAILED;1;
+26/08/2016 - 12:35:50 - board hard reseted
+26/08/2016 - 12:35:59 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:36:01 - board hard reseted
+26/08/2016 - 12:36:10 - ;435591;r2;SUCCESS;0;
+26/08/2016 - 12:36:12 - board hard reseted
+26/08/2016 - 12:36:21 - ;578527;r8;SUCCESS;0;
+26/08/2016 - 12:36:23 - board hard reseted
+26/08/2016 - 12:36:31 - ;72951;r0;SUCCESS;0;
+26/08/2016 - 12:36:34 - board hard reseted
+26/08/2016 - 12:36:42 - ;249153;r10;SUCCESS;0;
+26/08/2016 - 12:36:44 - board hard reseted
+26/08/2016 - 12:36:53 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 12:36:55 - board hard reseted
+26/08/2016 - 12:37:04 - ;56641;r4;SUCCESS;0;
+26/08/2016 - 12:37:06 - board hard reseted
+26/08/2016 - 12:37:15 - ;259389;r6;FAILED;4;
+26/08/2016 - 12:37:17 - board hard reseted
+26/08/2016 - 12:37:17 - ;71994;r4;SUCCESS;0;
+26/08/2016 - 12:37:19 - board hard reseted
+26/08/2016 - 12:37:29 - ;240519;r2;SUCCESS;0;
+26/08/2016 - 12:37:31 - board hard reseted
+26/08/2016 - 12:37:39 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:37:42 - board hard reseted
+26/08/2016 - 12:37:50 - ;264507;r10;SUCCESS;0;
+26/08/2016 - 12:37:52 - board hard reseted
+26/08/2016 - 12:38:01 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:38:03 - board hard reseted
+26/08/2016 - 12:38:12 - ;51523;r0;FAILED;1;
+26/08/2016 - 12:38:14 - board hard reseted
+26/08/2016 - 12:38:23 - ;264507;r10;SUCCESS;0;
+26/08/2016 - 12:38:25 - board hard reseted
+26/08/2016 - 12:38:34 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 12:38:36 - board hard reseted
+26/08/2016 - 12:38:44 - ;573409;r4;FAILED;1;
+26/08/2016 - 12:38:47 - board hard reseted
+26/08/2016 - 12:38:55 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:38:57 - board hard reseted
+26/08/2016 - 12:39:06 - ;411603;r8;SUCCESS;0;
+26/08/2016 - 12:39:08 - board hard reseted
+26/08/2016 - 12:39:17 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 12:39:19 - board hard reseted
+26/08/2016 - 12:39:28 - ;46405;r10;SUCCESS;0;
+26/08/2016 - 12:39:30 - board hard reseted
+26/08/2016 - 12:39:39 - ;573409;r4;FAILED;1;
+26/08/2016 - 12:39:41 - board hard reseted
+26/08/2016 - 12:39:49 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 12:39:52 - board hard reseted
+26/08/2016 - 12:40:00 - ;232842;r2;SUCCESS;0;
+26/08/2016 - 12:40:02 - board hard reseted
+26/08/2016 - 12:40:11 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:40:13 - board hard reseted
+26/08/2016 - 12:40:22 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:40:24 - board hard reseted
+26/08/2016 - 12:40:33 - ;406485;r4;FAILED;1;
+26/08/2016 - 12:40:35 - board hard reseted
+26/08/2016 - 12:40:43 - ;251712;r6;FAILED;5;
+26/08/2016 - 12:40:46 - board hard reseted
+26/08/2016 - 12:40:54 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:40:57 - board hard reseted
+26/08/2016 - 12:41:05 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:41:07 - board hard reseted
+26/08/2016 - 12:41:16 - ;70392;r4;FAILED;1;
+26/08/2016 - 12:41:18 - board hard reseted
+26/08/2016 - 12:41:27 - ;573409;r4;FAILED;1;
+26/08/2016 - 12:41:29 - board hard reseted
+26/08/2016 - 12:41:38 - ;573409;r4;FAILED;1;
+26/08/2016 - 12:41:40 - board hard reseted
+26/08/2016 - 12:41:48 - ;48964;r6;FAILED;11;
+26/08/2016 - 12:41:51 - board hard reseted
+26/08/2016 - 12:41:59 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:42:01 - board hard reseted
+26/08/2016 - 12:42:10 - ;230284;r6;FAILED;5;
+26/08/2016 - 12:42:12 - board hard reseted
+26/08/2016 - 12:42:21 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:42:23 - board hard reseted
+26/08/2016 - 12:42:32 - ;222607;r8;SUCCESS;0;
+26/08/2016 - 12:42:34 - board hard reseted
+26/08/2016 - 12:42:43 - ;56641;r4;SUCCESS;0;
+26/08/2016 - 12:42:45 - board hard reseted
+26/08/2016 - 12:42:53 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:42:56 - board hard reseted
+26/08/2016 - 12:43:04 - ;438150;r12;SUCCESS;0;
+26/08/2016 - 12:43:06 - board hard reseted
+26/08/2016 - 12:43:15 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 12:43:17 - board hard reseted
+26/08/2016 - 12:43:26 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:43:28 - board hard reseted
+26/08/2016 - 12:43:37 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 12:43:39 - board hard reseted
+26/08/2016 - 12:43:48 - ;251712;r6;FAILED;5;
+26/08/2016 - 12:43:50 - board hard reseted
+26/08/2016 - 12:43:58 - ;56641;r4;SUCCESS;0;
+26/08/2016 - 12:44:01 - board hard reseted
+26/08/2016 - 12:44:09 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:44:12 - board hard reseted
+26/08/2016 - 12:44:20 - ;227725;r12;SUCCESS;0;
+26/08/2016 - 12:44:22 - board hard reseted
+26/08/2016 - 12:44:31 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:44:33 - board hard reseted
+26/08/2016 - 12:44:42 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 12:44:44 - board hard reseted
+26/08/2016 - 12:44:53 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:44:55 - board hard reseted
+26/08/2016 - 12:45:04 - ;264507;r10;SUCCESS;0;
+26/08/2016 - 12:45:06 - board hard reseted
+26/08/2016 - 12:45:14 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 12:45:17 - board hard reseted
+26/08/2016 - 12:45:25 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:45:27 - board hard reseted
+26/08/2016 - 12:45:36 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 12:45:38 - board hard reseted
+26/08/2016 - 12:45:47 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:45:49 - board hard reseted
+26/08/2016 - 12:45:58 - ;62716;r4;SUCCESS;0;
+26/08/2016 - 12:46:00 - board hard reseted
+26/08/2016 - 12:46:09 - ;65275;r0;SUCCESS;0;
+26/08/2016 - 12:46:11 - board hard reseted
+26/08/2016 - 12:46:19 - ;56641;r4;SUCCESS;0;
+26/08/2016 - 12:46:22 - board hard reseted
+26/08/2016 - 12:46:30 - ;578527;r8;SUCCESS;0;
+26/08/2016 - 12:46:33 - board hard reseted
+26/08/2016 - 12:46:41 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:46:44 - board hard reseted
+26/08/2016 - 12:46:53 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:46:55 - board hard reseted
+26/08/2016 - 12:47:04 - ;222607;r8;SUCCESS;0;
+26/08/2016 - 12:47:06 - board hard reseted
+26/08/2016 - 12:47:14 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:47:17 - board hard reseted
+26/08/2016 - 12:47:25 - ;578527;r8;SUCCESS;0;
+26/08/2016 - 12:47:27 - board hard reseted
+26/08/2016 - 12:47:36 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:47:38 - board hard reseted
+26/08/2016 - 12:47:47 - ;232842;r2;SUCCESS;0;
+26/08/2016 - 12:47:49 - board hard reseted
+26/08/2016 - 12:47:58 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:48:00 - board hard reseted
+26/08/2016 - 12:48:09 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 12:48:11 - board hard reseted
+26/08/2016 - 12:48:19 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:48:22 - board hard reseted
+26/08/2016 - 12:48:30 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:48:33 - board hard reseted
+26/08/2016 - 12:48:41 - ;51523;r0;SUCCESS;0;
+26/08/2016 - 12:48:43 - board hard reseted
+26/08/2016 - 12:48:52 - ;411603;r8;SUCCESS;0;
+26/08/2016 - 12:48:54 - board hard reseted
+26/08/2016 - 12:49:03 - ;573409;r4;FAILED;1;
+26/08/2016 - 12:49:05 - board hard reseted
+26/08/2016 - 12:49:14 - ;607632;r6;FAILED;3;
+26/08/2016 - 12:49:16 - board hard reseted
+26/08/2016 - 12:49:16 - ;232842;r2;SUCCESS;0;
+26/08/2016 - 12:49:18 - board hard reseted
+26/08/2016 - 12:49:28 - ;51523;r0;FAILED;1;
+26/08/2016 - 12:49:30 - board hard reseted
+26/08/2016 - 12:49:39 - ;51523;r0;SUCCESS;0;
+26/08/2016 - 12:49:41 - board hard reseted
+26/08/2016 - 12:49:49 - ;46405;r10;SUCCESS;0;
+26/08/2016 - 12:49:52 - board hard reseted
+26/08/2016 - 12:50:00 - ;51523;r0;SUCCESS;0;
+26/08/2016 - 12:50:02 - board hard reseted
+26/08/2016 - 12:50:11 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:50:13 - board hard reseted
+26/08/2016 - 12:50:22 - ;573409;r4;FAILED;1;
+26/08/2016 - 12:50:24 - board hard reseted
+26/08/2016 - 12:50:33 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 12:50:35 - board hard reseted
+26/08/2016 - 12:50:44 - ;573409;r4;FAILED;1;
+26/08/2016 - 12:50:46 - board hard reseted
+26/08/2016 - 12:50:55 - ;249153;r10;SUCCESS;0;
+26/08/2016 - 12:50:57 - board hard reseted
+26/08/2016 - 12:51:05 - ;72951;r0;SUCCESS;0;
+26/08/2016 - 12:51:08 - board hard reseted
+26/08/2016 - 12:51:16 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:51:19 - board hard reseted
+26/08/2016 - 12:51:27 - ;251712;r6;FAILED;4;
+26/08/2016 - 12:51:29 - board hard reseted
+26/08/2016 - 12:51:38 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:51:40 - board hard reseted
+26/08/2016 - 12:51:49 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:51:51 - board hard reseted
+26/08/2016 - 12:52:00 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:52:00 - repeated outputs. board will be reseted
+26/08/2016 - 12:52:02 - board hard reseted
+26/08/2016 - 12:52:11 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:52:13 - board hard reseted
+26/08/2016 - 12:52:21 - ;610191;r2;SUCCESS;0;
+26/08/2016 - 12:52:24 - board hard reseted
+26/08/2016 - 12:52:32 - ;43846;r0;FAILED;1;
+26/08/2016 - 12:52:34 - board hard reseted
+26/08/2016 - 12:52:43 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:52:45 - board hard reseted
+26/08/2016 - 12:52:54 - ;435591;r2;SUCCESS;0;
+26/08/2016 - 12:52:56 - board hard reseted
+26/08/2016 - 12:53:05 - ;438150;r12;SUCCESS;0;
+26/08/2016 - 12:53:07 - board hard reseted
+26/08/2016 - 12:53:16 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:53:18 - board hard reseted
+26/08/2016 - 12:53:26 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:53:29 - board hard reseted
+26/08/2016 - 12:53:37 - ;607632;r6;FAILED;3;
+26/08/2016 - 12:53:40 - board hard reseted
+26/08/2016 - 12:53:40 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:53:42 - board hard reseted
+26/08/2016 - 12:53:51 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:53:54 - board hard reseted
+26/08/2016 - 12:54:02 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:54:04 - board hard reseted
+26/08/2016 - 12:54:13 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 12:54:15 - board hard reseted
+26/08/2016 - 12:54:24 - ;573409;r4;FAILED;1;
+26/08/2016 - 12:54:26 - board hard reseted
+26/08/2016 - 12:54:35 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 12:54:37 - board hard reseted
+26/08/2016 - 12:54:46 - ;411603;r8;SUCCESS;0;
+26/08/2016 - 12:54:48 - board hard reseted
+26/08/2016 - 12:54:56 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:54:59 - board hard reseted
+26/08/2016 - 12:55:07 - ;56641;r4;SUCCESS;0;
+26/08/2016 - 12:55:10 - board hard reseted
+26/08/2016 - 12:55:18 - ;251712;r6;FAILED;5;
+26/08/2016 - 12:55:20 - board hard reseted
+26/08/2016 - 12:55:29 - ;605073;r12;SUCCESS;0;
+26/08/2016 - 12:55:31 - board hard reseted
+26/08/2016 - 12:55:40 - ;411603;r8;SUCCESS;0;
+26/08/2016 - 12:55:42 - board hard reseted
+26/08/2016 - 12:55:51 - ;249153;r10;SUCCESS;0;
+26/08/2016 - 12:55:53 - board hard reseted
+26/08/2016 - 12:56:02 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:56:04 - board hard reseted
+26/08/2016 - 12:56:12 - ;56641;r4;FAILED;1;
+26/08/2016 - 12:56:15 - board hard reseted
+26/08/2016 - 12:56:23 - ;80628;r12;SUCCESS;0;
+26/08/2016 - 12:56:26 - board hard reseted
+26/08/2016 - 12:56:34 - ;43846;r0;SUCCESS;0;
+26/08/2016 - 12:56:36 - board hard reseted
+26/08/2016 - 12:56:45 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 12:56:47 - board hard reseted
+26/08/2016 - 12:56:56 - ;573409;r4;FAILED;1;
+26/08/2016 - 12:56:58 - board hard reseted
+26/08/2016 - 12:57:07 - ;56641;r4;SUCCESS;0;
+26/08/2016 - 12:57:09 - board hard reseted
+26/08/2016 - 12:57:18 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:57:20 - board hard reseted
+26/08/2016 - 12:57:28 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:57:31 - board hard reseted
+26/08/2016 - 12:57:39 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 12:57:41 - board hard reseted
+26/08/2016 - 12:57:50 - ;46405;r10;SUCCESS;0;
+26/08/2016 - 12:57:52 - board hard reseted
+26/08/2016 - 12:58:01 - ;438150;r12;SUCCESS;0;
+26/08/2016 - 12:58:03 - board hard reseted
+26/08/2016 - 12:58:12 - ;438150;r12;SUCCESS;0;
+26/08/2016 - 12:58:14 - board hard reseted
+26/08/2016 - 12:58:22 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:58:25 - board hard reseted
+26/08/2016 - 12:58:33 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 12:58:36 - board hard reseted
+26/08/2016 - 12:58:44 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 12:58:47 - board hard reseted
+26/08/2016 - 12:58:55 - ;51523;r0;SUCCESS;0;
+26/08/2016 - 12:58:57 - board hard reseted
+26/08/2016 - 13:20:53 - board hard reseted
+26/08/2016 - 13:20:53 - no serial port. port is busy
+26/08/2016 - 13:21:02 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:21:04 - board hard reseted
+26/08/2016 - 13:21:13 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:21:15 - board hard reseted
+26/08/2016 - 13:21:24 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 13:21:26 - board hard reseted
+26/08/2016 - 13:21:35 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:21:37 - board hard reseted
+26/08/2016 - 13:21:45 - ;578527;r8;SUCCESS;0;
+26/08/2016 - 13:21:48 - board hard reseted
+26/08/2016 - 13:21:56 - ;573409;r4;SUCCESS;0;
+26/08/2016 - 13:21:58 - board hard reseted
+26/08/2016 - 13:22:07 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:22:09 - board hard reseted
+26/08/2016 - 13:22:18 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:22:20 - board hard reseted
+26/08/2016 - 13:22:29 - ;51523;r0;SUCCESS;0;
+26/08/2016 - 13:22:31 - board hard reseted
+26/08/2016 - 13:22:40 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 13:22:42 - board hard reseted
+26/08/2016 - 13:22:50 - ;409044;r0;FAILED;1;
+26/08/2016 - 13:22:53 - board hard reseted
+26/08/2016 - 13:23:02 - ;261948;r0;SUCCESS;0;
+26/08/2016 - 13:23:04 - board hard reseted
+26/08/2016 - 13:23:13 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:23:15 - board hard reseted
+26/08/2016 - 13:23:24 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 13:23:26 - board hard reseted
+26/08/2016 - 13:23:35 - ;43846;r0;FAILED;1;
+26/08/2016 - 13:23:37 - board hard reseted
+26/08/2016 - 13:23:45 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:23:48 - board hard reseted
+26/08/2016 - 13:23:56 - ;51523;r0;FAILED;1;
+26/08/2016 - 13:23:59 - board hard reseted
+26/08/2016 - 13:24:07 - ;409044;r0;SUCCESS;0;
+26/08/2016 - 13:24:09 - board hard reseted
+26/08/2016 - 13:24:18 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 13:24:20 - board hard reseted
+26/08/2016 - 13:24:29 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:24:31 - board hard reseted
+26/08/2016 - 13:24:40 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:24:42 - board hard reseted
+26/08/2016 - 13:24:51 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:24:54 - board hard reseted
+26/08/2016 - 13:25:02 - ;238918;r2;SUCCESS;0;
+26/08/2016 - 13:25:04 - board hard reseted
+26/08/2016 - 13:25:13 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 13:25:15 - board hard reseted
+26/08/2016 - 13:25:24 - ;62716;r4;SUCCESS;0;
+26/08/2016 - 13:25:26 - board hard reseted
+26/08/2016 - 13:25:35 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:25:37 - board hard reseted
+26/08/2016 - 13:25:46 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 13:25:48 - board hard reseted
+26/08/2016 - 13:25:56 - ;607632;r6;FAILED;3;
+26/08/2016 - 13:25:59 - board hard reseted
+26/08/2016 - 13:25:59 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:26:01 - board hard reseted
+26/08/2016 - 13:26:10 - ;230284;r6;FAILED;5;
+26/08/2016 - 13:26:12 - board hard reseted
+26/08/2016 - 13:26:21 - ;78069;r4;FAILED;1;
+26/08/2016 - 13:26:23 - board hard reseted
+26/08/2016 - 13:26:32 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 13:26:34 - board hard reseted
+26/08/2016 - 13:26:43 - ;48964;r6;FAILED;11;
+26/08/2016 - 13:26:45 - board hard reseted
+26/08/2016 - 13:26:54 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 13:26:56 - board hard reseted
+26/08/2016 - 13:27:04 - ;230284;r6;FAILED;5;
+26/08/2016 - 13:27:07 - board hard reseted
+26/08/2016 - 13:27:15 - ;240519;r2;SUCCESS;0;
+26/08/2016 - 13:27:18 - board hard reseted
+26/08/2016 - 13:27:26 - ;573409;r4;FAILED;1;
+26/08/2016 - 13:27:28 - board hard reseted
+26/08/2016 - 13:27:37 - ;238918;r2;SUCCESS;0;
+26/08/2016 - 13:27:39 - board hard reseted
+26/08/2016 - 13:27:48 - ;615309;r6;FAILED;3;
+26/08/2016 - 13:27:50 - board hard reseted
+26/08/2016 - 13:27:59 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 13:28:01 - board hard reseted
+26/08/2016 - 13:28:10 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:28:12 - board hard reseted
+26/08/2016 - 13:28:20 - ;98540;r6;FAILED;13;
+26/08/2016 - 13:28:23 - board hard reseted
+26/08/2016 - 13:28:31 - ;235401;r10;SUCCESS;0;
+26/08/2016 - 13:28:33 - board hard reseted
+26/08/2016 - 13:28:42 - ;406485;r4;FAILED;1;
+26/08/2016 - 13:28:44 - board hard reseted
+26/08/2016 - 13:28:53 - ;56641;r4;SUCCESS;0;
+26/08/2016 - 13:28:56 - board hard reseted
+26/08/2016 - 13:29:04 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 13:29:07 - board hard reseted
+26/08/2016 - 13:29:15 - ;54082;r10;SUCCESS;0;
+26/08/2016 - 13:29:17 - board hard reseted
+26/08/2016 - 13:29:26 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:29:28 - board hard reseted
+26/08/2016 - 13:29:37 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 13:29:39 - board hard reseted
+26/08/2016 - 13:29:48 - ;578527;r8;SUCCESS;0;
+26/08/2016 - 13:29:50 - board hard reseted
+26/08/2016 - 13:29:59 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 13:30:01 - board hard reseted
+26/08/2016 - 13:30:09 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 13:30:12 - board hard reseted
+26/08/2016 - 13:30:20 - ;428871;r0;FAILED;1;
+26/08/2016 - 13:30:23 - board hard reseted
+26/08/2016 - 13:30:31 - ;56641;r4;SUCCESS;0;
+26/08/2016 - 13:30:33 - board hard reseted
+26/08/2016 - 13:30:42 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:30:44 - board hard reseted
+26/08/2016 - 13:30:53 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:30:56 - board hard reseted
+26/08/2016 - 13:31:04 - ;411603;r8;SUCCESS;0;
+26/08/2016 - 13:31:07 - board hard reseted
+26/08/2016 - 13:31:16 - ;232842;r2;SUCCESS;0;
+26/08/2016 - 13:31:18 - board hard reseted
+26/08/2016 - 13:31:27 - ;249153;r10;SUCCESS;0;
+26/08/2016 - 13:31:29 - board hard reseted
+26/08/2016 - 13:31:37 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:31:40 - board hard reseted
+26/08/2016 - 13:31:48 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:31:50 - board hard reseted
+26/08/2016 - 13:31:59 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:32:01 - board hard reseted
+26/08/2016 - 13:32:10 - ;573409;r4;FAILED;1;
+26/08/2016 - 13:32:12 - board hard reseted
+26/08/2016 - 13:32:21 - ;433032;r8;SUCCESS;0;
+26/08/2016 - 13:32:23 - board hard reseted
+26/08/2016 - 13:32:32 - ;56641;r4;SUCCESS;0;
+26/08/2016 - 13:32:34 - board hard reseted
+26/08/2016 - 13:32:42 - ;578527;r8;SUCCESS;0;
+26/08/2016 - 13:32:45 - board hard reseted
+26/08/2016 - 13:32:53 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 13:32:56 - board hard reseted
+26/08/2016 - 13:33:05 - ;606675;r10;SUCCESS;0;
+26/08/2016 - 13:33:07 - board hard reseted
+26/08/2016 - 13:33:16 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:33:18 - board hard reseted
+26/08/2016 - 13:33:27 - ;80628;r12;SUCCESS;0;
+26/08/2016 - 13:33:29 - board hard reseted
+26/08/2016 - 13:33:37 - ;230284;r6;FAILED;5;
+26/08/2016 - 13:33:40 - board hard reseted
+26/08/2016 - 13:33:48 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:33:51 - board hard reseted
+26/08/2016 - 13:33:59 - ;417678;r8;SUCCESS;0;
+26/08/2016 - 13:34:01 - board hard reseted
+26/08/2016 - 13:34:10 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:34:12 - board hard reseted
+26/08/2016 - 13:34:21 - ;573409;r4;FAILED;1;
+26/08/2016 - 13:34:23 - board hard reseted
+26/08/2016 - 13:34:32 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:34:34 - board hard reseted
+26/08/2016 - 13:34:42 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:34:45 - board hard reseted
+26/08/2016 - 13:34:53 - ;411603;r8;SUCCESS;0;
+26/08/2016 - 13:34:56 - board hard reseted
+26/08/2016 - 13:35:04 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:35:06 - board hard reseted
+26/08/2016 - 13:35:15 - ;261948;r0;FAILED;1;
+26/08/2016 - 13:35:17 - board hard reseted
+26/08/2016 - 13:35:26 - ;78069;r4;FAILED;1;
+26/08/2016 - 13:35:28 - board hard reseted
+26/08/2016 - 13:35:37 - ;56641;r4;SUCCESS;0;
+26/08/2016 - 13:35:39 - board hard reseted
+26/08/2016 - 13:35:48 - ;56641;r4;FAILED;1;
+26/08/2016 - 13:35:50 - board hard reseted
+26/08/2016 - 13:35:58 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:36:01 - board hard reseted
+26/08/2016 - 13:36:09 - ;606675;r10;SUCCESS;0;
+26/08/2016 - 13:36:11 - board hard reseted
+26/08/2016 - 13:36:20 - ;581086;r2;SUCCESS;0;
+26/08/2016 - 13:36:22 - board hard reseted
+26/08/2016 - 13:36:31 - ;575968;r12;SUCCESS;0;
+26/08/2016 - 13:36:33 - board hard reseted
+26/08/2016 - 13:36:42 - ;51523;r0;FAILED;1;
+26/08/2016 - 13:36:44 - board hard reseted
+

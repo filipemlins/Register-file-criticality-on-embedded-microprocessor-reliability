@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Thu May 12 11:48:18 2016
+# Process ID: 8720
+# Log file: C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/webtalk.log
+# Journal file: C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu May 12 11:48:30 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 57.203 ; gain = 0.020
+INFO: [Common 17-206] Exiting Webtalk at Thu May 12 11:48:30 2016...

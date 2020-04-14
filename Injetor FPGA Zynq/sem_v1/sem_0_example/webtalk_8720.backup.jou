@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Wed May 11 11:30:21 2016
+# Process ID: 8612
+# Log file: C:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/webtalk.log
+# Journal file: C:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example\webtalk.jou
+#-----------------------------------------------------------
+source c:/Users/Tambara/Desktop/zynq_scrubbing/sem/sem_0_example/sem_0_example.hw/webtalk/labtool_webtalk.tcl -notrace

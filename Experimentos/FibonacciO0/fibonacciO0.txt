@@ -1,0 +1,12 @@
+24/08/2016 - 12:47:21 - board hard reseted
+24/08/2016 - 12:47:21 - no serial port. port is busy
+24/08/2016 - 12:47:29 - n 940174;
+24/08/2016 - 12:47:50 - no data read
+24/08/2016 - 12:47:50 - timeout. board will be reseted
+24/08/2016 - 12:47:52 - board hard reseted
+24/08/2016 - 12:48:00 - n 451438;
+24/08/2016 - 12:48:21 - no data read
+24/08/2016 - 12:48:21 - timeout. board will be reseted
+24/08/2016 - 12:48:23 - board hard reseted
+24/08/2016 - 12:48:31 - n 845851;
+

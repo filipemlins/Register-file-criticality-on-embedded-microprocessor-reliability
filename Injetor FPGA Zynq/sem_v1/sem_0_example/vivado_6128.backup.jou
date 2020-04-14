@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Thu May 12 11:21:38 2016
+# Process ID: 7928
+# Log file: C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/vivado.log
+# Journal file: C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.xpr
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+set_property PROGRAM.FILE {C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.runs/impl_1/ps_0_wrapper.bit} [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.runs/impl_1/ps_0_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+set_property OUTPUT_VALUE 0E00000000 [get_hw_probes example_hid/inject_address_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_address_internal} -of_objects [get_hw_vios hw_vio_1]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes example_hid/inject_strobe_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_strobe_internal} -of_objects [get_hw_vios hw_vio_1]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes example_hid/inject_strobe_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_strobe_internal} -of_objects [get_hw_vios hw_vio_1]]
+endgroup
+set_property OUTPUT_VALUE 0E00100000 [get_hw_probes example_hid/inject_address_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_address_internal} -of_objects [get_hw_vios hw_vio_1]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes example_hid/inject_strobe_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_strobe_internal} -of_objects [get_hw_vios hw_vio_1]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes example_hid/inject_strobe_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_strobe_internal} -of_objects [get_hw_vios hw_vio_1]]
+endgroup
+set_property OUTPUT_VALUE 0E00100010 [get_hw_probes example_hid/inject_address_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_address_internal} -of_objects [get_hw_vios hw_vio_1]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes example_hid/inject_strobe_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_strobe_internal} -of_objects [get_hw_vios hw_vio_1]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes example_hid/inject_strobe_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_strobe_internal} -of_objects [get_hw_vios hw_vio_1]]
+endgroup
+set_property OUTPUT_VALUE 0C00100010 [get_hw_probes example_hid/inject_address_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_address_internal} -of_objects [get_hw_vios hw_vio_1]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes example_hid/inject_strobe_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_strobe_internal} -of_objects [get_hw_vios hw_vio_1]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes example_hid/inject_strobe_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_strobe_internal} -of_objects [get_hw_vios hw_vio_1]]
+endgroup
+set_property OUTPUT_VALUE 0C0027562D [get_hw_probes example_hid/inject_address_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_address_internal} -of_objects [get_hw_vios hw_vio_1]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes example_hid/inject_strobe_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_strobe_internal} -of_objects [get_hw_vios hw_vio_1]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes example_hid/inject_strobe_internal -of_objects [get_hw_vios hw_vio_1]]
+commit_hw_vio [get_hw_probes {example_hid/inject_strobe_internal} -of_objects [get_hw_vios hw_vio_1]]
+endgroup
+close_hw
+set_property STEPS.WRITE_BITSTREAM.ARGS.MASK_FILE true [get_runs impl_1]
+set_property -dict [list CONFIG.ENABLE_CLASSIFICATION {false} CONFIG.RETRIEVAL_SHIM {none}] [get_ips sem_0]
+generate_target all [get_files  C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.srcs/sources_1/ip/sem_0/sem_0.xci]
+reset_run sem_0_synth_1
+launch_run -jobs 2 sem_0_synth_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+set_property PROGRAM.FILE {C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.runs/impl_1/ps_0_wrapper.bit} [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/Tambara/Desktop/zynq_scrubbing/sem_v1/sem_0_example/sem_0_example.runs/impl_1/ps_0_wrapper.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+close_hw
