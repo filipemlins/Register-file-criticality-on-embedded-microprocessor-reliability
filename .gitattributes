@@ -12,3 +12,4 @@
 *.tcl linguist-detectable=false
 *.sh linguist-detectable=false
 *.asm linguist-detectable=false
+*.asm* linguist-detectable=false
