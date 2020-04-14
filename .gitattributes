@@ -5,7 +5,7 @@
 *.hpp linguist-detectable=false
 *.c linguist-detectable=false
 *.h linguist-detectable=false
-*.py linguist-detectable=false
+*.py* linguist-detectable=false
 *.pyc linguist-detectable=false
 *.pyo linguist-detectable=false
 *.pyd linguist-detectable=false
