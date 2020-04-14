@@ -1,0 +1,40 @@
+12:21:24 **** Auto Build of configuration Debug for project Register_Write ****
+make all 
+'Building file: ../src/Register_Write.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Register_Write.o" -I../../Register_Write_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Register_Write.d" -MT"src/Register_Write.d" -o "src/Register_Write.o" "../src/Register_Write.c"
+../src/Register_Write.c: In function 'main':
+../src/Register_Write.c:105:6: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  int a;
+      ^
+../src/Register_Write.c: In function 'my_timer_interrupt_handler':
+../src/Register_Write.c:188:6: warning: unused variable 'randbit' [-Wunused-variable]
+  int randbit;
+      ^
+../src/Register_Write.c:187:6: warning: unused variable 'randword' [-Wunused-variable]
+  int randword;
+      ^
+C:\Users\Filipe\AppData\Local\Temp\ccnWcMJf.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\ccnWcMJf.s:57: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\ccnWcMJf.s:57: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/Register_Write.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Register_Write_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Register_Write.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Register_Write_bsp/ps7_cortexa9_0/lib -o "Register_Write.elf"  ./src/Register_Write.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Register_Write.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Register_Write.elf  |tee "Register_Write.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  67872	   3168	  22652	  93692	  16dfc	Register_Write.elf
+'Finished building: Register_Write.elf.size'
+' '
+
+12:21:27 Build Finished (took 2s.349ms)
+

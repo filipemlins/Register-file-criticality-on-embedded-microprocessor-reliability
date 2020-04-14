@@ -1,0 +1,322 @@
+
+// Includes
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include "fft.h"
+#include "xgpio.h"
+
+#define XILINX_PI 3.1415926 //3.1415926???     3.141592653589793238462643383279
+#define DEFAULT_FFT_LENGTH 16384
+
+// Private data
+
+// Object definition
+typedef struct fft
+{
+	fft_sw_hw_t   sw_hw;
+	fft_periphs_t periphs;
+	fft_fwd_inv_t fwd_inv;
+	int           num_pts;
+	int           scale_sch;
+} fft_t;
+
+// Private functions
+static int is_power_of_2(int x)
+// Determines if the input integer is a power of two.
+{
+	while ((x % 2 == 0) && (x > 1))
+	{
+		x /= 2;
+	}
+
+	return (x == 1);
+}
+
+static int int_log2(int x)
+// Computes the log2 of the input integer. Remainder is floored.
+{
+	int log2_N = 0;
+
+	x--;
+	for (log2_N = 0;  x > 0; log2_N++)
+	{
+		x >>= 1;
+	}
+
+	return log2_N;
+}
+
+static int init_gpio(XGpio* p_gpio_inst, int gpio_device_id)
+{
+	// Local variables
+	int status = 0;
+
+	// Initialize driver
+	status = XGpio_Initialize(p_gpio_inst, gpio_device_id);
+	if (status != XST_SUCCESS)
+	{
+		xil_printf("ERROR! Initialization of AXI GPIO instance failed.\n\r");
+		return FFT_GPIO_INIT_FAIL;
+	}
+
+	return FFT_SUCCESS;
+}
+
+static void fft_commit_params(fft_t* p_fft_inst)
+{
+	// Local variables
+	int reg = 0;
+
+	reg  = (p_fft_inst->scale_sch         << FFT_SCALE_SCH_SHIFT) & FFT_SCALE_SCH_MASK;
+	reg |= (p_fft_inst->fwd_inv           << FFT_FWD_INV_SHIFT)   & FFT_FWD_INV_MASK;
+	reg |= (int_log2(p_fft_inst->num_pts) << FFT_NUM_PTS_SHIFT)   & FFT_NUM_PTS_MASK;
+
+	XGpio_DiscreteWrite(&p_fft_inst->periphs.gpio_inst, 1, reg);
+}
+
+// Public functions
+fft_t* fft_create(int gpio_device_id, int dma_device_id, int intc_device_id, int s2mm_intr_id, int mm2s_intr_id)
+{
+	// Local variables
+	fft_t* p_obj;
+	int   status;
+
+	// Allocate memory for FFT object
+	p_obj = (fft_t*) malloc(sizeof(fft_t));
+	if (p_obj == NULL)
+	{
+		xil_printf("ERROR! Failed to allocate memory for FFT object.\n\r");
+		return NULL;
+	}
+
+	// Create DMA Accelerator object to be used by the FFT
+	p_obj->periphs.p_dma_accel_inst = dma_accel_create
+	(
+		dma_device_id,
+		intc_device_id,
+		s2mm_intr_id,
+		mm2s_intr_id,
+		sizeof(cplx_data_t)
+	);
+	if (p_obj->periphs.p_dma_accel_inst == NULL)
+	{
+		xil_printf("ERROR! Failed to create DMA Accelerator object for use by the FFT engine.\n\r");
+		free(p_obj);
+		return NULL;
+	}
+
+	// Register and initialize peripherals
+	status = init_gpio(&p_obj->periphs.gpio_inst, gpio_device_id);
+	if (status != FFT_SUCCESS)
+	{
+		xil_printf("ERROR! Failed to initialize GPIO.\n\r");
+		fft_destroy(p_obj);
+		return NULL;
+	}
+
+	// Initialize FFT parameters
+	fft_set_sw_hw(p_obj, ARM_FFT);
+	fft_set_fwd_inv(p_obj, FFT_FORWARD);
+	status = fft_set_num_pts(p_obj, DEFAULT_FFT_LENGTH);
+	if (status != FFT_SUCCESS)
+	{
+		xil_printf("ERROR! Failed to initialize the number of points in the FFT.\n\r");
+		fft_destroy(p_obj);
+		return NULL;
+	}
+	fft_set_scale_sch(p_obj, 0x2AB);
+
+	return p_obj;
+}
+
+
+void fft_set_sw_hw(fft_t* p_fft_inst, fft_sw_hw_t sw_hw)
+{
+	p_fft_inst->sw_hw = sw_hw;
+}
+
+fft_sw_hw_t fft_get_sw_hw(fft_t* p_fft_inst)
+{
+	return (p_fft_inst->sw_hw);
+}
+
+void fft_set_fwd_inv(fft_t* p_fft_inst, fft_fwd_inv_t fwd_inv)
+{
+	p_fft_inst->fwd_inv = fwd_inv;
+}
+
+fft_fwd_inv_t fft_get_fwd_inv(fft_t* p_fft_inst)
+{
+	return (p_fft_inst->fwd_inv);
+}
+
+int fft_set_num_pts(fft_t* p_fft_inst, int num_pts)
+{
+	if (num_pts > FFT_MAX_NUM_PTS)
+	{
+		xil_printf("ERROR! Attempted to set too large number of points in the FFT.\n\r");
+		return FFT_ILLEGAL_NUM_PTS;
+	}
+	else if (!is_power_of_2(num_pts))
+	{
+		xil_printf("ERROR! Attempted to set a non-power-of-2 value for the number of points in the FFT.\n\r");
+		return FFT_ILLEGAL_NUM_PTS;
+	}
+	else
+	{
+		p_fft_inst->num_pts = num_pts;
+		dma_accel_set_buf_length(p_fft_inst->periphs.p_dma_accel_inst, p_fft_inst->num_pts);
+		return FFT_SUCCESS;
+	}
+}
+
+int fft_get_num_pts(fft_t* p_fft_inst)
+{
+	return (p_fft_inst->num_pts);
+}
+
+void fft_set_scale_sch(fft_t* p_fft_inst, int scale_sch)
+{
+	p_fft_inst->scale_sch = scale_sch;
+}
+
+int fft_get_scale_sch(fft_t* p_fft_inst)
+{
+	return (p_fft_inst->scale_sch);
+}
+
+int fft(fft_t* p_fft_inst, cplx_data_t* din, cplx_data_t* dout)
+{
+
+		//xil_printf("\n\r***ARM FFT***\n\r");
+
+		int fft_length = fft_get_num_pts(p_fft_inst);
+
+		float *data = (float*) malloc(sizeof(float)*fft_length*2);
+		//xil_printf("Preparing input data...\n\r");
+		prepare_data(fft_length, data, din);
+		//xil_printf("Calculating FFT...\n\r");
+		calculate_fft(data, fft_length, 1);
+		//xil_printf("Formatting output data...\n\r");
+		set_output(fft_length, data, dout);
+
+		return FFT_SUCCESS;
+
+
+
+}
+
+
+
+void fft_print_params(fft_t* p_fft_inst)
+{
+	xil_printf("sw_hw     = %s\n\r", (p_fft_inst->sw_hw == ARM_FFT ? "ARM" : "FPGA"));
+	xil_printf("fwd_inv   = %s\n\r", (p_fft_inst->fwd_inv == FFT_FORWARD ? "forward" : "inverse"));
+	xil_printf("num_pts   = %d\n\r", p_fft_inst->num_pts);
+	xil_printf("scale_sch = 0x%X\n\r", p_fft_inst->scale_sch);
+}
+
+void fft_print_stim_buf(fft_t* p_fft_inst)
+{
+	int          ii = 0;
+	cplx_data_t* tmp;
+
+	tmp = (cplx_data_t*)dma_accel_get_stim_buf(p_fft_inst->periphs.p_dma_accel_inst);
+
+	for (ii = 0; ii < p_fft_inst->num_pts; ii++)
+	{
+		printf("Xn(%d) = %f + j*%f\n\r", ii, tmp[ii].data_re, tmp[ii].data_im);
+	}
+
+}
+
+void fft_print_result_buf(fft_t* p_fft_inst, cplx_data_t* result_buf)
+{
+	int i=0;
+
+	for (i = 0; i < p_fft_inst->num_pts; i++)
+	{
+		printf("Xk(%d) = %f + j*%f\n\r", i, result_buf[i].data_re, result_buf[i].data_im);
+	}
+
+	//tmp = (cplx_data_t*)dma_accel_get_result_buf(p_fft_inst->periphs.p_dma_accel_inst);
+}
+
+void prepare_data(int n, float* data, cplx_data_t* din)
+{
+	int i;
+	for (i=0; i<n; i++)
+	{
+		data[2*i] = din[i].data_re;
+		data[2*i+1] = din[i].data_im;
+
+		//printf("TESTE 1: %f + j*%f\n\r", data[(2*i)+1], data[(2*i)+2]);
+	}
+}
+void calculate_fft(float* data, int nn, int isign)
+{
+	int n, mmax, m, j, istep, i;
+	float wtemp, wr, wpr, wpi, wi, theta, temp;
+	float tempr, tempi;
+
+	// reverse-binary reindexing
+	n = nn<<1;
+	j=1;
+	for (i=1; i<n; i+=2)
+	{
+		if (j>i)
+		{
+			temp = data[j-1]; data[j-1] = data[i-1]; data[i-1] = temp;
+			temp = data[j]; data[j] = data[i]; data[i] = temp;
+	    }
+	    m = nn;
+	    while (m>=2 && j>m)
+	    {
+	    	j -= m;
+	        m >>= 1;
+	    }
+	    j += m;
+	}
+
+	// here begins the Danielson-Lanczos section
+	mmax=2;
+	while (n>mmax)
+	{
+		istep = mmax<<1;
+	    theta = -(2*XILINX_PI/mmax);
+	    wtemp = sinf(0.5*theta);
+	    wpr = -2.0*wtemp*wtemp;
+	    wpi = sinf(theta);
+	    wr = 1.0;
+	    wi = 0.0;
+	    for (m=1; m < mmax; m += 2)
+	    {
+	    	for (i=m; i <= n; i += istep)
+	    	{
+	    		j=i+mmax;
+	            tempr = wr*data[j-1] - wi*data[j];
+	            tempi = wr * data[j] + wi*data[j-1];
+
+	            data[j-1] = data[i-1] - tempr;
+	            data[j] = data[i] - tempi;
+	            data[i-1] += tempr;
+	            data[i] += tempi;
+	    	}
+	        wtemp=wr;
+	        wr += wr*wpr - wi*wpi;
+	        wi += wi*wpr + wtemp*wpi;
+	    }
+	    mmax=istep;
+	}
+}
+void set_output(int n, float* data, cplx_data_t* dout)
+{
+	int i;
+	for (i=0; i<n; i++)
+	{
+		dout[i].data_re = data[2*i];
+		dout[i].data_im = data[2*i+1];
+	}
+}
+

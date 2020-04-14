@@ -1,0 +1,42 @@
+12:21:51 **** Auto Build of configuration Debug for project RegisterAcessInterruptClockCycle ****
+make all 
+'Building file: ../src/RegisterAcessInterruptClockCycle.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RegisterAcessInterruptClockCycle.o" -I../../RegisterAcessInterruptClockCycle_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/RegisterAcessInterruptClockCycle.d" -MT"src/RegisterAcessInterruptClockCycle.d" -o "src/RegisterAcessInterruptClockCycle.o" "../src/RegisterAcessInterruptClockCycle.c"
+../src/RegisterAcessInterruptClockCycle.c: In function 'print_matrix':
+../src/RegisterAcessInterruptClockCycle.c:109:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+    printf("C[%d][%d] = %d \n\r", i, j, C[i][j]);
+    ^
+../src/RegisterAcessInterruptClockCycle.c:109:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+../src/RegisterAcessInterruptClockCycle.c: At top level:
+../src/RegisterAcessInterruptClockCycle.c:61:13: warning: 'my_timer_interrupt_handler' declared 'static' but never defined [-Wunused-function]
+ static void my_timer_interrupt_handler(void *CallBackRef);
+             ^
+../src/RegisterAcessInterruptClockCycle.c: In function 'verify_matrix':
+../src/RegisterAcessInterruptClockCycle.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+C:\Users\Filipe\AppData\Local\Temp\ccP1TCu3.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\ccP1TCu3.s:434: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\ccP1TCu3.s:434: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/RegisterAcessInterruptClockCycle.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../RegisterAcessInterruptClockCycle_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: RegisterAcessInterruptClockCycle.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../RegisterAcessInterruptClockCycle_bsp/ps7_cortexa9_0/lib -o "RegisterAcessInterruptClockCycle.elf"  ./src/RegisterAcessInterruptClockCycle.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: RegisterAcessInterruptClockCycle.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size RegisterAcessInterruptClockCycle.elf  |tee "RegisterAcessInterruptClockCycle.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  63144	   2392	  27436	  92972	  16b2c	RegisterAcessInterruptClockCycle.elf
+'Finished building: RegisterAcessInterruptClockCycle.elf.size'
+' '
+
+12:21:54 Build Finished (took 2s.867ms)
+

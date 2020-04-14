@@ -1,0 +1,79 @@
+
+22/03/2016 - 22:30:12
+impact.bin (readback binary) not found
+
+22/03/2016 - 22:31:18
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:32:20
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:33:23
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:34:26
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:35:28
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:36:29
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:37:30
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:38:32
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:39:34
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:40:35
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:41:35
+golden.bin (golden binary) not found
+
+22/03/2016 - 22:42:36
+B: 277564 - 7 
+B: 277569 - 7 
+B: 277571 - 7 
+
+22/03/2016 - 22:43:38
+B: 277571 - 7 
+
+22/03/2016 - 22:44:40
+B: 277569 - 7 
+B: 277571 - 7 
+
+22/03/2016 - 22:45:41
+B: 277565 - 7 
+B: 277571 - 7 
+
+22/03/2016 - 22:46:43
+B: 277569 - 7 
+B: 277571 - 7 
+B: 1314538 - 6 
+B: 1314540 - 7 6 
+B: 1314542 - 7 
+B: 1314552 - 6 
+B: 1314554 - 7 
+B: 1314558 - 6 
+B: 1314560 - 7 
+B: 1314562 - 6 
+B: 1314564 - 7 
+B: 1314566 - 7 
+B: 1314570 - 7 
+B: 1314942 - 7 
+B: 1314944 - 7 
+B: 1314956 - 7 
+B: 1314962 - 7 
+B: 1314966 - 7 
+B: 1369524 - 6 
+B: 1369928 - 7 
+B: 1384074 - 6 
+B: 1384478 - 7 
+
+22/03/2016 - 22:47:45
+Files match

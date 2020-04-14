@@ -1,0 +1,31 @@
+14:22:37 **** Auto Build of configuration Debug for project testereg ****
+make all 
+'Building file: C:/designs/project_3/project_3.sdk/testereg/src/testeregs.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"testeregs.o" -fomit-frame-pointer -I../../testereg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"testeregs.d" -MT"testeregs.d" -o "testeregs.o" "C:/designs/project_3/project_3.sdk/testereg/src/testeregs.c"
+C:/designs/project_3/project_3.sdk/testereg/src/testeregs.c: In function 'main':
+C:/designs/project_3/project_3.sdk/testereg/src/testeregs.c:66:18: warning: variable 'p12' set but not used [-Wunused-but-set-variable]
+     register int p12 asm("r12") = 1;
+                  ^
+'Finished building: C:/designs/project_3/project_3.sdk/testereg/src/testeregs.c'
+' '
+'Building file: ../src/testeregs.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testeregs.o" -fomit-frame-pointer -I../../testereg_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/testeregs.d" -MT"src/testeregs.d" -o "src/testeregs.o" "../src/testeregs.c"
+../src/testeregs.c: In function 'main':
+../src/testeregs.c:66:18: warning: variable 'p12' set but not used [-Wunused-but-set-variable]
+     register int p12 asm("r12") = 1;
+                  ^
+'Finished building: ../src/testeregs.c'
+' '
+'Building target: testereg.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testereg_bsp/ps7_cortexa9_0/lib -o "testereg.elf"  ./src/platform.o ./src/testeregs.o  ./testeregs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./testeregs.o: In function `main':
+C:/designs/project_3/project_3.sdk/testereg/src/testeregs.c:54: multiple definition of `main'
+./src/testeregs.o:C:\designs\project_3\project_3.sdk\testereg\Debug/../src/testeregs.c:54: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [testereg.elf] Error 1
+
+14:22:39 Build Finished (took 1s.351ms)
+

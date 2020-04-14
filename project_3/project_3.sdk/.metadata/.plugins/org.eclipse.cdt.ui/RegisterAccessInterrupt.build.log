@@ -1,0 +1,52 @@
+13:32:15 **** Auto Build of configuration Debug for project RegisterAccessInterrupt ****
+make all 
+'Building file: ../src/RegisterAccessInterupt.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/RegisterAccessInterupt.o" -I../../RegisterAcessInterrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/RegisterAccessInterupt.d" -MT"src/RegisterAccessInterupt.d" -o "src/RegisterAccessInterupt.o" "../src/RegisterAccessInterupt.c"
+../src/RegisterAccessInterupt.c: In function 'print_matrix':
+../src/RegisterAccessInterupt.c:109:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+    printf("C[%d][%d] = %d \n\r", i, j, C[i][j]);
+    ^
+../src/RegisterAccessInterupt.c:109:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+../src/RegisterAccessInterupt.c: In function 'main':
+../src/RegisterAccessInterupt.c:174:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+../src/RegisterAccessInterupt.c:173:22: warning: unused variable 'dump_regs' [-Wunused-variable]
+  static unsigned int dump_regs[16] = { 0xFFFF };
+                      ^
+../src/RegisterAccessInterupt.c: In function 'verify_matrix':
+../src/RegisterAccessInterupt.c:138:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/RegisterAccessInterupt.c: In function 'my_timer_interrupt_handler':
+../src/RegisterAccessInterupt.c:416:26: warning: array subscript is above array bounds [-Warray-bounds]
+     Xil_Out32(RegsAddress[randword], word);
+                          ^
+../src/RegisterAccessInterupt.c:427:26: warning: array subscript is above array bounds [-Warray-bounds]
+     Xil_Out32(RegsAddress[randword], word);
+                          ^
+C:\Users\Filipe\AppData\Local\Temp\cca2SsGp.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\cca2SsGp.s:666: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\cca2SsGp.s:666: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/RegisterAccessInterupt.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../RegisterAcessInterrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: RegisterAccessInterrupt.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../RegisterAcessInterrupt_bsp/ps7_cortexa9_0/lib -o "RegisterAccessInterrupt.elf"  ./src/RegisterAccessInterupt.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: RegisterAccessInterrupt.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size RegisterAccessInterrupt.elf  |tee "RegisterAccessInterrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  67824	   3184	  27452	  98460	  1809c	RegisterAccessInterrupt.elf
+'Finished building: RegisterAccessInterrupt.elf.size'
+' '
+
+13:32:19 Build Finished (took 3s.326ms)
+

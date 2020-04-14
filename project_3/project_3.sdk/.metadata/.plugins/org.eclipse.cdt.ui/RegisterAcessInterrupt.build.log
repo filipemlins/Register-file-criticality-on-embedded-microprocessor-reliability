@@ -1,0 +1,26 @@
+14:07:20 **** Auto Build of configuration Debug for project RegisterAcessInterrupt ****
+make all 
+'Building file: ../src/RegisterAccessInterupt.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RegisterAccessInterupt.o" -I../../RegisterAcessInterrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/RegisterAccessInterupt.d" -MT"src/RegisterAccessInterupt.d" -o "src/RegisterAccessInterupt.o" "../src/RegisterAccessInterupt.c"
+'Finished building: ../src/RegisterAccessInterupt.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../RegisterAcessInterrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: RegisterAcessInterrupt.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../RegisterAcessInterrupt_bsp/ps7_cortexa9_0/lib -o "RegisterAcessInterrupt.elf"  ./src/RegisterAccessInterupt.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: RegisterAcessInterrupt.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size RegisterAcessInterrupt.elf  |tee "RegisterAcessInterrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22920	   1152	  22564	  46636	   b62c	RegisterAcessInterrupt.elf
+'Finished building: RegisterAcessInterrupt.elf.size'
+' '
+
+14:07:21 Build Finished (took 1s.145ms)
+

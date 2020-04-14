@@ -1,0 +1,101 @@
+0010054c <init_matrix>:
+  10054c:	e280ce63 	add	ip, r0, #1584	; 0x630
+  100550:	e2403004 	sub	r3, r0, #4
+  100554:	e28cc00c 	add	ip, ip, #12
+  100558:	e2832050 	add	r2, r3, #80	; 0x50
+  10055c:	e5a31004 	str	r1, [r3, #4]!
+  100560:	e1530002 	cmp	r3, r2
+  100564:	1afffffc 	bne	10055c <init_matrix+0x10>
+  100568:	e15c0003 	cmp	ip, r3
+  10056c:	1afffff9 	bne	100558 <init_matrix+0xc>
+  100570:	e12fff1e 	bx	lr
+0010054c <init_matrix>:
+  10054c: e280ce63  add ip, r0, #1584 ; 0x630
+  100550: e2403004  sub r3, r0, #4
+  100554: e28cc00c  add ip, ip, #12
+  100558: e2832050  add r2, r3, #80 ; 0x50
+  10055c: e5a31004  str r1, [r3, #4]!
+  100560: e1530002  cmp r3, r2
+  100564: 1afffffc  bne 10055c <init_matrix+0x10>
+  100568: e15c0003  cmp ip, r3
+  10056c: 1afffff9  bne 100558 <init_matrix+0xc>
+  100570: e12fff1e  bx  lr
+0010054c <init_matrix>:
+  10054c: e280ce63  add ip, r0, #1584 ; 0x630
+  100550: e2403004  sub r3, r0, #4
+  100554: e28cc00c  add ip, ip, #12
+  100558: e2832050  add r2, r3, #80 ; 0x50
+  10055c: e5a31004  str r1, [r3, #4]!
+  100560: e1530002  cmp r3, r2
+  100564: 1afffffc  bne 10055c <init_matrix+0x10>
+  100568: e15c0003  cmp ip, r3
+  10056c: 1afffff9  bne 100558 <init_matrix+0xc>
+  100570: e12fff1e  bx  lr
+00100574 <multi_matrix>:
+  100574:	e92d47f0 	push	{r4, r5, r6, r7, r8, r9, sl, lr}
+  100578:	e2819050 	add	r9, r1, #80	; 0x50
+  10057c:	e3a0a000 	mov	sl, #0
+  100580:	e24a8004 	sub	r8, sl, #4
+  100584:	e1a06001 	mov	r6, r1
+  100588:	e0827008 	add	r7, r2, r8
+  10058c:	e0808008 	add	r8, r0, r8
+  100590:	e3a03000 	mov	r3, #0
+  100594:	e1a0e008 	mov	lr, r8
+  100598:	e1a0c003 	mov	ip, r3
+  10059c:	e7964003 	ldr	r4, [r6, r3]
+  1005a0:	e2833050 	add	r3, r3, #80	; 0x50
+  1005a4:	e5be5004 	ldr	r5, [lr, #4]!
+  1005a8:	e3530d19 	cmp	r3, #1600	; 0x640
+  1005ac:	e02cc495 	mla	ip, r5, r4, ip
+  1005b0:	1afffff9 	bne	10059c <multi_matrix+0x28>
+  1005b4:	e2866004 	add	r6, r6, #4
+  1005b8:	e5a7c004 	str	ip, [r7, #4]!
+  1005bc:	e1560009 	cmp	r6, r9
+  1005c0:	1afffff2 	bne	100590 <multi_matrix+0x1c>
+  1005c4:	e28aa050 	add	sl, sl, #80	; 0x50
+  1005c8:	e35a0d19 	cmp	sl, #1600	; 0x640
+  1005cc:	1affffeb 	bne	100580 <multi_matrix+0xc>
+  1005d0:	e8bd87f0 	pop	{r4, r5, r6, r7, r8, r9, sl, pc}
+0010aa90 <main>:
+  10aa90: e92d4010  push  {r4, lr}
+  10aa94: e30a4d74  movw  r4, #44404  ; 0xad74
+  10aa98: ebffd6e6  bl  100638 <init_platform>
+  10aa9c: e3404010  movt  r4, #16
+  10aaa0: e3a01002  mov r1, #2
+  10aaa4: e5940000  ldr r0, [r4]
+  10aaa8: e280ce63  add ip, r0, #1584 ; 0x630
+  10aaac: e2403004  sub r3, r0, #4
+  10aab0: e28cc00c  add ip, ip, #12
+  10aab4: e2832050  add r2, r3, #80 ; 0x50
+  10aab8: e5a31004  str r1, [r3, #4]!
+  10aabc: e1520003  cmp r2, r3
+  10aac0: 1afffffc  bne 10aab8 <main+0x28>
+  10aac4: e15c0002  cmp ip, r2
+  10aac8: e1a03002  mov r3, r2
+  10aacc: 1afffff8  bne 10aab4 <main+0x24>
+  10aad0: e5941004  ldr r1, [r4, #4]
+  10aad4: e3a0c001  mov ip, #1
+  10aad8: e281ee63  add lr, r1, #1584 ; 0x630
+  10aadc: e2413004  sub r3, r1, #4
+  10aae0: e28ee00c  add lr, lr, #12
+  10aae4: e2832050  add r2, r3, #80 ; 0x50
+  10aae8: e5a3c004  str ip, [r3, #4]!
+  10aaec: e1530002  cmp r3, r2
+  10aaf0: 1afffffc  bne 10aae8 <main+0x58>
+  10aaf4: e15e0003  cmp lr, r3
+  10aaf8: 1afffff9  bne 10aae4 <main+0x54>
+  10aafc: e5942008  ldr r2, [r4, #8]
+  10ab00: e3a0e000  mov lr, #0
+  10ab04: e2824e63  add r4, r2, #1584 ; 0x630
+  10ab08: e2423004  sub r3, r2, #4
+  10ab0c: e284400c  add r4, r4, #12
+  10ab10: e283c050  add ip, r3, #80 ; 0x50
+  10ab14: e5a3e004  str lr, [r3, #4]!
+  10ab18: e153000c  cmp r3, ip
+  10ab1c: 1afffffc  bne 10ab14 <main+0x84>
+  10ab20: e1530004  cmp r3, r4
+  10ab24: 1afffff9  bne 10ab10 <main+0x80>
+  10ab28: ebffd691  bl  100574 <multi_matrix>
+  10ab2c: ebffd6c2  bl  10063c <cleanup_platform>
+  10ab30: e3a00000  mov r0, #0
+  10ab34: e8bd8010  pop {r4, pc}

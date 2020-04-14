@@ -1,0 +1,4 @@
+#Wed Sep 23 12:07:57 BRT 2015
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=Properties for C/C++ Line Breakpoint

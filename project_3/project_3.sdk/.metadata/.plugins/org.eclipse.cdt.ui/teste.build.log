@@ -1,0 +1,73 @@
+11:02:03 **** Auto Build of configuration Debug for project teste ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../teste_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:45:2: error: unknown type name 'tsys02d_status'
+  tsys02d_status stat;
+  ^
+../src/helloworld.c:51:2: warning: implicit declaration of function 'tsys02d_init' [-Wimplicit-function-declaration]
+  tsys02d_init(XPAR_AXI_IIC_JC_BASEADDR);
+  ^
+../src/helloworld.c:39:34: error: 'XPAR_IIC_0_BASEADDR' undeclared (first use in this function)
+ #define XPAR_AXI_IIC_JC_BASEADDR XPAR_IIC_0_BASEADDR
+                                  ^
+../src/helloworld.c:51:15: note: in expansion of macro 'XPAR_AXI_IIC_JC_BASEADDR'
+  tsys02d_init(XPAR_AXI_IIC_JC_BASEADDR);
+               ^
+../src/helloworld.c:39:34: note: each undeclared identifier is reported only once for each function it appears in
+ #define XPAR_AXI_IIC_JC_BASEADDR XPAR_IIC_0_BASEADDR
+                                  ^
+../src/helloworld.c:51:15: note: in expansion of macro 'XPAR_AXI_IIC_JC_BASEADDR'
+  tsys02d_init(XPAR_AXI_IIC_JC_BASEADDR);
+               ^
+../src/helloworld.c:57:1: error: unknown type name 'TSYS02D'
+ TSYS02D
+ ^
+../src/helloworld.c:58:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Driver'
+ ZedBoard Driver
+          ^
+../src/helloworld.c:65:2: warning: implicit declaration of function 'tsys02d_reset' [-Wimplicit-function-declaration]
+  stat = tsys02d_reset();
+  ^
+../src/helloworld.c:68:11: error: 'tsys02d_status_ok' undeclared (first use in this function)
+  if(stat==tsys02d_status_ok)
+           ^
+../src/helloworld.c:70:11: error: 'tsys02d_status_i2c_transfer_error' undeclared (first use in this function)
+  if(stat==tsys02d_status_i2c_transfer_error)
+           ^
+../src/helloworld.c:80:2: warning: implicit declaration of function 'tsys02d_read_serial_number' [-Wimplicit-function-declaration]
+  stat = tsys02d_read_serial_number();
+  ^
+../src/helloworld.c:91:54: error: 'tsys02d_serial_number' undeclared (first use in this function)
+  printf("|\t%d\t| %5d\t| 0x%2X\t|\n",i,(unsigned int)tsys02d_serial_number[i],(unsigned int)tsys02d_serial_number[i]);
+                                                      ^
+../src/helloworld.c:95:17: error: 'tsys02d_status_crc_error' undeclared (first use in this function)
+  }else if(stat==tsys02d_status_crc_error){
+                 ^
+../src/helloworld.c:101:1: error: unknown type name 'TSYS02D'
+ TSYS02D
+ ^
+../src/helloworld.c:102:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Driver'
+ ZedBoard Driver
+          ^
+../src/helloworld.c:109:2: warning: implicit declaration of function 'tsys02d_read_temperature' [-Wimplicit-function-declaration]
+  stat = tsys02d_read_temperature(&temperature);
+  ^
+../src/helloworld.c:140:15: error: 'TSYS02D_CONV_DELAY_MS' undeclared (first use in this function)
+  usleep( (500-TSYS02D_CONV_DELAY_MS)*1000 );
+               ^
+../src/helloworld.c:146:1: error: unknown type name 'TSYS02D'
+ TSYS02D
+ ^
+../src/helloworld.c:147:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Driver'
+ ZedBoard Driver
+          ^
+../src/helloworld.c:149:3: error: expected '}' before 'else'
+  }else if(key_input == 27){ // If the 'ESC' key is pressed
+   ^
+make: *** [src/helloworld.o] Error 1
+
+11:02:03 Build Finished (took 368ms)
+

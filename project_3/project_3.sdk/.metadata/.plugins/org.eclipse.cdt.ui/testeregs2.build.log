@@ -1,0 +1,26 @@
+12:23:20 **** Build of configuration Debug for project testeregs2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc  -fomit-frame-pointer -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../testeregs2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc  -fomit-frame-pointer -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../testeregs2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: testeregs2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testeregs2_bsp/ps7_cortexa9_0/lib -o "testeregs2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testeregs2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size testeregs2.elf  |tee "testeregs2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23060	   1152	  22564	  46776	   b6b8	testeregs2.elf
+'Finished building: testeregs2.elf.size'
+' '
+
+12:23:22 Build Finished (took 2s.168ms)
+

@@ -1,0 +1,29 @@
+12:58:19 **** Build of configuration Debug for project fftbenchpi ****
+make all 
+'Building file: ../src/fft.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fft.o" -I../../fftbenchpi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fft.d" -MT"src/fft.d" -o "src/fft.o" "../src/fft.c"
+C:\Users\Filipe\AppData\Local\Temp\cc2NUfLa.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\cc2NUfLa.s:315: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\cc2NUfLa.s:315: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/fft.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../fftbenchpi_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: fftbenchpi.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fftbenchpi_bsp/ps7_cortexa9_0/lib -o "fftbenchpi.elf"  ./src/fft.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fftbenchpi.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size fftbenchpi.elf  |tee "fftbenchpi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75240	   4192	  24700	 104132	  196c4	fftbenchpi.elf
+'Finished building: fftbenchpi.elf.size'
+' '
+
+12:58:21 Build Finished (took 2s.268ms)
+

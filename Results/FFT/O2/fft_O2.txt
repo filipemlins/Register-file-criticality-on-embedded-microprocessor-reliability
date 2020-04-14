@@ -1,0 +1,1497 @@
+
+00100550 <IsPowerOfTwo>:
+  100550: e3500001  cmp r0, #1
+  100554: 9a000004  bls 10056c <IsPowerOfTwo+0x1c>
+  100558: e2403001  sub r3, r0, #1
+  10055c: e1130000  tst r3, r0
+  100560: 03a00001  moveq r0, #1
+  100564: 13a00000  movne r0, #0
+  100568: e12fff1e  bx  lr
+  10056c: e3a00000  mov r0, #0
+  100570: e12fff1e  bx  lr
+
+00100574 <NumberOfBitsNeeded>:
+  100574: e3500001  cmp r0, #1
+  100578: e1a02000  mov r2, r0
+  10057c: e92d4008  push  {r3, lr}
+  100580: 9a000009  bls 1005ac <NumberOfBitsNeeded+0x38>
+  100584: e2103001  ands  r3, r0, #1
+  100588: 1a000005  bne 1005a4 <NumberOfBitsNeeded+0x30>
+  10058c: e1a00003  mov r0, r3
+  100590: e3a03001  mov r3, #1
+  100594: e2800001  add r0, r0, #1
+  100598: e0121013  ands  r1, r2, r3, lsl r0
+  10059c: 0afffffc  beq 100594 <NumberOfBitsNeeded+0x20>
+  1005a0: e8bd8008  pop {r3, pc}
+  1005a4: e3a00000  mov r0, #0
+  1005a8: e8bd8008  pop {r3, pc}
+  1005ac: e30c37c8  movw  r3, #51144  ; 0xc7c8
+  1005b0: e30c1668  movw  r1, #50792  ; 0xc668
+  1005b4: e3403010  movt  r3, #16
+  1005b8: e3401010  movt  r1, #16
+  1005bc: e5933000  ldr r3, [r3]
+  1005c0: e593000c  ldr r0, [r3, #12]
+  1005c4: eb000970  bl  102b8c <fprintf>
+  1005c8: e3a00001  mov r0, #1
+  1005cc: eb000946  bl  102aec <exit>
+
+001005d0 <ReverseBits>:
+  1005d0: e3510000  cmp r1, #0
+  1005d4: e1a03000  mov r3, r0
+  1005d8: 0a000008  beq 100600 <ReverseBits+0x30>
+  1005dc: e3a00000  mov r0, #0
+  1005e0: e1a02000  mov r2, r0
+  1005e4: e2822001  add r2, r2, #1
+  1005e8: e203c001  and ip, r3, #1
+  1005ec: e1520001  cmp r2, r1
+  1005f0: e18c0080  orr r0, ip, r0, lsl #1
+  1005f4: e1a030a3  lsr r3, r3, #1
+  1005f8: 1afffff9  bne 1005e4 <ReverseBits+0x14>
+  1005fc: e12fff1e  bx  lr
+  100600: e1a00001  mov r0, r1
+  100604: e12fff1e  bx  lr
+
+00100608 <Index_to_frequency>:
+  100608: e1510000  cmp r1, r0
+  10060c: 2a00000d  bcs 100648 <Index_to_frequency+0x40>
+  100610: e15100a0  cmp r1, r0, lsr #1
+  100614: 80611000  rsbhi r1, r1, r0
+  100618: 8e070a90  vmovhi  s15, r0
+  10061c: 9e071a90  vmovls  s15, r1
+  100620: 8ef81b67  vcvthi.f64.u32  d17, s15
+  100624: 8e071a90  vmovhi  s15, r1
+  100628: 8ef80b67  vcvthi.f64.u32  d16, s15
+  10062c: 9ef80be7  vcvtls.f64.s32  d16, s15
+  100630: 9e070a90  vmovls  s15, r0
+  100634: 9ef81b67  vcvtls.f64.u32  d17, s15
+  100638: 8ef10b60  vneghi.f64  d16, d16
+  10063c: eec00ba1  vdiv.f64  d16, d16, d17
+  100640: ec510b30  vmov  r0, r1, d16
+  100644: e12fff1e  bx  lr
+  100648: eddf0b02  vldr  d16, [pc, #8] ; 100658 <Index_to_frequency+0x50>
+  10064c: ec510b30  vmov  r0, r1, d16
+  100650: e12fff1e  bx  lr
+  100654: e320f000  nop {0}
+  ...
+
+
+  0010c130 <CheckPointer.part.0>:
+  10c130: e92d4008  push  {r3, lr}
+  10c134: e30c37c8  movw  r3, #51144  ; 0xc7c8
+  10c138: e3403010  movt  r3, #16
+  10c13c: e30c16b4  movw  r1, #50868  ; 0xc6b4
+  10c140: e5933000  ldr r3, [r3]
+  10c144: e1a02000  mov r2, r0
+  10c148: e3401010  movt  r1, #16
+  10c14c: e593000c  ldr r0, [r3, #12]
+  10c150: ebffda8d  bl  102b8c <fprintf>
+  10c154: e3a00001  mov r0, #1
+  10c158: ebffda63  bl  102aec <exit>
+
+00100660 <fft_float>:
+  100660: e92d4ff0  push  {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+  100664: e1a04002  mov r4, r2
+  100668: ed2d8b08  vpush {d8-d11}
+  10066c: e1a05003  mov r5, r3
+  100670: e1a09000  mov r9, r0
+  100674: e24dd024  sub sp, sp, #36 ; 0x24
+  100678: e58d101c  str r1, [sp, #28]
+  10067c: e59d8068  ldr r8, [sp, #104]  ; 0x68
+  100680: e59db06c  ldr fp, [sp, #108]  ; 0x6c
+  100684: ebffffb1  bl  100550 <IsPowerOfTwo>
+  100688: e3500000  cmp r0, #0
+  10068c: 0a000091  beq 1008d8 <fft_float+0x278>
+  100690: ed9f8ba4  vldr  d8, [pc, #656]  ; 100928 <fft_float+0x2c8>
+  100694: e59d301c  ldr r3, [sp, #28]
+  100698: eddf0ba4  vldr  d16, [pc, #656] ; 100930 <fft_float+0x2d0>
+  10069c: e3530000  cmp r3, #0
+  1006a0: 1eb08b60  vmovne.f64  d8, d16
+  1006a4: e3540000  cmp r4, #0
+  1006a8: 0a000094  beq 100900 <fft_float+0x2a0>
+  1006ac: e3580000  cmp r8, #0
+  1006b0: 0a000095  beq 10090c <fft_float+0x2ac>
+  1006b4: e35b0000  cmp fp, #0
+  1006b8: 0a000096  beq 100918 <fft_float+0x2b8>
+  1006bc: e1a00009  mov r0, r9
+  1006c0: ebffffab  bl  100574 <NumberOfBitsNeeded>
+  1006c4: e3590000  cmp r9, #0
+  1006c8: e1a06000  mov r6, r0
+  1006cc: 0a00007e  beq 1008cc <fft_float+0x26c>
+  1006d0: e1a0a004  mov sl, r4
+  1006d4: e1a07005  mov r7, r5
+  1006d8: e3a04000  mov r4, #0
+  1006dc: e1a00004  mov r0, r4
+  1006e0: e1a01006  mov r1, r6
+  1006e4: ebffffb9  bl  1005d0 <ReverseBits>
+  1006e8: e49a1004  ldr r1, [sl], #4
+  1006ec: e3550000  cmp r5, #0
+  1006f0: e2844001  add r4, r4, #1
+  1006f4: e2877004  add r7, r7, #4
+  1006f8: e1a00100  lsl r0, r0, #2
+  1006fc: e0882000  add r2, r8, r0
+  100700: e08b3000  add r3, fp, r0
+  100704: e5821000  str r1, [r2]
+  100708: 03a02000  moveq r2, #0
+  10070c: 15172004  ldrne r2, [r7, #-4]
+  100710: e1540009  cmp r4, r9
+  100714: e5832000  str r2, [r3]
+  100718: 1affffef  bne 1006dc <fft_float+0x7c>
+  10071c: e3590001  cmp r9, #1
+  100720: 0a000055  beq 10087c <fft_float+0x21c>
+  100724: eeb89b00  vmov.f64  d9, #128  ; 0x80
+  100728: e3a05001  mov r5, #1
+  10072c: e3a04002  mov r4, #2
+  100730: ee074a90  vmov  s15, r4
+  100734: e1a07104  lsl r7, r4, #2
+  100738: e1a0a105  lsl sl, r5, #2
+  10073c: eeb8ab67  vcvt.f64.u32  d10, s15
+  100740: ee88ab0a  vdiv.f64  d10, d8, d10
+  100744: ee2abb09  vmul.f64  d11, d10, d9
+  100748: ec510b1b  vmov  r0, r1, d11
+  10074c: eb0000be  bl  100a4c <sin>
+  100750: eef10b4a  vneg.f64  d16, d10
+  100754: e1cd00f0  strd  r0, [sp]
+  100758: ec510b30  vmov  r0, r1, d16
+  10075c: eb0000ba  bl  100a4c <sin>
+  100760: e1cd00f8  strd  r0, [sp, #8]
+  100764: ec510b1b  vmov  r0, r1, d11
+  100768: eb00007d  bl  100964 <cos>
+  10076c: e1cd01f0  strd  r0, [sp, #16]
+  100770: ec510b1a  vmov  r0, r1, d10
+  100774: eb00007a  bl  100964 <cos>
+  100778: e3a0e000  mov lr, #0
+  10077c: e1a0600e  mov r6, lr
+  100780: ec410b38  vmov  d24, r0, r1
+  100784: ee787ba8  vadd.f64  d23, d24, d24
+  100788: e3550000  cmp r5, #0
+  10078c: 0a000031  beq 100858 <fft_float+0x1f8>
+  100790: e08e100a  add r1, lr, sl
+  100794: e088200e  add r2, r8, lr
+  100798: e088c001  add ip, r8, r1
+  10079c: e08b300e  add r3, fp, lr
+  1007a0: e08b1001  add r1, fp, r1
+  1007a4: e3a00000  mov r0, #0
+  1007a8: eddd6b04  vldr  d22, [sp, #16]
+  1007ac: eef01b68  vmov.f64  d17, d24
+  1007b0: eddd0b02  vldr  d16, [sp, #8]
+  1007b4: eddd5b00  vldr  d21, [sp]
+  1007b8: ea000001  b 1007c4 <fft_float+0x164>
+  1007bc: eef01b63  vmov.f64  d17, d19
+  1007c0: eef00b64  vmov.f64  d16, d20
+  1007c4: edd16a00  vldr  s13, [r1]
+  1007c8: e2800001  add r0, r0, #1
+  1007cc: e1500005  cmp r0, r5
+  1007d0: eef04b65  vmov.f64  d20, d21
+  1007d4: eddc7a00  vldr  s15, [ip]
+  1007d8: ee574ba0  vnmls.f64 d20, d23, d16
+  1007dc: ed927a00  vldr  s14, [r2]
+  1007e0: eef03b66  vmov.f64  d19, d22
+  1007e4: ee573ba1  vnmls.f64 d19, d23, d17
+  1007e8: eef79ae6  vcvt.f64.f32  d25, s13
+  1007ec: eef06b61  vmov.f64  d22, d17
+  1007f0: ee641ba9  vmul.f64  d17, d20, d25
+  1007f4: eef05b60  vmov.f64  d21, d16
+  1007f8: eef70ae7  vcvt.f64.f32  d16, s15
+  1007fc: ee531ba0  vnmls.f64 d17, d19, d16
+  100800: ee640ba0  vmul.f64  d16, d20, d16
+  100804: eef72ac7  vcvt.f64.f32  d18, s14
+  100808: ee722be1  vsub.f64  d18, d18, d17
+  10080c: ee430ba9  vmla.f64  d16, d19, d25
+  100810: eef77be2  vcvt.f32.f64  s15, d18
+  100814: ecec7a01  vstmia  ip!, {s15}
+  100818: edd37a00  vldr  s15, [r3]
+  10081c: eef72ae7  vcvt.f64.f32  d18, s15
+  100820: ee722be0  vsub.f64  d18, d18, d16
+  100824: eef77be2  vcvt.f32.f64  s15, d18
+  100828: ece17a01  vstmia  r1!, {s15}
+  10082c: edd27a00  vldr  s15, [r2]
+  100830: eef72ae7  vcvt.f64.f32  d18, s15
+  100834: ee721ba1  vadd.f64  d17, d18, d17
+  100838: eef77be1  vcvt.f32.f64  s15, d17
+  10083c: ece27a01  vstmia  r2!, {s15}
+  100840: edd37a00  vldr  s15, [r3]
+  100844: eef71ae7  vcvt.f64.f32  d17, s15
+  100848: ee710ba0  vadd.f64  d16, d17, d16
+  10084c: eef77be0  vcvt.f32.f64  s15, d16
+  100850: ece37a01  vstmia  r3!, {s15}
+  100854: 1affffd8  bne 1007bc <fft_float+0x15c>
+  100858: e0866004  add r6, r6, r4
+  10085c: e08ee007  add lr, lr, r7
+  100860: e1590006  cmp r9, r6
+  100864: 8affffc7  bhi 100788 <fft_float+0x128>
+  100868: e1a03084  lsl r3, r4, #1
+  10086c: e1a05004  mov r5, r4
+  100870: e1590003  cmp r9, r3
+  100874: 21a04003  movcs r4, r3
+  100878: 2affffac  bcs 100730 <fft_float+0xd0>
+  10087c: e59d301c  ldr r3, [sp, #28]
+  100880: e3530000  cmp r3, #0
+  100884: 0a000010  beq 1008cc <fft_float+0x26c>
+  100888: ee079a90  vmov  s15, r9
+  10088c: e0881109  add r1, r8, r9, lsl #2
+  100890: e1a03008  mov r3, r8
+  100894: e1a0200b  mov r2, fp
+  100898: eef81b67  vcvt.f64.u32  d17, s15
+  10089c: edd37a00  vldr  s15, [r3]
+  1008a0: eef70ae7  vcvt.f64.f32  d16, s15
+  1008a4: eec00ba1  vdiv.f64  d16, d16, d17
+  1008a8: eef77be0  vcvt.f32.f64  s15, d16
+  1008ac: ece37a01  vstmia  r3!, {s15}
+  1008b0: edd27a00  vldr  s15, [r2]
+  1008b4: e1530001  cmp r3, r1
+  1008b8: eef70ae7  vcvt.f64.f32  d16, s15
+  1008bc: eec00ba1  vdiv.f64  d16, d16, d17
+  1008c0: eef77be0  vcvt.f32.f64  s15, d16
+  1008c4: ece27a01  vstmia  r2!, {s15}
+  1008c8: 1afffff3  bne 10089c <fft_float+0x23c>
+  1008cc: e28dd024  add sp, sp, #36 ; 0x24
+  1008d0: ecbd8b08  vpop  {d8-d11}
+  1008d4: e8bd8ff0  pop {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  1008d8: e30c37c8  movw  r3, #51144  ; 0xc7c8
+  1008dc: e30c16d8  movw  r1, #50904  ; 0xc6d8
+  1008e0: e3403010  movt  r3, #16
+  1008e4: e1a02009  mov r2, r9
+  1008e8: e5933000  ldr r3, [r3]
+  1008ec: e3401010  movt  r1, #16
+  1008f0: e593000c  ldr r0, [r3, #12]
+  1008f4: eb0008a4  bl  102b8c <fprintf>
+  1008f8: e3a00001  mov r0, #1
+  1008fc: eb00087a  bl  102aec <exit>
+  100900: e30c070c  movw  r0, #50956  ; 0xc70c
+  100904: e3400010  movt  r0, #16
+  100908: eb002e08  bl  10c130 <CheckPointer.part.0>
+  10090c: e30c0714  movw  r0, #50964  ; 0xc714
+  100910: e3400010  movt  r0, #16
+  100914: eb002e05  bl  10c130 <CheckPointer.part.0>
+  100918: e30c071c  movw  r0, #50972  ; 0xc71c
+  10091c: e3400010  movt  r0, #16
+  100920: eb002e02  bl  10c130 <CheckPointer.part.0>
+  100924: e320f000  nop {0}
+  100928: 54442d18  strbpl  r2, [r4], #-3352  ; 0xfffff2e8
+  10092c: 401921fb      ; <UNDEFINED> instruction: 0x401921fb
+  100930: 54442d18  strbpl  r2, [r4], #-3352  ; 0xfffff2e8
+  100934: c01921fb      ; <UNDEFINED> instruction: 0xc01921fb
+
+0010c15c <main>:
+  10c15c:	e92d4ff0 	push	{r4, r5, r6, r7, r8, r9, sl, fp, lr}
+  10c160:	e3a00001 	mov	r0, #1
+  10c164:	ed2d8b02 	vpush	{d8}
+  10c168:	e3045dd3 	movw	r5, #19923	; 0x4dd3
+  10c16c:	e3415062 	movt	r5, #4194	; 0x1062
+  10c170:	e24dd014 	sub	sp, sp, #20
+  10c174:	ebffdc9c 	bl	1033ec <srand>
+  10c178:	e3a00c02 	mov	r0, #512	; 0x200
+  10c17c:	ebffdab0 	bl	102c44 <malloc>
+  10c180:	e58d0008 	str	r0, [sp, #8]
+  10c184:	e3a00c02 	mov	r0, #512	; 0x200
+  10c188:	ebffdaad 	bl	102c44 <malloc>
+  10c18c:	e58d000c 	str	r0, [sp, #12]
+  10c190:	e3a00010 	mov	r0, #16
+  10c194:	ebffdaaa 	bl	102c44 <malloc>
+  10c198:	e1a09000 	mov	r9, r0
+  10c19c:	e3a00010 	mov	r0, #16
+  10c1a0:	e0897000 	add	r7, r9, r0
+  10c1a4:	ebffdaa6 	bl	102c44 <malloc>
+  10c1a8:	e1a04009 	mov	r4, r9
+  10c1ac:	e1a06000 	mov	r6, r0
+  10c1b0:	e58d0004 	str	r0, [sp, #4]
+  10c1b4:	ebffdc93 	bl	103408 <rand>
+  10c1b8:	e0cba590 	smull	sl, fp, r0, r5
+  10c1bc:	e1a03fc0 	asr	r3, r0, #31
+  10c1c0:	e063334b 	rsb	r3, r3, fp, asr #6
+  10c1c4:	e0632283 	rsb	r2, r3, r3, lsl #5
+  10c1c8:	e0833102 	add	r3, r3, r2, lsl #2
+  10c1cc:	e0403183 	sub	r3, r0, r3, lsl #3
+  10c1d0:	ee073a90 	vmov	s15, r3
+  10c1d4:	eef87ae7 	vcvt.f32.s32	s15, s15
+  10c1d8:	ece47a01 	vstmia	r4!, {s15}
+  10c1dc:	ebffdc89 	bl	103408 <rand>
+  10c1e0:	e1540007 	cmp	r4, r7
+  10c1e4:	e0cba590 	smull	sl, fp, r0, r5
+  10c1e8:	e1a03fc0 	asr	r3, r0, #31
+  10c1ec:	e063334b 	rsb	r3, r3, fp, asr #6
+  10c1f0:	e0632283 	rsb	r2, r3, r3, lsl #5
+  10c1f4:	e0833102 	add	r3, r3, r2, lsl #2
+  10c1f8:	e0403183 	sub	r3, r0, r3, lsl #3
+  10c1fc:	ee073a90 	vmov	s15, r3
+  10c200:	eef87ae7 	vcvt.f32.s32	s15, s15
+  10c204:	ece67a01 	vstmia	r6!, {s15}
+  10c208:	1affffe9 	bne	10c1b4 <main+0x58>
+  10c20c:	e59d4008 	ldr	r4, [sp, #8]
+  10c210:	e3a06000 	mov	r6, #0
+  10c214:	e59d500c 	ldr	r5, [sp, #12]
+  10c218:	e3a08000 	mov	r8, #0
+  10c21c:	ee078a90 	vmov	s15, r8
+  10c220:	e59db004 	ldr	fp, [sp, #4]
+  10c224:	ed9f8a28 	vldr	s16, [pc, #160]	; 10c2cc <main+0x170>
+  10c228:	e1a0a009 	mov	sl, r9
+  10c22c:	e4846004 	str	r6, [r4], #4
+  10c230:	eef88ae7 	vcvt.f32.s32	s17, s15
+  10c234:	ebffdc73 	bl	103408 <rand>
+  10c238:	eddb7a00 	vldr	s15, [fp]
+  10c23c:	ee687aa7 	vmul.f32	s15, s17, s15
+  10c240:	eef70ae7 	vcvt.f64.f32	d16, s15
+  10c244:	e3100001 	tst	r0, #1
+  10c248:	ec510b30 	vmov	r0, r1, d16
+  10c24c:	0a00000e 	beq	10c28c <main+0x130>
+  10c250:	ebffd1c3 	bl	100964 <cos>
+  10c254:	edda7a00 	vldr	s15, [sl]
+  10c258:	e28aa004 	add	sl, sl, #4
+  10c25c:	e15a0007 	cmp	sl, r7
+  10c260:	e28bb004 	add	fp, fp, #4
+  10c264:	eef70ac8 	vcvt.f64.f32	d16, s16
+  10c268:	ec410b32 	vmov	d18, r0, r1
+  10c26c:	eef71ae7 	vcvt.f64.f32	d17, s15
+  10c270:	ee410ba2 	vmla.f64	d16, d17, d18
+  10c274:	eef77be0 	vcvt.f32.f64	s15, d16
+  10c278:	ed447a01 	vstr	s15, [r4, #-4]
+  10c27c:	e5856000 	str	r6, [r5]
+  10c280:	0a000003 	beq	10c294 <main+0x138>
+  10c284:	ed148a01 	vldr	s16, [r4, #-4]
+  10c288:	eaffffe9 	b	10c234 <main+0xd8>
+  10c28c:	ebffd1ee 	bl	100a4c <sin>
+  10c290:	eaffffef 	b	10c254 <main+0xf8>
+  10c294:	e2888001 	add	r8, r8, #1
+  10c298:	e2855004 	add	r5, r5, #4
+  10c29c:	e3580080 	cmp	r8, #128	; 0x80
+  10c2a0:	1affffdd 	bne	10c21c <main+0xc0>
+  10c2a4:	e59d0008 	ldr	r0, [sp, #8]
+  10c2a8:	ebffda6a 	bl	102c58 <free>
+  10c2ac:	e59d000c 	ldr	r0, [sp, #12]
+  10c2b0:	ebffda68 	bl	102c58 <free>
+  10c2b4:	e1a00009 	mov	r0, r9
+  10c2b8:	ebffda66 	bl	102c58 <free>
+  10c2bc:	e59d0004 	ldr	r0, [sp, #4]
+  10c2c0:	ebffda64 	bl	102c58 <free>
+  10c2c4:	e3a00000 	mov	r0, #0
+  10c2c8:	ebffda07 	bl	102aec <exit>
+  10c2cc:	00000000 	andeq	r0, r0, r0
+
+  
+00100964 <cos>:
+  100964: e92d4030  push  {r4, r5, lr}
+  100968: e24dd024  sub sp, sp, #36 ; 0x24
+  10096c: e30221fb  movw  r2, #8699 ; 0x21fb
+  100970: e1cd00f8  strd  r0, [sp, #8]
+  100974: e3432fe9  movt  r2, #16361  ; 0x3fe9
+  100978: e59d300c  ldr r3, [sp, #12]
+  10097c: e3c33102  bic r3, r3, #-2147483648  ; 0x80000000
+  100980: e1530002  cmp r3, r2
+  100984: da000018  ble 1009ec <cos+0x88>
+  100988: e30f2fff  movw  r2, #65535  ; 0xffff
+  10098c: e3472fef  movt  r2, #32751  ; 0x7fef
+  100990: e1530002  cmp r3, r2
+  100994: da000004  ble 1009ac <cos+0x48>
+  100998: eddd0b02  vldr  d16, [sp, #8]
+  10099c: ee700be0  vsub.f64  d16, d16, d16
+  1009a0: ec510b30  vmov  r0, r1, d16
+  1009a4: e28dd024  add sp, sp, #36 ; 0x24
+  1009a8: e8bd8030  pop {r4, r5, pc}
+  1009ac: e28d2010  add r2, sp, #16
+  1009b0: eb000062  bl  100b40 <__ieee754_rem_pio2>
+  1009b4: e2003003  and r3, r0, #3
+  1009b8: e1cd01d0  ldrd  r0, [sp, #16]
+  1009bc: e3530001  cmp r3, #1
+  1009c0: 0a000015  beq 100a1c <cos+0xb8>
+  1009c4: e3530002  cmp r3, #2
+  1009c8: 0a00000e  beq 100a08 <cos+0xa4>
+  1009cc: e3530000  cmp r3, #0
+  1009d0: 0a000019  beq 100a3c <cos+0xd8>
+  1009d4: e3a0c001  mov ip, #1
+  1009d8: e1cd21d8  ldrd  r2, [sp, #24]
+  1009dc: e58dc000  str ip, [sp]
+  1009e0: eb0003a8  bl  101888 <__kernel_sin>
+  1009e4: ec410b30  vmov  d16, r0, r1
+  1009e8: eaffffec  b 1009a0 <cos+0x3c>
+  1009ec: e3a02000  mov r2, #0
+  1009f0: e3a03000  mov r3, #0
+  1009f4: eb00011b  bl  100e68 <__kernel_cos>
+  1009f8: ec410b30  vmov  d16, r0, r1
+  1009fc: ec510b30  vmov  r0, r1, d16
+  100a00: e28dd024  add sp, sp, #36 ; 0x24
+  100a04: e8bd8030  pop {r4, r5, pc}
+  100a08: e1cd21d8  ldrd  r2, [sp, #24]
+  100a0c: eb000115  bl  100e68 <__kernel_cos>
+  100a10: ec410b30  vmov  d16, r0, r1
+  100a14: eef10b60  vneg.f64  d16, d16
+  100a18: eaffffe0  b 1009a0 <cos+0x3c>
+  100a1c: e1cd41d8  ldrd  r4, [sp, #24]
+  100a20: e58d3000  str r3, [sp]
+  100a24: e1a02004  mov r2, r4
+  100a28: e1a03005  mov r3, r5
+  100a2c: eb000395  bl  101888 <__kernel_sin>
+  100a30: ec410b30  vmov  d16, r0, r1
+  100a34: eef10b60  vneg.f64  d16, d16
+  100a38: eaffffd8  b 1009a0 <cos+0x3c>
+  100a3c: e1cd21d8  ldrd  r2, [sp, #24]
+  100a40: eb000108  bl  100e68 <__kernel_cos>
+  100a44: ec410b30  vmov  d16, r0, r1
+  100a48: eaffffd4  b 1009a0 <cos+0x3c>
+
+00100a4c <sin>:
+  100a4c: e52de004  push  {lr}    ; (str lr, [sp, #-4]!)
+  100a50: e24dd024  sub sp, sp, #36 ; 0x24
+  100a54: e30221fb  movw  r2, #8699 ; 0x21fb
+  100a58: e1cd00f8  strd  r0, [sp, #8]
+  100a5c: e3432fe9  movt  r2, #16361  ; 0x3fe9
+  100a60: e59d300c  ldr r3, [sp, #12]
+  100a64: e3c33102  bic r3, r3, #-2147483648  ; 0x80000000
+  100a68: e1530002  cmp r3, r2
+  100a6c: da000017  ble 100ad0 <sin+0x84>
+  100a70: e30f2fff  movw  r2, #65535  ; 0xffff
+  100a74: e3472fef  movt  r2, #32751  ; 0x7fef
+  100a78: e1530002  cmp r3, r2
+  100a7c: da000004  ble 100a94 <sin+0x48>
+  100a80: eddd0b02  vldr  d16, [sp, #8]
+  100a84: ee700be0  vsub.f64  d16, d16, d16
+  100a88: ec510b30  vmov  r0, r1, d16
+  100a8c: e28dd024  add sp, sp, #36 ; 0x24
+  100a90: e49df004  pop {pc}    ; (ldr pc, [sp], #4)
+  100a94: e28d2010  add r2, sp, #16
+  100a98: eb000028  bl  100b40 <__ieee754_rem_pio2>
+  100a9c: e2000003  and r0, r0, #3
+  100aa0: e3500001  cmp r0, #1
+  100aa4: 0a00001a  beq 100b14 <sin+0xc8>
+  100aa8: e3500002  cmp r0, #2
+  100aac: 0a000010  beq 100af4 <sin+0xa8>
+  100ab0: e3500000  cmp r0, #0
+  100ab4: e1cd01d0  ldrd  r0, [sp, #16]
+  100ab8: 0a00001a  beq 100b28 <sin+0xdc>
+  100abc: e1cd21d8  ldrd  r2, [sp, #24]
+  100ac0: eb0000e8  bl  100e68 <__kernel_cos>
+  100ac4: ec410b30  vmov  d16, r0, r1
+  100ac8: eef10b60  vneg.f64  d16, d16
+  100acc: eaffffed  b 100a88 <sin+0x3c>
+  100ad0: e3a0c000  mov ip, #0
+  100ad4: e3a02000  mov r2, #0
+  100ad8: e3a03000  mov r3, #0
+  100adc: e58dc000  str ip, [sp]
+  100ae0: eb000368  bl  101888 <__kernel_sin>
+  100ae4: ec410b30  vmov  d16, r0, r1
+  100ae8: ec510b30  vmov  r0, r1, d16
+  100aec: e28dd024  add sp, sp, #36 ; 0x24
+  100af0: e49df004  pop {pc}    ; (ldr pc, [sp], #4)
+  100af4: e3a0c001  mov ip, #1
+  100af8: e1cd01d0  ldrd  r0, [sp, #16]
+  100afc: e1cd21d8  ldrd  r2, [sp, #24]
+  100b00: e58dc000  str ip, [sp]
+  100b04: eb00035f  bl  101888 <__kernel_sin>
+  100b08: ec410b30  vmov  d16, r0, r1
+  100b0c: eef10b60  vneg.f64  d16, d16
+  100b10: eaffffdc  b 100a88 <sin+0x3c>
+  100b14: e1cd01d0  ldrd  r0, [sp, #16]
+  100b18: e1cd21d8  ldrd  r2, [sp, #24]
+  100b1c: eb0000d1  bl  100e68 <__kernel_cos>
+  100b20: ec410b30  vmov  d16, r0, r1
+  100b24: eaffffd7  b 100a88 <sin+0x3c>
+  100b28: e3a0c001  mov ip, #1
+  100b2c: e1cd21d8  ldrd  r2, [sp, #24]
+  100b30: e58dc000  str ip, [sp]
+  100b34: eb000353  bl  101888 <__kernel_sin>
+  100b38: ec410b30  vmov  d16, r0, r1
+  100b3c: eaffffd1  b 100a88 <sin+0x3c>
+
+00100b40 <__ieee754_rem_pio2>:
+  100b40: e92d41f0  push  {r4, r5, r6, r7, r8, lr}
+  100b44: e30231fb  movw  r3, #8699 ; 0x21fb
+  100b48: e3c14102  bic r4, r1, #-2147483648  ; 0x80000000
+  100b4c: e3433fe9  movt  r3, #16361  ; 0x3fe9
+  100b50: e1540003  cmp r4, r3
+  100b54: e24dd028  sub sp, sp, #40 ; 0x28
+  100b58: e1a06000  mov r6, r0
+  100b5c: e1a07001  mov r7, r1
+  100b60: e1a05002  mov r5, r2
+  100b64: e1a08001  mov r8, r1
+  100b68: da00004b  ble 100c9c <__ieee754_rem_pio2+0x15c>
+  100b6c: e30d397b  movw  r3, #55675  ; 0xd97b
+  100b70: e3443002  movt  r3, #16386  ; 0x4002
+  100b74: e1540003  cmp r4, r3
+  100b78: ca000014  bgt 100bd0 <__ieee754_rem_pio2+0x90>
+  100b7c: e3510000  cmp r1, #0
+  100b80: e30231fb  movw  r3, #8699 ; 0x21fb
+  100b84: eddf0ba5  vldr  d16, [pc, #660] ; 100e20 <__ieee754_rem_pio2+0x2e0>
+  100b88: e3433ff9  movt  r3, #16377  ; 0x3ff9
+  100b8c: da000093  ble 100de0 <__ieee754_rem_pio2+0x2a0>
+  100b90: ec476b31  vmov  d17, r6, r7
+  100b94: e1540003  cmp r4, r3
+  100b98: ee710be0  vsub.f64  d16, d17, d16
+  100b9c: 13a00001  movne r0, #1
+  100ba0: 0ddf2ba0  vldreq  d18, [pc, #640] ; 100e28 <__ieee754_rem_pio2+0x2e8>
+  100ba4: 03a00001  moveq r0, #1
+  100ba8: 1ddf1ba0  vldrne  d17, [pc, #640] ; 100e30 <__ieee754_rem_pio2+0x2f0>
+  100bac: 0ddf1ba1  vldreq  d17, [pc, #644] ; 100e38 <__ieee754_rem_pio2+0x2f8>
+  100bb0: 0e700be2  vsubeq.f64  d16, d16, d18
+  100bb4: ee702be1  vsub.f64  d18, d16, d17
+  100bb8: ee700be2  vsub.f64  d16, d16, d18
+  100bbc: edc22b00  vstr  d18, [r2]
+  100bc0: ee700be1  vsub.f64  d16, d16, d17
+  100bc4: edc20b02  vstr  d16, [r2, #8]
+  100bc8: e28dd028  add sp, sp, #40 ; 0x28
+  100bcc: e8bd81f0  pop {r4, r5, r6, r7, r8, pc}
+  100bd0: e30231fb  movw  r3, #8699 ; 0x21fb
+  100bd4: e3443139  movt  r3, #16697  ; 0x4139
+  100bd8: e1540003  cmp r4, r3
+  100bdc: da00003b  ble 100cd0 <__ieee754_rem_pio2+0x190>
+  100be0: e30f3fff  movw  r3, #65535  ; 0xffff
+  100be4: e3473fef  movt  r3, #32751  ; 0x7fef
+  100be8: e1540003  cmp r4, r3
+  100bec: ca000031  bgt 100cb8 <__ieee754_rem_pio2+0x178>
+  100bf0: e1a02a44  asr r2, r4, #20
+  100bf4: eddf0b91  vldr  d16, [pc, #580] ; 100e40 <__ieee754_rem_pio2+0x300>
+  100bf8: e2422e41  sub r2, r2, #1040 ; 0x410
+  100bfc: e3a03000  mov r3, #0
+  100c00: e2422006  sub r2, r2, #6
+  100c04: e0441a02  sub r1, r4, r2, lsl #20
+  100c08: ec410b31  vmov  d17, r0, r1
+  100c0c: eefd7be1  vcvt.s32.f64  s15, d17
+  100c10: eef82be7  vcvt.f64.s32  d18, s15
+  100c14: ee711be2  vsub.f64  d17, d17, d18
+  100c18: edcd2b04  vstr  d18, [sp, #16]
+  100c1c: ee611ba0  vmul.f64  d17, d17, d16
+  100c20: eefd7be1  vcvt.s32.f64  s15, d17
+  100c24: eef82be7  vcvt.f64.s32  d18, s15
+  100c28: ee711be2  vsub.f64  d17, d17, d18
+  100c2c: edcd2b06  vstr  d18, [sp, #24]
+  100c30: ee610ba0  vmul.f64  d16, d17, d16
+  100c34: eef50b40  vcmp.f64  d16, #0.0
+  100c38: edcd0b08  vstr  d16, [sp, #32]
+  100c3c: eef1fa10  vmrs  APSR_nzcv, fpscr
+  100c40: 13a03003  movne r3, #3
+  100c44: 1a000003  bne 100c58 <__ieee754_rem_pio2+0x118>
+  100c48: eef52b40  vcmp.f64  d18, #0.0
+  100c4c: eef1fa10  vmrs  APSR_nzcv, fpscr
+  100c50: 03a03001  moveq r3, #1
+  100c54: 13a03002  movne r3, #2
+  100c58: e59f1200  ldr r1, [pc, #512]  ; 100e60 <__ieee754_rem_pio2+0x320>
+  100c5c: e3a0c002  mov ip, #2
+  100c60: e28d0010  add r0, sp, #16
+  100c64: e58dc000  str ip, [sp]
+  100c68: e58d1004  str r1, [sp, #4]
+  100c6c: e1a01005  mov r1, r5
+  100c70: eb0000d4  bl  100fc8 <__kernel_rem_pio2>
+  100c74: e3580000  cmp r8, #0
+  100c78: aaffffd2  bge 100bc8 <__ieee754_rem_pio2+0x88>
+  100c7c: edd51b00  vldr  d17, [r5]
+  100c80: e2600000  rsb r0, r0, #0
+  100c84: edd50b02  vldr  d16, [r5, #8]
+  100c88: eef11b61  vneg.f64  d17, d17
+  100c8c: eef10b60  vneg.f64  d16, d16
+  100c90: edc51b00  vstr  d17, [r5]
+  100c94: edc50b02  vstr  d16, [r5, #8]
+  100c98: eaffffca  b 100bc8 <__ieee754_rem_pio2+0x88>
+  100c9c: e3a02000  mov r2, #0
+  100ca0: e3a03000  mov r3, #0
+  100ca4: e3a00000  mov r0, #0
+  100ca8: e1c560f0  strd  r6, [r5]
+  100cac: e1c520f8  strd  r2, [r5, #8]
+  100cb0: e28dd028  add sp, sp, #40 ; 0x28
+  100cb4: e8bd81f0  pop {r4, r5, r6, r7, r8, pc}
+  100cb8: ec476b30  vmov  d16, r6, r7
+  100cbc: e3a00000  mov r0, #0
+  100cc0: ee700be0  vsub.f64  d16, d16, d16
+  100cc4: edc20b02  vstr  d16, [r2, #8]
+  100cc8: edc20b00  vstr  d16, [r2]
+  100ccc: eaffffbd  b 100bc8 <__ieee754_rem_pio2+0x88>
+  100cd0: eb000322  bl  101960 <fabs>
+  100cd4: eef60b00  vmov.f64  d16, #96  ; 0x60
+  100cd8: eddf3b5a  vldr  d19, [pc, #360] ; 100e48 <__ieee754_rem_pio2+0x308>
+  100cdc: eddf4b4f  vldr  d20, [pc, #316] ; 100e20 <__ieee754_rem_pio2+0x2e0>
+  100ce0: eddf2b52  vldr  d18, [pc, #328] ; 100e30 <__ieee754_rem_pio2+0x2f0>
+  100ce4: ec410b31  vmov  d17, r0, r1
+  100ce8: ee410ba3  vmla.f64  d16, d17, d19
+  100cec: eefd7be0  vcvt.s32.f64  s15, d16
+  100cf0: ee170a90  vmov  r0, s15
+  100cf4: eef83be7  vcvt.f64.s32  d19, s15
+  100cf8: eef00b61  vmov.f64  d16, d17
+  100cfc: ee631ba2  vmul.f64  d17, d19, d18
+  100d00: e350001f  cmp r0, #31
+  100d04: ee430be4  vmls.f64  d16, d19, d20
+  100d08: ca000012  bgt 100d58 <__ieee754_rem_pio2+0x218>
+  100d0c: e30c3320  movw  r3, #49952  ; 0xc320
+  100d10: e2402001  sub r2, r0, #1
+  100d14: e3403010  movt  r3, #16
+  100d18: e7933102  ldr r3, [r3, r2, lsl #2]
+  100d1c: e1530004  cmp r3, r4
+  100d20: 0a00000c  beq 100d58 <__ieee754_rem_pio2+0x218>
+  100d24: ee702be1  vsub.f64  d18, d16, d17
+  100d28: edc52b00  vstr  d18, [r5]
+  100d2c: e3580000  cmp r8, #0
+  100d30: ee700be2  vsub.f64  d16, d16, d18
+  100d34: ee700be1  vsub.f64  d16, d16, d17
+  100d38: edc50b02  vstr  d16, [r5, #8]
+  100d3c: aaffffa1  bge 100bc8 <__ieee754_rem_pio2+0x88>
+  100d40: e2600000  rsb r0, r0, #0
+  100d44: eef12b62  vneg.f64  d18, d18
+  100d48: eef10b60  vneg.f64  d16, d16
+  100d4c: edc52b00  vstr  d18, [r5]
+  100d50: edc50b02  vstr  d16, [r5, #8]
+  100d54: eaffff9b  b 100bc8 <__ieee754_rem_pio2+0x88>
+  100d58: ee702be1  vsub.f64  d18, d16, d17
+  100d5c: e1a04a44  asr r4, r4, #20
+  100d60: edcd2b02  vstr  d18, [sp, #8]
+  100d64: e59d300c  ldr r3, [sp, #12]
+  100d68: e7ea3a53  ubfx  r3, r3, #20, #11
+  100d6c: edc52b00  vstr  d18, [r5]
+  100d70: e0633004  rsb r3, r3, r4
+  100d74: e3530010  cmp r3, #16
+  100d78: daffffeb  ble 100d2c <__ieee754_rem_pio2+0x1ec>
+  100d7c: eddf1b29  vldr  d17, [pc, #164] ; 100e28 <__ieee754_rem_pio2+0x2e8>
+  100d80: eddf2b2c  vldr  d18, [pc, #176] ; 100e38 <__ieee754_rem_pio2+0x2f8>
+  100d84: ee631ba1  vmul.f64  d17, d19, d17
+  100d88: ee704be1  vsub.f64  d20, d16, d17
+  100d8c: ee700be4  vsub.f64  d16, d16, d20
+  100d90: ee700be1  vsub.f64  d16, d16, d17
+  100d94: ee530ba2  vnmls.f64 d16, d19, d18
+  100d98: ee742be0  vsub.f64  d18, d20, d16
+  100d9c: edcd2b02  vstr  d18, [sp, #8]
+  100da0: e59d300c  ldr r3, [sp, #12]
+  100da4: e7ea3a53  ubfx  r3, r3, #20, #11
+  100da8: eef01b60  vmov.f64  d17, d16
+  100dac: e0634004  rsb r4, r3, r4
+  100db0: edc52b00  vstr  d18, [r5]
+  100db4: e3540031  cmp r4, #49 ; 0x31
+  100db8: def00b64  vmovle.f64  d16, d20
+  100dbc: daffffda  ble 100d2c <__ieee754_rem_pio2+0x1ec>
+  100dc0: eddf1b22  vldr  d17, [pc, #136] ; 100e50 <__ieee754_rem_pio2+0x310>
+  100dc4: eddf2b23  vldr  d18, [pc, #140] ; 100e58 <__ieee754_rem_pio2+0x318>
+  100dc8: ee631ba1  vmul.f64  d17, d19, d17
+  100dcc: ee740be1  vsub.f64  d16, d20, d17
+  100dd0: ee744be0  vsub.f64  d20, d20, d16
+  100dd4: ee741be1  vsub.f64  d17, d20, d17
+  100dd8: ee531ba2  vnmls.f64 d17, d19, d18
+  100ddc: eaffffd0  b 100d24 <__ieee754_rem_pio2+0x1e4>
+  100de0: ec476b31  vmov  d17, r6, r7
+  100de4: e1540003  cmp r4, r3
+  100de8: ee710ba0  vadd.f64  d16, d17, d16
+  100dec: 13e00000  mvnne r0, #0
+  100df0: 0ddf2b0c  vldreq  d18, [pc, #48]  ; 100e28 <__ieee754_rem_pio2+0x2e8>
+  100df4: 03e00000  mvneq r0, #0
+  100df8: 1ddf1b0c  vldrne  d17, [pc, #48]  ; 100e30 <__ieee754_rem_pio2+0x2f0>
+  100dfc: 0ddf1b0d  vldreq  d17, [pc, #52]  ; 100e38 <__ieee754_rem_pio2+0x2f8>
+  100e00: 0e700ba2  vaddeq.f64  d16, d16, d18
+  100e04: ee702ba1  vadd.f64  d18, d16, d17
+  100e08: ee700be2  vsub.f64  d16, d16, d18
+  100e0c: edc22b00  vstr  d18, [r2]
+  100e10: ee700ba1  vadd.f64  d16, d16, d17
+  100e14: edc20b02  vstr  d16, [r2, #8]
+  100e18: eaffff6a  b 100bc8 <__ieee754_rem_pio2+0x88>
+  100e1c: e320f000  nop {0}
+  100e20: 54400000  strbpl  r0, [r0], #-0
+  100e24: 3ff921fb  svccc 0x00f921fb
+  100e28: 1a600000  bne 1900e30 <__undef_stack+0x17e7590>
+  100e2c: 3dd0b461  cfldrdcc  mvd11, [r0, #388] ; 0x184
+  100e30: 1a626331  bne 1999afc <__undef_stack+0x188025c>
+  100e34: 3dd0b461  cfldrdcc  mvd11, [r0, #388] ; 0x184
+  100e38: 2e037073  mcrcs 0, 0, r7, cr3, cr3, {3}
+  100e3c: 3ba3198a  blcc  fe9c746c <LRemap+0x9c745d>
+  100e40: 00000000  andeq r0, r0, r0
+  100e44: 41700000  cmnmi r0, r0
+  100e48: 6dc9c883  stclvs  8, cr12, [r9, #524] ; 0x20c
+  100e4c: 3fe45f30  svccc 0x00e45f30
+  100e50: 2e000000  cdpcs 0, 0, cr0, cr0, cr0, {0}
+  100e54: 3ba3198a  blcc  fe9c7484 <LRemap+0x9c7475>
+  100e58: 252049c1  strcs r4, [r0, #-2497]! ; 0xfffff63f
+  100e5c: 397b839a  ldmdbcc fp!, {r1, r3, r4, r7, r8, r9, pc}^
+  100e60: 0010c3a0  andseq  ip, r0, r0, lsr #7
+  100e64: e320f000  nop {0}
+
+00100e68 <__kernel_cos>:
+  100e68: e24dd008  sub sp, sp, #8
+  100e6c: ec410b38  vmov  d24, r0, r1
+  100e70: e1cd00f0  strd  r0, [sp]
+  100e74: ec432b31  vmov  d17, r2, r3
+  100e78: e59d1004  ldr r1, [sp, #4]
+  100e7c: e3c11102  bic r1, r1, #-2147483648  ; 0x80000000
+  100e80: e35105f9  cmp r1, #1044381696 ; 0x3e400000
+  100e84: aa000019  bge 100ef0 <__kernel_cos+0x88>
+  100e88: eefd7be8  vcvt.s32.f64  s15, d24
+  100e8c: ee173a90  vmov  r3, s15
+  100e90: e3530000  cmp r3, #0
+  100e94: 0a00003a  beq 100f84 <__kernel_cos+0x11c>
+  100e98: ee680ba8  vmul.f64  d16, d24, d24
+  100e9c: eddf7b3d  vldr  d23, [pc, #244] ; 100f98 <__kernel_cos+0x130>
+  100ea0: eddf6b3e  vldr  d22, [pc, #248] ; 100fa0 <__kernel_cos+0x138>
+  100ea4: eddf5b3f  vldr  d21, [pc, #252] ; 100fa8 <__kernel_cos+0x140>
+  100ea8: eddf4b40  vldr  d20, [pc, #256] ; 100fb0 <__kernel_cos+0x148>
+  100eac: eddf3b41  vldr  d19, [pc, #260] ; 100fb8 <__kernel_cos+0x150>
+  100eb0: eddf2b42  vldr  d18, [pc, #264] ; 100fc0 <__kernel_cos+0x158>
+  100eb4: ee406ba7  vmla.f64  d22, d16, d23
+  100eb8: ee565ba0  vnmls.f64 d21, d22, d16
+  100ebc: ee454ba0  vmla.f64  d20, d21, d16
+  100ec0: ee543ba0  vnmls.f64 d19, d20, d16
+  100ec4: ee432ba0  vmla.f64  d18, d19, d16
+  100ec8: ee622ba0  vmul.f64  d18, d18, d16
+  100ecc: ee683ba1  vmul.f64  d19, d24, d17
+  100ed0: ee503ba2  vnmls.f64 d19, d16, d18
+  100ed4: eef61b00  vmov.f64  d17, #96  ; 0x60
+  100ed8: ee503ba1  vnmls.f64 d19, d16, d17
+  100edc: eef70b00  vmov.f64  d16, #112 ; 0x70
+  100ee0: ee703be3  vsub.f64  d19, d16, d19
+  100ee4: ec510b33  vmov  r0, r1, d19
+  100ee8: e28dd008  add sp, sp, #8
+  100eec: e12fff1e  bx  lr
+  100ef0: ee680ba8  vmul.f64  d16, d24, d24
+  100ef4: e3033332  movw  r3, #13106  ; 0x3332
+  100ef8: eddf3b26  vldr  d19, [pc, #152] ; 100f98 <__kernel_cos+0x130>
+  100efc: e3433fd3  movt  r3, #16339  ; 0x3fd3
+  100f00: e1510003  cmp r1, r3
+  100f04: eddf7b25  vldr  d23, [pc, #148] ; 100fa0 <__kernel_cos+0x138>
+  100f08: eddf6b26  vldr  d22, [pc, #152] ; 100fa8 <__kernel_cos+0x140>
+  100f0c: eddf5b27  vldr  d21, [pc, #156] ; 100fb0 <__kernel_cos+0x148>
+  100f10: eddf4b28  vldr  d20, [pc, #160] ; 100fb8 <__kernel_cos+0x150>
+  100f14: eddf2b29  vldr  d18, [pc, #164] ; 100fc0 <__kernel_cos+0x158>
+  100f18: ee407ba3  vmla.f64  d23, d16, d19
+  100f1c: ee576ba0  vnmls.f64 d22, d23, d16
+  100f20: ee465ba0  vmla.f64  d21, d22, d16
+  100f24: ee554ba0  vnmls.f64 d20, d21, d16
+  100f28: ee442ba0  vmla.f64  d18, d20, d16
+  100f2c: ee622ba0  vmul.f64  d18, d18, d16
+  100f30: daffffe5  ble 100ecc <__kernel_cos+0x64>
+  100f34: e3a03000  mov r3, #0
+  100f38: e3433fe9  movt  r3, #16361  ; 0x3fe9
+  100f3c: e1510003  cmp r1, r3
+  100f40: d3a03000  movle r3, #0
+  100f44: d2413602  suble r3, r1, #2097152  ; 0x200000
+  100f48: d3a02000  movle r2, #0
+  100f4c: dc432b33  vmovle  d19, r2, r3
+  100f50: ee681ba1  vmul.f64  d17, d24, d17
+  100f54: def74b00  vmovle.f64  d20, #112 ; 0x70
+  100f58: cef53b02  vmovgt.f64  d19, #82  ; 0x52
+  100f5c: eef65b00  vmov.f64  d21, #96  ; 0x60
+  100f60: de744be3  vsuble.f64  d20, d20, d19
+  100f64: ee501ba2  vnmls.f64 d17, d16, d18
+  100f68: ee503ba5  vnmls.f64 d19, d16, d21
+  100f6c: cef64b07  vmovgt.f64  d20, #103 ; 0x67
+  100f70: ee733be1  vsub.f64  d19, d19, d17
+  100f74: ee743be3  vsub.f64  d19, d20, d19
+  100f78: ec510b33  vmov  r0, r1, d19
+  100f7c: e28dd008  add sp, sp, #8
+  100f80: e12fff1e  bx  lr
+  100f84: eef73b00  vmov.f64  d19, #112 ; 0x70
+  100f88: ec510b33  vmov  r0, r1, d19
+  100f8c: e28dd008  add sp, sp, #8
+  100f90: e12fff1e  bx  lr
+  100f94: e320f000  nop {0}
+  100f98: be8838d4  mcrlt 8, 4, r3, cr8, cr4, {6}
+  100f9c: bda8fae9  stclt 10, cr15, [r8, #932]! ; 0x3a4
+  100fa0: bdb4b1c4  ldfltd  f3, [r4, #784]! ; 0x310
+  100fa4: 3e21ee9e  mcrcc 14, 1, lr, cr1, cr14, {4}
+  100fa8: 809c52ad  addshi  r5, ip, sp, lsr #5
+  100fac: 3e927e4f  cdpcc 14, 9, cr7, cr2, cr15, {2}
+  100fb0: 19cb1590  stmibne fp, {r4, r7, r8, sl, ip}^
+  100fb4: 3efa01a0  cdpcc 1, 15, cr0, cr10, cr0, {5}
+  100fb8: 16c15177      ; <UNDEFINED> instruction: 0x16c15177
+  100fbc: 3f56c16c  svccc 0x0056c16c
+  100fc0: 5555554c  ldrbpl  r5, [r5, #-1356]  ; 0xfffffab4
+  100fc4: 3fa55555  svccc 0x00a55555
+
+00100fc8 <__kernel_rem_pio2>:
+  100fc8: e92d4ff0  push  {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+  100fcc: e242c003  sub ip, r2, #3
+  100fd0: e30a4aab  movw  r4, #43691  ; 0xaaab
+  100fd4: ed2d8b08  vpush {d8-d11}
+  100fd8: e3424aaa  movt  r4, #10922  ; 0x2aaa
+  100fdc: e30ce4a8  movw  lr, #50344  ; 0xc4a8
+  100fe0: e0c5449c  smull r4, r5, ip, r4
+  100fe4: e24ddf93  sub sp, sp, #588  ; 0x24c
+  100fe8: e1a0cfcc  asr ip, ip, #31
+  100fec: e340e010  movt  lr, #16
+  100ff0: e59d6290  ldr r6, [sp, #656]  ; 0x290
+  100ff4: e1a09000  mov r9, r0
+  100ff8: e58d300c  str r3, [sp, #12]
+  100ffc: e58d1008  str r1, [sp, #8]
+  101000: e06cc145  rsb ip, ip, r5, asr #2
+  101004: e79ee106  ldr lr, [lr, r6, lsl #2]
+  101008: e2436001  sub r6, r3, #1
+  10100c: e1cc3fcc  bic r3, ip, ip, asr #31
+  101010: e096100e  adds  r1, r6, lr
+  101014: e58d3010  str r3, [sp, #16]
+  101018: e1a00003  mov r0, r3
+  10101c: e58de000  str lr, [sp]
+  101020: e1e00000  mvn r0, r0
+  101024: e0663003  rsb r3, r6, r3
+  101028: e0800080  add r0, r0, r0, lsl #1
+  10102c: e0822180  add r2, r2, r0, lsl #3
+  101030: e58d2004  str r2, [sp, #4]
+  101034: 4a00000e  bmi 101074 <__kernel_rem_pio2+0xac>
+  101038: e0832001  add r2, r3, r1
+  10103c: e59d4000  ldr r4, [sp]
+  101040: e59d0294  ldr r0, [sp, #660]  ; 0x294
+  101044: e28d1068  add r1, sp, #104  ; 0x68
+  101048: e2822001  add r2, r2, #1
+  10104c: e3530000  cmp r3, #0
+  101050: a790c103  ldrge ip, [r0, r3, lsl #2]
+  101054: e2833001  add r3, r3, #1
+  101058: bddf0bce  vldrlt  d16, [pc, #824] ; 101398 <__kernel_rem_pio2+0x3d0>
+  10105c: ae07ca90  vmovge  s15, ip
+  101060: aef80be7  vcvtge.f64.s32  d16, s15
+  101064: e1530002  cmp r3, r2
+  101068: ece10b02  vstmia  r1!, {d16}
+  10106c: 1afffff6  bne 10104c <__kernel_rem_pio2+0x84>
+  101070: e58d4000  str r4, [sp]
+  101074: e59d3000  ldr r3, [sp]
+  101078: e3530000  cmp r3, #0
+  10107c: ba000015  blt 1010d8 <__kernel_rem_pio2+0x110>
+  101080: e59d4000  ldr r4, [sp]
+  101084: e28d1068  add r1, sp, #104  ; 0x68
+  101088: e59d300c  ldr r3, [sp, #12]
+  10108c: e28dcf6a  add ip, sp, #424  ; 0x1a8
+  101090: e2840001  add r0, r4, #1
+  101094: e1a0e183  lsl lr, r3, #3
+  101098: e0810180  add r0, r1, r0, lsl #3
+  10109c: e3560000  cmp r6, #0
+  1010a0: ba000143  blt 1015b4 <__kernel_rem_pio2+0x5ec>
+  1010a4: eddf0bbb  vldr  d16, [pc, #748] ; 101398 <__kernel_rem_pio2+0x3d0>
+  1010a8: e081300e  add r3, r1, lr
+  1010ac: e1a02009  mov r2, r9
+  1010b0: ed731b02  vldmdb  r3!, {d17}
+  1010b4: ecf22b02  vldmia  r2!, {d18}
+  1010b8: e1510003  cmp r1, r3
+  1010bc: ee420ba1  vmla.f64  d16, d18, d17
+  1010c0: 1afffffa  bne 1010b0 <__kernel_rem_pio2+0xe8>
+  1010c4: e2811008  add r1, r1, #8
+  1010c8: ecec0b02  vstmia  ip!, {d16}
+  1010cc: e1510000  cmp r1, r0
+  1010d0: 1afffff1  bne 10109c <__kernel_rem_pio2+0xd4>
+  1010d4: e58d4000  str r4, [sp]
+  1010d8: e59db000  ldr fp, [sp]
+  1010dc: e28d5f6a  add r5, sp, #424  ; 0x1a8
+  1010e0: e59d200c  ldr r2, [sp, #12]
+  1010e4: e24b3107  sub r3, fp, #-1073741823  ; 0xc0000001
+  1010e8: ed9f9bae  vldr  d9, [pc, #696]  ; 1013a8 <__kernel_rem_pio2+0x3e0>
+  1010ec: e59d4004  ldr r4, [sp, #4]
+  1010f0: e0628e82  rsb r8, r2, r2, lsl #29
+  1010f4: e1a03103  lsl r3, r3, #2
+  1010f8: ed9f8ba8  vldr  d8, [pc, #672]  ; 1013a0 <__kernel_rem_pio2+0x3d8>
+  1010fc: e2837004  add r7, r3, #4
+  101100: e28d2018  add r2, sp, #24
+  101104: e1a08188  lsl r8, r8, #3
+  101108: e0827007  add r7, r2, r7
+  10110c: e0823003  add r3, r2, r3
+  101110: e58d3014  str r3, [sp, #20]
+  101114: e1a0218b  lsl r2, fp, #3
+  101118: e28d3f92  add r3, sp, #584  ; 0x248
+  10111c: e0833002  add r3, r3, r2
+  101120: e35b0000  cmp fp, #0
+  101124: ed530b28  vldr  d16, [r3, #-160]  ; 0xffffff60
+  101128: da00000c  ble 101160 <__kernel_rem_pio2+0x198>
+  10112c: e0852002  add r2, r5, r2
+  101130: e28d1014  add r1, sp, #20
+  101134: ee601b89  vmul.f64  d17, d16, d9
+  101138: ed722b02  vldmdb  r2!, {d18}
+  10113c: e1520005  cmp r2, r5
+  101140: eefd7be1  vcvt.s32.f64  s15, d17
+  101144: eef81be7  vcvt.f64.s32  d17, s15
+  101148: ee410bc8  vmls.f64  d16, d17, d8
+  10114c: eefd7be0  vcvt.s32.f64  s15, d16
+  101150: ee173a90  vmov  r3, s15
+  101154: ee710ba2  vadd.f64  d16, d17, d18
+  101158: e5a13004  str r3, [r1, #4]!
+  10115c: 1afffff4  bne 101134 <__kernel_rem_pio2+0x16c>
+  101160: ec510b30  vmov  r0, r1, d16
+  101164: e1a02004  mov r2, r4
+  101168: eb000256  bl  101ac8 <scalbn>
+  10116c: eef40b00  vmov.f64  d16, #64  ; 0x40
+  101170: ec410b1a  vmov  d10, r0, r1
+  101174: ee6a0b20  vmul.f64  d16, d10, d16
+  101178: ec510b30  vmov  r0, r1, d16
+  10117c: eb0001fb  bl  101970 <floor>
+  101180: e3540000  cmp r4, #0
+  101184: eef20b00  vmov.f64  d16, #32
+  101188: ec410b31  vmov  d17, r0, r1
+  10118c: ee01abe0  vmls.f64  d10, d17, d16
+  101190: eebdbbca  vcvt.s32.f64  s22, d10
+  101194: eef80bcb  vcvt.f64.s32  d16, s22
+  101198: ee3aab60  vsub.f64  d10, d10, d16
+  10119c: da0000e8  ble 101544 <__kernel_rem_pio2+0x57c>
+  1011a0: ee1bea10  vmov  lr, s22
+  1011a4: e24b3001  sub r3, fp, #1
+  1011a8: e28d2f92  add r2, sp, #584  ; 0x248
+  1011ac: e2641018  rsb r1, r4, #24
+  1011b0: e0823103  add r3, r2, r3, lsl #2
+  1011b4: e2640017  rsb r0, r4, #23
+  1011b8: e5132230  ldr r2, [r3, #-560] ; 0xfffffdd0
+  1011bc: e1a0c152  asr ip, r2, r1
+  1011c0: e042211c  sub r2, r2, ip, lsl r1
+  1011c4: e5032230  str r2, [r3, #-560] ; 0xfffffdd0
+  1011c8: e1a0a052  asr sl, r2, r0
+  1011cc: e08ee00c  add lr, lr, ip
+  1011d0: ee0bea10  vmov  s22, lr
+  1011d4: e35a0000  cmp sl, #0
+  1011d8: da000028  ble 101280 <__kernel_rem_pio2+0x2b8>
+  1011dc: ee1b3a10  vmov  r3, s22
+  1011e0: e35b0000  cmp fp, #0
+  1011e4: e2833001  add r3, r3, #1
+  1011e8: ee0b3a10  vmov  s22, r3
+  1011ec: da0000f6  ble 1015cc <__kernel_rem_pio2+0x604>
+  1011f0: e3a01000  mov r1, #0
+  1011f4: e28d0014  add r0, sp, #20
+  1011f8: e1a0c001  mov ip, r1
+  1011fc: ea000006  b 10121c <__kernel_rem_pio2+0x254>
+  101200: e3520000  cmp r2, #0
+  101204: e2811001  add r1, r1, #1
+  101208: e2622401  rsb r2, r2, #16777216 ; 0x1000000
+  10120c: 15802000  strne r2, [r0]
+  101210: 13a0c001  movne ip, #1
+  101214: e15b0001  cmp fp, r1
+  101218: da00000a  ble 101248 <__kernel_rem_pio2+0x280>
+  10121c: e35c0000  cmp ip, #0
+  101220: e30f3fff  movw  r3, #65535  ; 0xffff
+  101224: e5b02004  ldr r2, [r0, #4]!
+  101228: e34030ff  movt  r3, #255  ; 0xff
+  10122c: 0afffff3  beq 101200 <__kernel_rem_pio2+0x238>
+  101230: e2811001  add r1, r1, #1
+  101234: e0623003  rsb r3, r2, r3
+  101238: e15b0001  cmp fp, r1
+  10123c: e3a0c001  mov ip, #1
+  101240: e5803000  str r3, [r0]
+  101244: cafffff4  bgt 10121c <__kernel_rem_pio2+0x254>
+  101248: e3540000  cmp r4, #0
+  10124c: da000009  ble 101278 <__kernel_rem_pio2+0x2b0>
+  101250: e3540001  cmp r4, #1
+  101254: 0a0000c0  beq 10155c <__kernel_rem_pio2+0x594>
+  101258: e3540002  cmp r4, #2
+  10125c: 1a000005  bne 101278 <__kernel_rem_pio2+0x2b0>
+  101260: e24b3001  sub r3, fp, #1
+  101264: e28d2f92  add r2, sp, #584  ; 0x248
+  101268: e0823103  add r3, r2, r3, lsl #2
+  10126c: e5132230  ldr r2, [r3, #-560] ; 0xfffffdd0
+  101270: e7f52052  ubfx  r2, r2, #0, #22
+  101274: e5032230  str r2, [r3, #-560] ; 0xfffffdd0
+  101278: e35a0002  cmp sl, #2
+  10127c: 0a00004c  beq 1013b4 <__kernel_rem_pio2+0x3ec>
+  101280: eeb5ab40  vcmp.f64  d10, #0.0
+  101284: eef1fa10  vmrs  APSR_nzcv, fpscr
+  101288: 1a000055  bne 1013e4 <__kernel_rem_pio2+0x41c>
+  10128c: e59d3000  ldr r3, [sp]
+  101290: e24b0001  sub r0, fp, #1
+  101294: e1530000  cmp r3, r0
+  101298: ca000008  bgt 1012c0 <__kernel_rem_pio2+0x2f8>
+  10129c: e28d3018  add r3, sp, #24
+  1012a0: e3a02000  mov r2, #0
+  1012a4: e083310b  add r3, r3, fp, lsl #2
+  1012a8: e5331004  ldr r1, [r3, #-4]!
+  1012ac: e1530007  cmp r3, r7
+  1012b0: e1822001  orr r2, r2, r1
+  1012b4: 1afffffb  bne 1012a8 <__kernel_rem_pio2+0x2e0>
+  1012b8: e3520000  cmp r2, #0
+  1012bc: 1a00010c  bne 1016f4 <__kernel_rem_pio2+0x72c>
+  1012c0: e59d2000  ldr r2, [sp]
+  1012c4: e28d3f92  add r3, sp, #584  ; 0x248
+  1012c8: e0833102  add r3, r3, r2, lsl #2
+  1012cc: e5133234  ldr r3, [r3, #-564] ; 0xfffffdcc
+  1012d0: e3530000  cmp r3, #0
+  1012d4: 1a0000be  bne 1015d4 <__kernel_rem_pio2+0x60c>
+  1012d8: e59d3014  ldr r3, [sp, #20]
+  1012dc: e3a0a001  mov sl, #1
+  1012e0: e5332004  ldr r2, [r3, #-4]!
+  1012e4: e28aa001  add sl, sl, #1
+  1012e8: e3520000  cmp r2, #0
+  1012ec: 0afffffb  beq 1012e0 <__kernel_rem_pio2+0x318>
+  1012f0: e08ba00a  add sl, fp, sl
+  1012f4: e28be001  add lr, fp, #1
+  1012f8: e15e000a  cmp lr, sl
+  1012fc: ca00001d  bgt 101378 <__kernel_rem_pio2+0x3b0>
+  101300: e59d3010  ldr r3, [sp, #16]
+  101304: e08ec003  add ip, lr, r3
+  101308: e59d300c  ldr r3, [sp, #12]
+  10130c: e24cc107  sub ip, ip, #-1073741823  ; 0xc0000001
+  101310: e085e18e  add lr, r5, lr, lsl #3
+  101314: e08b0003  add r0, fp, r3
+  101318: e08ab003  add fp, sl, r3
+  10131c: e59d3294  ldr r3, [sp, #660]  ; 0x294
+  101320: e083c10c  add ip, r3, ip, lsl #2
+  101324: e28d3068  add r3, sp, #104  ; 0x68
+  101328: e0830180  add r0, r3, r0, lsl #3
+  10132c: e083b18b  add fp, r3, fp, lsl #3
+  101330: e5bc3004  ldr r3, [ip, #4]!
+  101334: e3560000  cmp r6, #0
+  101338: ee073a90  vmov  s15, r3
+  10133c: eef80be7  vcvt.f64.s32  d16, s15
+  101340: ece00b02  vstmia  r0!, {d16}
+  101344: ba00000d  blt 101380 <__kernel_rem_pio2+0x3b8>
+  101348: e0801008  add r1, r0, r8
+  10134c: e1a02009  mov r2, r9
+  101350: eddf0b10  vldr  d16, [pc, #64]  ; 101398 <__kernel_rem_pio2+0x3d0>
+  101354: e1a03000  mov r3, r0
+  101358: ed731b02  vldmdb  r3!, {d17}
+  10135c: ecf22b02  vldmia  r2!, {d18}
+  101360: e1530001  cmp r3, r1
+  101364: ee420ba1  vmla.f64  d16, d18, d17
+  101368: 1afffffa  bne 101358 <__kernel_rem_pio2+0x390>
+  10136c: e150000b  cmp r0, fp
+  101370: ecee0b02  vstmia  lr!, {d16}
+  101374: 1affffed  bne 101330 <__kernel_rem_pio2+0x368>
+  101378: e1a0b00a  mov fp, sl
+  10137c: eaffff64  b 101114 <__kernel_rem_pio2+0x14c>
+  101380: eddf0b04  vldr  d16, [pc, #16]  ; 101398 <__kernel_rem_pio2+0x3d0>
+  101384: e150000b  cmp r0, fp
+  101388: ecee0b02  vstmia  lr!, {d16}
+  10138c: 1affffe7  bne 101330 <__kernel_rem_pio2+0x368>
+  101390: eafffff8  b 101378 <__kernel_rem_pio2+0x3b0>
+  101394: e320f000  nop {0}
+  ...
+  1013a4: 41700000  cmnmi r0, r0
+  1013a8: 00000000  andeq r0, r0, r0
+  1013ac: 3e700000  cdpcc 0, 7, cr0, cr0, cr0, {0}
+  1013b0: 0010c4b8      ; <UNDEFINED> instruction: 0x0010c4b8
+  1013b4: eef70b00  vmov.f64  d16, #112 ; 0x70
+  1013b8: e35c0000  cmp ip, #0
+  1013bc: ee30abca  vsub.f64  d10, d16, d10
+  1013c0: 0affffae  beq 101280 <__kernel_rem_pio2+0x2b8>
+  1013c4: ec510b30  vmov  r0, r1, d16
+  1013c8: e1a02004  mov r2, r4
+  1013cc: eb0001bd  bl  101ac8 <scalbn>
+  1013d0: ec410b30  vmov  d16, r0, r1
+  1013d4: ee3aab60  vsub.f64  d10, d10, d16
+  1013d8: eeb5ab40  vcmp.f64  d10, #0.0
+  1013dc: eef1fa10  vmrs  APSR_nzcv, fpscr
+  1013e0: 0affffa9  beq 10128c <__kernel_rem_pio2+0x2c4>
+  1013e4: e59d3004  ldr r3, [sp, #4]
+  1013e8: ec510b1a  vmov  r0, r1, d10
+  1013ec: e2632000  rsb r2, r3, #0
+  1013f0: e58da00c  str sl, [sp, #12]
+  1013f4: eb0001b3  bl  101ac8 <scalbn>
+  1013f8: ed5f2b18  vldr  d18, [pc, #-96] ; 1013a0 <__kernel_rem_pio2+0x3d8>
+  1013fc: e59d300c  ldr r3, [sp, #12]
+  101400: ec410b30  vmov  d16, r0, r1
+  101404: eef40be2  vcmpe.f64 d16, d18
+  101408: eef1fa10  vmrs  APSR_nzcv, fpscr
+  10140c: ba000115  blt 101868 <__kernel_rem_pio2+0x8a0>
+  101410: ed5f1b1c  vldr  d17, [pc, #-112]  ; 1013a8 <__kernel_rem_pio2+0x3e0>
+  101414: e28d2f92  add r2, sp, #584  ; 0x248
+  101418: e28ba001  add sl, fp, #1
+  10141c: e082b10b  add fp, r2, fp, lsl #2
+  101420: e59d2004  ldr r2, [sp, #4]
+  101424: ee601ba1  vmul.f64  d17, d16, d17
+  101428: e2822018  add r2, r2, #24
+  10142c: e58d2004  str r2, [sp, #4]
+  101430: e28d2f92  add r2, sp, #584  ; 0x248
+  101434: e082110a  add r1, r2, sl, lsl #2
+  101438: eefd7be1  vcvt.s32.f64  s15, d17
+  10143c: eef81be7  vcvt.f64.s32  d17, s15
+  101440: ee410be2  vmls.f64  d16, d17, d18
+  101444: eebd7be0  vcvt.s32.f64  s14, d16
+  101448: ed0b7a8c  vstr  s14, [fp, #-560]  ; 0xfffffdd0
+  10144c: ed417a8c  vstr  s15, [r1, #-560]  ; 0xfffffdd0
+  101450: e3a01000  mov r1, #0
+  101454: e59d2004  ldr r2, [sp, #4]
+  101458: e3a00000  mov r0, #0
+  10145c: e3431ff0  movt  r1, #16368  ; 0x3ff0
+  101460: e58d300c  str r3, [sp, #12]
+  101464: eb000197  bl  101ac8 <scalbn>
+  101468: e35a0000  cmp sl, #0
+  10146c: e59d300c  ldr r3, [sp, #12]
+  101470: ec410b31  vmov  d17, r0, r1
+  101474: ba000088  blt 10169c <__kernel_rem_pio2+0x6d4>
+  101478: e28a0001  add r0, sl, #1
+  10147c: ed5f2b37  vldr  d18, [pc, #-220]  ; 1013a8 <__kernel_rem_pio2+0x3e0>
+  101480: e28d2018  add r2, sp, #24
+  101484: e28def6a  add lr, sp, #424  ; 0x1a8
+  101488: e1a05180  lsl r5, r0, #3
+  10148c: e59d4000  ldr r4, [sp]
+  101490: e082c100  add ip, r2, r0, lsl #2
+  101494: e08e2005  add r2, lr, r5
+  101498: e53c1004  ldr r1, [ip, #-4]!
+  10149c: ee071a90  vmov  s15, r1
+  1014a0: eef80be7  vcvt.f64.s32  d16, s15
+  1014a4: ee600ba1  vmul.f64  d16, d16, d17
+  1014a8: ed620b02  vstmdb  r2!, {d16}
+  1014ac: ee611ba2  vmul.f64  d17, d17, d18
+  1014b0: e152000e  cmp r2, lr
+  1014b4: 1afffff7  bne 101498 <__kernel_rem_pio2+0x4d0>
+  1014b8: e2455008  sub r5, r5, #8
+  1014bc: e3a0e000  mov lr, #0
+  1014c0: e0825005  add r5, r2, r5
+  1014c4: e3540000  cmp r4, #0
+  1014c8: ba000071  blt 101694 <__kernel_rem_pio2+0x6cc>
+  1014cc: e35e0000  cmp lr, #0
+  1014d0: ba00006f  blt 101694 <__kernel_rem_pio2+0x6cc>
+  1014d4: e51fc12c  ldr ip, [pc, #-300] ; 1013b0 <__kernel_rem_pio2+0x3e8>
+  1014d8: e1a01005  mov r1, r5
+  1014dc: eddf0be7  vldr  d16, [pc, #924] ; 101880 <__kernel_rem_pio2+0x8b8>
+  1014e0: e3a02000  mov r2, #0
+  1014e4: ea000001  b 1014f0 <__kernel_rem_pio2+0x528>
+  1014e8: e152000e  cmp r2, lr
+  1014ec: ca000005  bgt 101508 <__kernel_rem_pio2+0x540>
+  1014f0: ecfc2b02  vldmia  ip!, {d18}
+  1014f4: e2822001  add r2, r2, #1
+  1014f8: e1540002  cmp r4, r2
+  1014fc: ecf11b02  vldmia  r1!, {d17}
+  101500: ee420ba1  vmla.f64  d16, d18, d17
+  101504: aafffff7  bge 1014e8 <__kernel_rem_pio2+0x520>
+  101508: e28d2f92  add r2, sp, #584  ; 0x248
+  10150c: e2455008  sub r5, r5, #8
+  101510: e082218e  add r2, r2, lr, lsl #3
+  101514: e28ee001  add lr, lr, #1
+  101518: e15e0000  cmp lr, r0
+  10151c: ed420b50  vstr  d16, [r2, #-320]  ; 0xfffffec0
+  101520: 1affffe7  bne 1014c4 <__kernel_rem_pio2+0x4fc>
+  101524: e59d2290  ldr r2, [sp, #656]  ; 0x290
+  101528: e3520003  cmp r2, #3
+  10152c: 979ff102  ldrls pc, [pc, r2, lsl #2]
+  101530: ea000052  b 101680 <__kernel_rem_pio2+0x6b8>
+  101534: 00101650  andseq  r1, r0, r0, asr r6
+  101538: 001015dc      ; <UNDEFINED> instruction: 0x001015dc
+  10153c: 001015dc      ; <UNDEFINED> instruction: 0x001015dc
+  101540: 00101754  andseq  r1, r0, r4, asr r7
+  101544: 1a00000b  bne 101578 <__kernel_rem_pio2+0x5b0>
+  101548: e28d3f92  add r3, sp, #584  ; 0x248
+  10154c: e083310b  add r3, r3, fp, lsl #2
+  101550: e513a234  ldr sl, [r3, #-564] ; 0xfffffdcc
+  101554: e1a0abca  asr sl, sl, #23
+  101558: eaffff1d  b 1011d4 <__kernel_rem_pio2+0x20c>
+  10155c: e24b3001  sub r3, fp, #1
+  101560: e28d2f92  add r2, sp, #584  ; 0x248
+  101564: e0823103  add r3, r2, r3, lsl #2
+  101568: e5132230  ldr r2, [r3, #-560] ; 0xfffffdd0
+  10156c: e7f62052  ubfx  r2, r2, #0, #23
+  101570: e5032230  str r2, [r3, #-560] ; 0xfffffdd0
+  101574: eaffff3f  b 101278 <__kernel_rem_pio2+0x2b0>
+  101578: eef60b00  vmov.f64  d16, #96  ; 0x60
+  10157c: eeb4abe0  vcmpe.f64 d10, d16
+  101580: eef1fa10  vmrs  APSR_nzcv, fpscr
+  101584: b3a0a000  movlt sl, #0
+  101588: baffff3c  blt 101280 <__kernel_rem_pio2+0x2b8>
+  10158c: ee1b3a10  vmov  r3, s22
+  101590: e35b0000  cmp fp, #0
+  101594: c3a0a002  movgt sl, #2
+  101598: e2833001  add r3, r3, #1
+  10159c: ee0b3a10  vmov  s22, r3
+  1015a0: caffff12  bgt 1011f0 <__kernel_rem_pio2+0x228>
+  1015a4: eef70b00  vmov.f64  d16, #112 ; 0x70
+  1015a8: e3a0a002  mov sl, #2
+  1015ac: ee30abca  vsub.f64  d10, d16, d10
+  1015b0: eaffff32  b 101280 <__kernel_rem_pio2+0x2b8>
+  1015b4: eddf0bb1  vldr  d16, [pc, #708] ; 101880 <__kernel_rem_pio2+0x8b8>
+  1015b8: e2811008  add r1, r1, #8
+  1015bc: e1510000  cmp r1, r0
+  1015c0: ecec0b02  vstmia  ip!, {d16}
+  1015c4: 1afffeb4  bne 10109c <__kernel_rem_pio2+0xd4>
+  1015c8: eafffec1  b 1010d4 <__kernel_rem_pio2+0x10c>
+  1015cc: e3a0c000  mov ip, #0
+  1015d0: eaffff1c  b 101248 <__kernel_rem_pio2+0x280>
+  1015d4: e3a0a001  mov sl, #1
+  1015d8: eaffff44  b 1012f0 <__kernel_rem_pio2+0x328>
+  1015dc: eddf0ba7  vldr  d16, [pc, #668] ; 101880 <__kernel_rem_pio2+0x8b8>
+  1015e0: e28d1f42  add r1, sp, #264  ; 0x108
+  1015e4: e0812180  add r2, r1, r0, lsl #3
+  1015e8: ed721b02  vldmdb  r2!, {d17}
+  1015ec: e1520001  cmp r2, r1
+  1015f0: ee700ba1  vadd.f64  d16, d16, d17
+  1015f4: 1afffffb  bne 1015e8 <__kernel_rem_pio2+0x620>
+  1015f8: e3530000  cmp r3, #0
+  1015fc: 0a000031  beq 1016c8 <__kernel_rem_pio2+0x700>
+  101600: eef12b60  vneg.f64  d18, d16
+  101604: e59d2008  ldr r2, [sp, #8]
+  101608: eddd1b42  vldr  d17, [sp, #264] ; 0x108
+  10160c: e35a0000  cmp sl, #0
+  101610: edc22b00  vstr  d18, [r2]
+  101614: ee710be0  vsub.f64  d16, d17, d16
+  101618: da000008  ble 101640 <__kernel_rem_pio2+0x678>
+  10161c: e28d1e11  add r1, sp, #272  ; 0x110
+  101620: e3a02001  mov r2, #1
+  101624: ecf11b02  vldmia  r1!, {d17}
+  101628: e2822001  add r2, r2, #1
+  10162c: e15a0002  cmp sl, r2
+  101630: ee700ba1  vadd.f64  d16, d16, d17
+  101634: aafffffa  bge 101624 <__kernel_rem_pio2+0x65c>
+  101638: e3530000  cmp r3, #0
+  10163c: 0a000000  beq 101644 <__kernel_rem_pio2+0x67c>
+  101640: eef10b60  vneg.f64  d16, d16
+  101644: e59d3008  ldr r3, [sp, #8]
+  101648: edc30b02  vstr  d16, [r3, #8]
+  10164c: ea00000b  b 101680 <__kernel_rem_pio2+0x6b8>
+  101650: eddf0b8a  vldr  d16, [pc, #552] ; 101880 <__kernel_rem_pio2+0x8b8>
+  101654: e28d2f42  add r2, sp, #264  ; 0x108
+  101658: e0822180  add r2, r2, r0, lsl #3
+  10165c: ed721b02  vldmdb  r2!, {d17}
+  101660: e24aa001  sub sl, sl, #1
+  101664: e37a0001  cmn sl, #1
+  101668: ee700ba1  vadd.f64  d16, d16, d17
+  10166c: 1afffffa  bne 10165c <__kernel_rem_pio2+0x694>
+  101670: e3530000  cmp r3, #0
+  101674: e59d3008  ldr r3, [sp, #8]
+  101678: 1ef10b60  vnegne.f64  d16, d16
+  10167c: edc30b00  vstr  d16, [r3]
+  101680: ee1b3a10  vmov  r3, s22
+  101684: e2030007  and r0, r3, #7
+  101688: e28ddf93  add sp, sp, #588  ; 0x24c
+  10168c: ecbd8b08  vpop  {d8-d11}
+  101690: e8bd8ff0  pop {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  101694: eddf0b79  vldr  d16, [pc, #484] ; 101880 <__kernel_rem_pio2+0x8b8>
+  101698: eaffff9a  b 101508 <__kernel_rem_pio2+0x540>
+  10169c: e59d2290  ldr r2, [sp, #656]  ; 0x290
+  1016a0: e3520003  cmp r2, #3
+  1016a4: 979ff102  ldrls pc, [pc, r2, lsl #2]
+  1016a8: eafffff4  b 101680 <__kernel_rem_pio2+0x6b8>
+  1016ac: 001016ec  andseq  r1, r0, ip, ror #13
+  1016b0: 001016bc      ; <UNDEFINED> instruction: 0x001016bc
+  1016b4: 001016bc      ; <UNDEFINED> instruction: 0x001016bc
+  1016b8: 00101838  andseq  r1, r0, r8, lsr r8
+  1016bc: e3530000  cmp r3, #0
+  1016c0: eddf0b6e  vldr  d16, [pc, #440] ; 101880 <__kernel_rem_pio2+0x8b8>
+  1016c4: 1affffcd  bne 101600 <__kernel_rem_pio2+0x638>
+  1016c8: eddd1b42  vldr  d17, [sp, #264] ; 0x108
+  1016cc: e35a0000  cmp sl, #0
+  1016d0: e59d2008  ldr r2, [sp, #8]
+  1016d4: edc20b00  vstr  d16, [r2]
+  1016d8: ee710be0  vsub.f64  d16, d17, d16
+  1016dc: caffffce  bgt 10161c <__kernel_rem_pio2+0x654>
+  1016e0: e59d3008  ldr r3, [sp, #8]
+  1016e4: edc30b02  vstr  d16, [r3, #8]
+  1016e8: eaffffe4  b 101680 <__kernel_rem_pio2+0x6b8>
+  1016ec: eddf0b63  vldr  d16, [pc, #396] ; 101880 <__kernel_rem_pio2+0x8b8>
+  1016f0: eaffffde  b 101670 <__kernel_rem_pio2+0x6a8>
+  1016f4: e59d1004  ldr r1, [sp, #4]
+  1016f8: e1a02100  lsl r2, r0, #2
+  1016fc: e1a0300a  mov r3, sl
+  101700: e1a0a000  mov sl, r0
+  101704: e2411018  sub r1, r1, #24
+  101708: e58d1004  str r1, [sp, #4]
+  10170c: e1a00001  mov r0, r1
+  101710: e28d1f92  add r1, sp, #584  ; 0x248
+  101714: e0811002  add r1, r1, r2
+  101718: e5111230  ldr r1, [r1, #-560] ; 0xfffffdd0
+  10171c: e3510000  cmp r1, #0
+  101720: 1affff4a  bne 101450 <__kernel_rem_pio2+0x488>
+  101724: e59d4000  ldr r4, [sp]
+  101728: e28d1018  add r1, sp, #24
+  10172c: e0812002  add r2, r1, r2
+  101730: e1a01000  mov r1, r0
+  101734: e5320004  ldr r0, [r2, #-4]!
+  101738: e24aa001  sub sl, sl, #1
+  10173c: e2411018  sub r1, r1, #24
+  101740: e3500000  cmp r0, #0
+  101744: 0afffffa  beq 101734 <__kernel_rem_pio2+0x76c>
+  101748: e58d4000  str r4, [sp]
+  10174c: e58d1004  str r1, [sp, #4]
+  101750: eaffff3e  b 101450 <__kernel_rem_pio2+0x488>
+  101754: e35a0000  cmp sl, #0
+  101758: da000036  ble 101838 <__kernel_rem_pio2+0x870>
+  10175c: e1a0218a  lsl r2, sl, #3
+  101760: e28d1f92  add r1, sp, #584  ; 0x248
+  101764: e081c002  add ip, r1, r2
+  101768: e28d0f42  add r0, sp, #264  ; 0x108
+  10176c: e2821008  add r1, r2, #8
+  101770: e0801001  add r1, r0, r1
+  101774: ed5c1b50  vldr  d17, [ip, #-320]  ; 0xfffffec0
+  101778: e0800002  add r0, r0, r2
+  10177c: e28dce11  add ip, sp, #272  ; 0x110
+  101780: ed700b02  vldmdb  r0!, {d16}
+  101784: ee712ba0  vadd.f64  d18, d17, d16
+  101788: ee700be2  vsub.f64  d16, d16, d18
+  10178c: ee710ba0  vadd.f64  d16, d17, d16
+  101790: ed610b02  vstmdb  r1!, {d16}
+  101794: eef01b62  vmov.f64  d17, d18
+  101798: e151000c  cmp r1, ip
+  10179c: edc02b00  vstr  d18, [r0]
+  1017a0: 1afffff6  bne 101780 <__kernel_rem_pio2+0x7b8>
+  1017a4: e35a0001  cmp sl, #1
+  1017a8: da000022  ble 101838 <__kernel_rem_pio2+0x870>
+  1017ac: e28d1f92  add r1, sp, #584  ; 0x248
+  1017b0: e28dcf42  add ip, sp, #264  ; 0x108
+  1017b4: e0810002  add r0, r1, r2
+  1017b8: e2821008  add r1, r2, #8
+  1017bc: e08c1001  add r1, ip, r1
+  1017c0: e08c2002  add r2, ip, r2
+  1017c4: e28dcf46  add ip, sp, #280  ; 0x118
+  1017c8: ed501b50  vldr  d17, [r0, #-320]  ; 0xfffffec0
+  1017cc: e1a00001  mov r0, r1
+  1017d0: ed720b02  vldmdb  r2!, {d16}
+  1017d4: ee702ba1  vadd.f64  d18, d16, d17
+  1017d8: ee700be2  vsub.f64  d16, d16, d18
+  1017dc: ee700ba1  vadd.f64  d16, d16, d17
+  1017e0: ed600b02  vstmdb  r0!, {d16}
+  1017e4: eef01b62  vmov.f64  d17, d18
+  1017e8: e150000c  cmp r0, ip
+  1017ec: edc22b00  vstr  d18, [r2]
+  1017f0: 1afffff6  bne 1017d0 <__kernel_rem_pio2+0x808>
+  1017f4: eddf0b21  vldr  d16, [pc, #132] ; 101880 <__kernel_rem_pio2+0x8b8>
+  1017f8: ed711b02  vldmdb  r1!, {d17}
+  1017fc: e15c0001  cmp ip, r1
+  101800: ee700ba1  vadd.f64  d16, d16, d17
+  101804: 1afffffb  bne 1017f8 <__kernel_rem_pio2+0x830>
+  101808: e3530000  cmp r3, #0
+  10180c: 0a00000c  beq 101844 <__kernel_rem_pio2+0x87c>
+  101810: eddd2b42  vldr  d18, [sp, #264] ; 0x108
+  101814: e59d3008  ldr r3, [sp, #8]
+  101818: eddd1b44  vldr  d17, [sp, #272] ; 0x110
+  10181c: eef10b60  vneg.f64  d16, d16
+  101820: eef12b62  vneg.f64  d18, d18
+  101824: edc30b04  vstr  d16, [r3, #16]
+  101828: eef11b61  vneg.f64  d17, d17
+  10182c: edc32b00  vstr  d18, [r3]
+  101830: edc31b02  vstr  d17, [r3, #8]
+  101834: eaffff91  b 101680 <__kernel_rem_pio2+0x6b8>
+  101838: e3530000  cmp r3, #0
+  10183c: eddf0b0f  vldr  d16, [pc, #60]  ; 101880 <__kernel_rem_pio2+0x8b8>
+  101840: 1afffff2  bne 101810 <__kernel_rem_pio2+0x848>
+  101844: e59dc008  ldr ip, [sp, #8]
+  101848: e28d1f42  add r1, sp, #264  ; 0x108
+  10184c: e1c100d0  ldrd  r0, [r1]
+  101850: e28d3e11  add r3, sp, #272  ; 0x110
+  101854: e1c320d0  ldrd  r2, [r3]
+  101858: edcc0b04  vstr  d16, [ip, #16]
+  10185c: e1cc00f0  strd  r0, [ip]
+  101860: e1cc20f8  strd  r2, [ip, #8]
+  101864: eaffff85  b 101680 <__kernel_rem_pio2+0x6b8>
+  101868: eefd7be0  vcvt.s32.f64  s15, d16
+  10186c: e28d1f92  add r1, sp, #584  ; 0x248
+  101870: e081110b  add r1, r1, fp, lsl #2
+  101874: e1a0a00b  mov sl, fp
+  101878: ed417a8c  vstr  s15, [r1, #-560]  ; 0xfffffdd0
+  10187c: eafffef3  b 101450 <__kernel_rem_pio2+0x488>
+  ...
+
+00101888 <__kernel_sin>:
+  101888: e24dd008  sub sp, sp, #8
+  10188c: ec410b30  vmov  d16, r0, r1
+  101890: e1cd00f0  strd  r0, [sp]
+  101894: ec432b33  vmov  d19, r2, r3
+  101898: e59d1004  ldr r1, [sp, #4]
+  10189c: e3c11102  bic r1, r1, #-2147483648  ; 0x80000000
+  1018a0: e35105f9  cmp r1, #1044381696 ; 0x3e400000
+  1018a4: aa000003  bge 1018b8 <__kernel_sin+0x30>
+  1018a8: eefd7be0  vcvt.s32.f64  s15, d16
+  1018ac: ee173a90  vmov  r3, s15
+  1018b0: e3530000  cmp r3, #0
+  1018b4: 0a000014  beq 10190c <__kernel_sin+0x84>
+  1018b8: ee601ba0  vmul.f64  d17, d16, d16
+  1018bc: e59d3008  ldr r3, [sp, #8]
+  1018c0: eddf7b1a  vldr  d23, [pc, #104] ; 101930 <__kernel_sin+0xa8>
+  1018c4: e3530000  cmp r3, #0
+  1018c8: eddf6b1a  vldr  d22, [pc, #104] ; 101938 <__kernel_sin+0xb0>
+  1018cc: eddf5b1b  vldr  d21, [pc, #108] ; 101940 <__kernel_sin+0xb8>
+  1018d0: eddf4b1c  vldr  d20, [pc, #112] ; 101948 <__kernel_sin+0xc0>
+  1018d4: eddf2b1d  vldr  d18, [pc, #116] ; 101950 <__kernel_sin+0xc8>
+  1018d8: ee516ba7  vnmls.f64 d22, d17, d23
+  1018dc: ee465ba1  vmla.f64  d21, d22, d17
+  1018e0: ee554ba1  vnmls.f64 d20, d21, d17
+  1018e4: ee615ba0  vmul.f64  d21, d17, d16
+  1018e8: ee442ba1  vmla.f64  d18, d20, d17
+  1018ec: 0a000009  beq 101918 <__kernel_sin+0x90>
+  1018f0: eddf4b18  vldr  d20, [pc, #96]  ; 101958 <__kernel_sin+0xd0>
+  1018f4: ee652ba2  vmul.f64  d18, d21, d18
+  1018f8: eef66b00  vmov.f64  d22, #96  ; 0x60
+  1018fc: ee532ba6  vnmls.f64 d18, d19, d22
+  101900: ee523ba1  vnmls.f64 d19, d18, d17
+  101904: ee453ba4  vmla.f64  d19, d21, d20
+  101908: ee700be3  vsub.f64  d16, d16, d19
+  10190c: ec510b30  vmov  r0, r1, d16
+  101910: e28dd008  add sp, sp, #8
+  101914: e12fff1e  bx  lr
+  101918: eddf3b0e  vldr  d19, [pc, #56]  ; 101958 <__kernel_sin+0xd0>
+  10191c: ee513ba2  vnmls.f64 d19, d17, d18
+  101920: ee430ba5  vmla.f64  d16, d19, d21
+  101924: ec510b30  vmov  r0, r1, d16
+  101928: e28dd008  add sp, sp, #8
+  10192c: e12fff1e  bx  lr
+  101930: 5acfd57c  bpl ff4f6f28 <LRemap+0x14f6f19>
+  101934: 3de5d93a  stclcc  9, cr13, [r5, #232]!  ; 0xe8
+  101938: 8a2b9ceb  bhi be8cec <__undef_stack+0xacf44c>
+  10193c: 3e5ae5e6  cdpcc 5, 5, cr14, cr10, cr6, {7}
+  101940: 57b1fe7d      ; <UNDEFINED> instruction: 0x57b1fe7d
+  101944: 3ec71de3  cdpcc 13, 12, cr1, cr7, cr3, {7}
+  101948: 19c161d5  stmibne r1, {r0, r2, r4, r6, r7, r8, sp, lr}^
+  10194c: 3f2a01a0  svccc 0x002a01a0
+  101950: 1110f8a6  tstne r0, r6, lsr #17
+  101954: 3f811111  svccc 0x00811111
+  101958: 55555549  ldrbpl  r5, [r5, #-1353]  ; 0xfffffab7
+  10195c: 3fc55555  svccc 0x00c55555
+
+00101960 <fabs>:
+  101960:	e3c13102 	bic	r3, r1, #-2147483648	; 0x80000000
+  101964:	e1a01003 	mov	r1, r3
+  101968:	e12fff1e 	bx	lr
+  10196c:	00000000 	andeq	r0, r0, r0
+
+  
+00101970 <floor>:
+  101970: e92d4070  push  {r4, r5, r6, lr}
+  101974: e7ea4a51  ubfx  r4, r1, #20, #11
+  101978: e2443fff  sub r3, r4, #1020 ; 0x3fc
+  10197c: e1a02001  mov r2, r1
+  101980: e2433003  sub r3, r3, #3
+  101984: e1a0e000  mov lr, r0
+  101988: e3530013  cmp r3, #19
+  10198c: e1a05001  mov r5, r1
+  101990: e1a0c000  mov ip, r0
+  101994: ca000015  bgt 1019f0 <floor+0x80>
+  101998: e3530000  cmp r3, #0
+  10199c: ba00002b  blt 101a50 <floor+0xe0>
+  1019a0: e30f4fff  movw  r4, #65535  ; 0xffff
+  1019a4: e340400f  movt  r4, #15
+  1019a8: e1a04354  asr r4, r4, r3
+  1019ac: e0046001  and r6, r4, r1
+  1019b0: e196e00e  orrs  lr, r6, lr
+  1019b4: 08bd8070  popeq {r4, r5, r6, pc}
+  1019b8: eddf0b40  vldr  d16, [pc, #256] ; 101ac0 <floor+0x150>
+  1019bc: ec410b31  vmov  d17, r0, r1
+  1019c0: ee710ba0  vadd.f64  d16, d17, d16
+  1019c4: eef50bc0  vcmpe.f64 d16, #0.0
+  1019c8: eef1fa10  vmrs  APSR_nzcv, fpscr
+  1019cc: da000004  ble 1019e4 <floor+0x74>
+  1019d0: e3510000  cmp r1, #0
+  1019d4: e3a0c000  mov ip, #0
+  1019d8: b3a02601  movlt r2, #1048576  ; 0x100000
+  1019dc: b0815352  addlt r5, r1, r2, asr r3
+  1019e0: e1c52004  bic r2, r5, r4
+  1019e4: e1a01002  mov r1, r2
+  1019e8: e1a0000c  mov r0, ip
+  1019ec: e8bd8070  pop {r4, r5, r6, pc}
+  1019f0: e3530033  cmp r3, #51 ; 0x33
+  1019f4: da000004  ble 101a0c <floor+0x9c>
+  1019f8: e3530b01  cmp r3, #1024 ; 0x400
+  1019fc: 0c410b30  vmoveq  d16, r0, r1
+  101a00: 0e700ba0  vaddeq.f64  d16, d16, d16
+  101a04: 0c510b30  vmoveq  r0, r1, d16
+  101a08: e8bd8070  pop {r4, r5, r6, pc}
+  101a0c: e2446e41  sub r6, r4, #1040 ; 0x410
+  101a10: e3e0e000  mvn lr, #0
+  101a14: e2466003  sub r6, r6, #3
+  101a18: e1a0e63e  lsr lr, lr, r6
+  101a1c: e11e0000  tst lr, r0
+  101a20: 08bd8070  popeq {r4, r5, r6, pc}
+  101a24: eddf0b25  vldr  d16, [pc, #148] ; 101ac0 <floor+0x150>
+  101a28: ec410b31  vmov  d17, r0, r1
+  101a2c: ee710ba0  vadd.f64  d16, d17, d16
+  101a30: eef50bc0  vcmpe.f64 d16, #0.0
+  101a34: eef1fa10  vmrs  APSR_nzcv, fpscr
+  101a38: daffffe9  ble 1019e4 <floor+0x74>
+  101a3c: e3510000  cmp r1, #0
+  101a40: ba000013  blt 101a94 <floor+0x124>
+  101a44: e1a02005  mov r2, r5
+  101a48: e1ccc00e  bic ip, ip, lr
+  101a4c: eaffffe4  b 1019e4 <floor+0x74>
+  101a50: eddf0b1a  vldr  d16, [pc, #104] ; 101ac0 <floor+0x150>
+  101a54: ec410b31  vmov  d17, r0, r1
+  101a58: ee710ba0  vadd.f64  d16, d17, d16
+  101a5c: eef50bc0  vcmpe.f64 d16, #0.0
+  101a60: eef1fa10  vmrs  APSR_nzcv, fpscr
+  101a64: daffffde  ble 1019e4 <floor+0x74>
+  101a68: e3510000  cmp r1, #0
+  101a6c: a3a0c000  movge ip, #0
+  101a70: a1a0200c  movge r2, ip
+  101a74: aaffffda  bge 1019e4 <floor+0x74>
+  101a78: e3c21102  bic r1, r2, #-2147483648  ; 0x80000000
+  101a7c: e3a03000  mov r3, #0
+  101a80: e191100c  orrs  r1, r1, ip
+  101a84: e34b3ff0  movt  r3, #49136  ; 0xbff0
+  101a88: e3a0c000  mov ip, #0
+  101a8c: 11a02003  movne r2, r3
+  101a90: eaffffd3  b 1019e4 <floor+0x74>
+  101a94: e3530014  cmp r3, #20
+  101a98: 02815001  addeq r5, r1, #1
+  101a9c: 0affffe8  beq 101a44 <floor+0xd4>
+  101aa0: e2644e43  rsb r4, r4, #1072 ; 0x430
+  101aa4: e3a03001  mov r3, #1
+  101aa8: e2844003  add r4, r4, #3
+  101aac: e0804413  add r4, r0, r3, lsl r4
+  101ab0: e1500004  cmp r0, r4
+  101ab4: 80855003  addhi r5, r5, r3
+  101ab8: e1a0c004  mov ip, r4
+  101abc: eaffffe0  b 101a44 <floor+0xd4>
+  101ac0: 8800759c  stmdahi r0, {r2, r3, r4, r7, r8, sl, ip, sp, lr}
+  101ac4: 7e37e43c  mrcvc 4, 1, lr, cr7, cr12, {1}
+

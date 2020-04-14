@@ -1,0 +1,1 @@
+C:\Xilinx\14.5\ISE_DS\EDK\gnu\arm\nt\bin\arm-xilinx-eabi-objdump.exe -D %1.elf  >> "%1.s"

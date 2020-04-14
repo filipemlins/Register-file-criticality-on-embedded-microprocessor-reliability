@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RegisterAcessInterrupt&apos; to &apos;RegisterAccessInterrupt&apos;" description="Rename resource &apos;RegisterAcessInterrupt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/RegisterAcessInterrupt" name="RegisterAccessInterrupt" stamp="1444064847740" updateReferences="true"/>
+</session>

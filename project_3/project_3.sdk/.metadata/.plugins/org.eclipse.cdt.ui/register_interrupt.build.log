@@ -1,0 +1,55 @@
+12:20:39 **** Build of configuration Debug for project register_interrupt ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../register_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/register_interrupt.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/register_interrupt.o" -I../../register_interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/register_interrupt.d" -MT"src/register_interrupt.d" -o "src/register_interrupt.o" "../src/register_interrupt.c"
+../src/register_interrupt.c: In function 'main':
+../src/register_interrupt.c:105:6: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  int a;
+      ^
+../src/register_interrupt.c: In function 'my_timer_interrupt_handler':
+../src/register_interrupt.c:188:6: warning: unused variable 'randbit' [-Wunused-variable]
+  int randbit;
+      ^
+../src/register_interrupt.c:187:6: warning: unused variable 'randword' [-Wunused-variable]
+  int randword;
+      ^
+../src/register_interrupt.c:186:9: warning: unused variable 'Status' [-Wunused-variable]
+     int Status = 0;
+         ^
+../src/register_interrupt.c:184:9: warning: unused variable 'Regs' [-Wunused-variable]
+     int Regs[15];
+         ^
+../src/register_interrupt.c:183:6: warning: unused variable 'RegsAddress' [-Wunused-variable]
+  int RegsAddress[9] = {0x00118478, 0x0011847c, 0x00118480, 0x00118484, 0x0011839c, 0x001183a0, 0x00118390, 0x00118488, 0x0011848c};
+      ^
+../src/register_interrupt.c:181:6: warning: unused variable 'word' [-Wunused-variable]
+  int word;
+      ^
+../src/register_interrupt.c:180:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+C:\Users\Filipe\AppData\Local\Temp\cckpgu3D.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\cckpgu3D.s:57: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\cckpgu3D.s:57: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/register_interrupt.c'
+' '
+'Building target: register_interrupt.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../register_interrupt_bsp/ps7_cortexa9_0/lib -o "register_interrupt.elf"  ./src/platform.o ./src/register_interrupt.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: register_interrupt.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size register_interrupt.elf  |tee "register_interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  66024	   3168	  22652	  91844	  166c4	register_interrupt.elf
+'Finished building: register_interrupt.elf.size'
+' '
+
+12:20:41 Build Finished (took 2s.225ms)
+

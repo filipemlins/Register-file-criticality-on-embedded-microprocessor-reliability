@@ -1,0 +1,23 @@
+26/10/2015 - 09:55:26 - board hard reseted
+26/10/2015 - 09:55:32 - first readback
+26/10/2015 - 09:55:53 - no data read
+26/10/2015 - 09:56:13 - no data read
+26/10/2015 - 09:56:33 - no data read
+26/10/2015 - 09:56:33 - timeout. board will be reseted
+26/10/2015 - 09:56:36 - readback
+26/10/2015 - 09:57:24 - board hard reseted
+26/10/2015 - 09:57:25 - FAILED
+26/10/2015 - 09:57:25 -  - unexpected output
+26/10/2015 - 09:57:45 - no data read
+26/10/2015 - 09:58:05 - no data read
+26/10/2015 - 09:58:25 - no data read
+26/10/2015 - 09:58:25 - timeout. board will be reseted
+26/10/2015 - 09:58:28 - readback
+26/10/2015 - 09:59:16 - board hard reseted
+26/10/2015 - 09:59:36 - no data read
+26/10/2015 - 09:59:56 - no data read
+26/10/2015 - 10:00:16 - no data read
+26/10/2015 - 10:00:16 - timeout. board will be reseted
+26/10/2015 - 10:00:19 - readback
+26/10/2015 - 10:01:04 - board hard reseted
+

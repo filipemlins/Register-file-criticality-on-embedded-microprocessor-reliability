@@ -1,0 +1,1073 @@
+14:08:21 **** Clean-only build of configuration Debug for project AesClockCycles ****
+make clean 
+rm -rf  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o  ./aes_dec.o ./aes_enc.o ./aes_func.o ./aes_key.o  ./src/aes.d ./src/aes_dec.d ./src/aes_enc.d ./src/aes_func.d ./src/aes_key.d ./src/aes_test.d ./src/platform.d  ./aes_dec.d ./aes_enc.d ./aes_func.d ./aes_key.d  AesClockCycles.elf.size  AesClockCycles.elf
+' '
+14:08:22 **** Clean-only build of project AesClockCycles_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+14:08:22 **** Build of project AesClockCycles_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/spi_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/spi_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spi_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/spi_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling spi"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+14:09:31 **** Build of configuration Debug for project AesClockCycles ****
+make all 
+'Building file: ../src/aes.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes.d" -MT"src/aes.d" -o "src/aes.o" "../src/aes.c"
+../src/aes.c: In function 'aes_main':
+../src/aes.c:70:4: warning: implicit declaration of function 'encrypt' [-Wimplicit-function-declaration]
+    encrypt(statemt, key, 128128);
+    ^
+../src/aes.c:77:4: warning: implicit declaration of function 'decrypt' [-Wimplicit-function-declaration]
+    decrypt(statemt, key, 128128);
+    ^
+'Finished building: ../src/aes.c'
+' '
+'Building file: ../src/aes_dec.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_dec.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_dec.d" -MT"src/aes_dec.d" -o "src/aes_dec.o" "../src/aes_dec.c"
+'Finished building: ../src/aes_dec.c'
+' '
+'Building file: ../src/aes_enc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_enc.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_enc.d" -MT"src/aes_enc.d" -o "src/aes_enc.o" "../src/aes_enc.c"
+'Finished building: ../src/aes_enc.c'
+' '
+'Building file: ../src/aes_func.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_func.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_func.d" -MT"src/aes_func.d" -o "src/aes_func.o" "../src/aes_func.c"
+'Finished building: ../src/aes_func.c'
+' '
+'Building file: ../src/aes_key.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_key.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_key.d" -MT"src/aes_key.d" -o "src/aes_key.o" "../src/aes_key.c"
+'Finished building: ../src/aes_key.c'
+' '
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+'Finished building: ../src/aes_test.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+make: *** No rule to make target `aes_dec.o', needed by `AesClockCycles.elf'.  Stop.
+14:12:50 **** Build of project AesClockCycles_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/spi_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/spi_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spi_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/spi_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling spi"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+Command canceled
+14:13:52 **** Build of project AesClockCycles_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Command canceled
+14:13:58 **** Build of project AesClockCycles_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/spi_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/spi_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spi_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/spi_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling spi"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+14:15:02 **** Build of configuration Debug for project AesClockCycles ****
+make all 
+'Building file: ../src/aes.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes.d" -MT"src/aes.d" -o "src/aes.o" "../src/aes.c"
+../src/aes.c: In function 'aes_main':
+../src/aes.c:70:4: warning: implicit declaration of function 'encrypt' [-Wimplicit-function-declaration]
+    encrypt(statemt, key, 128128);
+    ^
+../src/aes.c:77:4: warning: implicit declaration of function 'decrypt' [-Wimplicit-function-declaration]
+    decrypt(statemt, key, 128128);
+    ^
+'Finished building: ../src/aes.c'
+' '
+'Building file: ../src/aes_dec.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_dec.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_dec.d" -MT"src/aes_dec.d" -o "src/aes_dec.o" "../src/aes_dec.c"
+'Finished building: ../src/aes_dec.c'
+' '
+'Building file: ../src/aes_enc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_enc.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_enc.d" -MT"src/aes_enc.d" -o "src/aes_enc.o" "../src/aes_enc.c"
+'Finished building: ../src/aes_enc.c'
+' '
+'Building file: ../src/aes_func.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_func.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_func.d" -MT"src/aes_func.d" -o "src/aes_func.o" "../src/aes_func.c"
+'Finished building: ../src/aes_func.c'
+' '
+'Building file: ../src/aes_key.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_key.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_key.d" -MT"src/aes_key.d" -o "src/aes_key.o" "../src/aes_key.c"
+'Finished building: ../src/aes_key.c'
+' '
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+'Finished building: ../src/aes_test.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: AesClockCycles.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AesClockCycles_bsp/ps7_cortexa9_0/lib -o "AesClockCycles.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AesClockCycles.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AesClockCycles.elf  |tee "AesClockCycles.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85104	   2336	  24604	 112044	  1b5ac	AesClockCycles.elf
+'Finished building: AesClockCycles.elf.size'
+' '
+14:15:36 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:15:37 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:15:38 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:16:19 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:16:20 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:16:22 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:16:31 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:16:32 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:16:34 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:16:53 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:16:56 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:16:57 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:17:10 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:17:11 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:17:12 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:18:10 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:18:11 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:18:12 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:18:20 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:18:21 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:18:22 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:34:42 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:34:44 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:34:45 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:35:22 **** Clean-only build of configuration Debug for project AesClockCycles ****
+make clean 
+rm -rf  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o  ./src/aes.d ./src/aes_dec.d ./src/aes_enc.d ./src/aes_func.d ./src/aes_key.d ./src/aes_test.d ./src/platform.d  AesClockCycles.elf.size  AesClockCycles.elf
+' '
+14:35:23 **** Auto Build of configuration Debug for project AesClockCycles ****
+make all 
+'Building file: ../src/aes.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O1 -g3 -c -fmessage-length=0 -MT"src/aes.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes.d" -MT"src/aes.d" -o "src/aes.o" "../src/aes.c"
+../src/aes.c: In function 'aes_main':
+../src/aes.c:70:4: warning: implicit declaration of function 'encrypt' [-Wimplicit-function-declaration]
+    encrypt(statemt, key, 128128);
+    ^
+../src/aes.c:77:4: warning: implicit declaration of function 'decrypt' [-Wimplicit-function-declaration]
+    decrypt(statemt, key, 128128);
+    ^
+'Finished building: ../src/aes.c'
+' '
+'Building file: ../src/aes_dec.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O1 -g3 -c -fmessage-length=0 -MT"src/aes_dec.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_dec.d" -MT"src/aes_dec.d" -o "src/aes_dec.o" "../src/aes_dec.c"
+'Finished building: ../src/aes_dec.c'
+' '
+'Building file: ../src/aes_enc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O1 -g3 -c -fmessage-length=0 -MT"src/aes_enc.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_enc.d" -MT"src/aes_enc.d" -o "src/aes_enc.o" "../src/aes_enc.c"
+'Finished building: ../src/aes_enc.c'
+' '
+'Building file: ../src/aes_func.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O1 -g3 -c -fmessage-length=0 -MT"src/aes_func.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_func.d" -MT"src/aes_func.d" -o "src/aes_func.o" "../src/aes_func.c"
+../src/aes_func.c: In function 'AddRoundKey':
+../src/aes_func.c:537:3: warning: 'nb' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   for (j = 0; j < nb; ++j)
+   ^
+'Finished building: ../src/aes_func.c'
+' '
+'Building file: ../src/aes_key.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O1 -g3 -c -fmessage-length=0 -MT"src/aes_key.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_key.d" -MT"src/aes_key.d" -o "src/aes_key.o" "../src/aes_key.c"
+'Finished building: ../src/aes_key.c'
+' '
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O1 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+'Finished building: ../src/aes_test.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O1 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: AesClockCycles.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AesClockCycles_bsp/ps7_cortexa9_0/lib -o "AesClockCycles.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AesClockCycles.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AesClockCycles.elf  |tee "AesClockCycles.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73008	   2336	  24604	  99948	  1866c	AesClockCycles.elf
+'Finished building: AesClockCycles.elf.size'
+' '
+14:35:30 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:35:31 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:35:31 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:35:59 **** Clean-only build of configuration Debug for project AesClockCycles ****
+make clean 
+rm -rf  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o  ./src/aes.d ./src/aes_dec.d ./src/aes_enc.d ./src/aes_func.d ./src/aes_key.d ./src/aes_test.d ./src/platform.d  AesClockCycles.elf.size  AesClockCycles.elf
+' '
+14:35:59 **** Auto Build of configuration Debug for project AesClockCycles ****
+make all 
+'Building file: ../src/aes.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -g3 -c -fmessage-length=0 -MT"src/aes.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes.d" -MT"src/aes.d" -o "src/aes.o" "../src/aes.c"
+../src/aes.c: In function 'aes_main':
+../src/aes.c:70:4: warning: implicit declaration of function 'encrypt' [-Wimplicit-function-declaration]
+    encrypt(statemt, key, 128128);
+    ^
+../src/aes.c:77:4: warning: implicit declaration of function 'decrypt' [-Wimplicit-function-declaration]
+    decrypt(statemt, key, 128128);
+    ^
+'Finished building: ../src/aes.c'
+' '
+'Building file: ../src/aes_dec.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -g3 -c -fmessage-length=0 -MT"src/aes_dec.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_dec.d" -MT"src/aes_dec.d" -o "src/aes_dec.o" "../src/aes_dec.c"
+'Finished building: ../src/aes_dec.c'
+' '
+'Building file: ../src/aes_enc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -g3 -c -fmessage-length=0 -MT"src/aes_enc.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_enc.d" -MT"src/aes_enc.d" -o "src/aes_enc.o" "../src/aes_enc.c"
+'Finished building: ../src/aes_enc.c'
+' '
+'Building file: ../src/aes_func.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -g3 -c -fmessage-length=0 -MT"src/aes_func.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_func.d" -MT"src/aes_func.d" -o "src/aes_func.o" "../src/aes_func.c"
+../src/aes_func.c: In function 'AddRoundKey':
+../src/aes_func.c:537:3: warning: 'nb' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   for (j = 0; j < nb; ++j)
+   ^
+'Finished building: ../src/aes_func.c'
+' '
+'Building file: ../src/aes_key.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -g3 -c -fmessage-length=0 -MT"src/aes_key.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_key.d" -MT"src/aes_key.d" -o "src/aes_key.o" "../src/aes_key.c"
+'Finished building: ../src/aes_key.c'
+' '
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+'Finished building: ../src/aes_test.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: AesClockCycles.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AesClockCycles_bsp/ps7_cortexa9_0/lib -o "AesClockCycles.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AesClockCycles.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AesClockCycles.elf  |tee "AesClockCycles.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72740	   2336	  24604	  99680	  18560	AesClockCycles.elf
+'Finished building: AesClockCycles.elf.size'
+' '
+14:36:04 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:36:05 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:36:05 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:36:30 **** Clean-only build of configuration Debug for project AesClockCycles ****
+make clean 
+rm -rf  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o  ./src/aes.d ./src/aes_dec.d ./src/aes_enc.d ./src/aes_func.d ./src/aes_key.d ./src/aes_test.d ./src/platform.d  AesClockCycles.elf.size  AesClockCycles.elf
+' '
+14:36:30 **** Auto Build of configuration Debug for project AesClockCycles ****
+make all 
+'Building file: ../src/aes.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes.d" -MT"src/aes.d" -o "src/aes.o" "../src/aes.c"
+../src/aes.c: In function 'aes_main':
+../src/aes.c:70:4: warning: implicit declaration of function 'encrypt' [-Wimplicit-function-declaration]
+    encrypt(statemt, key, 128128);
+    ^
+../src/aes.c:77:4: warning: implicit declaration of function 'decrypt' [-Wimplicit-function-declaration]
+    decrypt(statemt, key, 128128);
+    ^
+'Finished building: ../src/aes.c'
+' '
+'Building file: ../src/aes_dec.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_dec.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_dec.d" -MT"src/aes_dec.d" -o "src/aes_dec.o" "../src/aes_dec.c"
+'Finished building: ../src/aes_dec.c'
+' '
+'Building file: ../src/aes_enc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_enc.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_enc.d" -MT"src/aes_enc.d" -o "src/aes_enc.o" "../src/aes_enc.c"
+'Finished building: ../src/aes_enc.c'
+' '
+'Building file: ../src/aes_func.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_func.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_func.d" -MT"src/aes_func.d" -o "src/aes_func.o" "../src/aes_func.c"
+../src/aes_func.c: In function 'AddRoundKey':
+../src/aes_func.c:517:10: warning: 'nb' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int j, nb;
+          ^
+'Finished building: ../src/aes_func.c'
+' '
+'Building file: ../src/aes_key.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_key.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_key.d" -MT"src/aes_key.d" -o "src/aes_key.o" "../src/aes_key.c"
+'Finished building: ../src/aes_key.c'
+' '
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+'Finished building: ../src/aes_test.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../AesClockCycles_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: AesClockCycles.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AesClockCycles_bsp/ps7_cortexa9_0/lib -o "AesClockCycles.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AesClockCycles.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AesClockCycles.elf  |tee "AesClockCycles.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75060	   2336	  24604	 102000	  18e70	AesClockCycles.elf
+'Finished building: AesClockCycles.elf.size'
+' '
+14:36:35 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:36:36 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:36:37 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:38:08 **** Auto Build of configuration Debug for project AES ****
+make all 
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+../src/aes_test.c: In function 'main':
+../src/aes_test.c:237:7: warning: too many arguments for format [-Wformat-extra-args]
+       printf("FAILED;\n\r",main_result);
+       ^
+../src/aes_test.c:237:7: warning: too many arguments for format [-Wformat-extra-args]
+C:\Users\Filipe\AppData\Local\Temp\ccjCT6dT.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\ccjCT6dT.s:55: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\ccjCT6dT.s:55: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/aes_test.c'
+' '
+'Building target: AES.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AES_bsp/ps7_cortexa9_0/lib -o "AES.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AES.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AES.elf  |tee "AES.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  89040	   3168	  24572	 116780	  1c82c	AES.elf
+'Finished building: AES.elf.size'
+' '
+14:38:15 **** Auto Build of configuration Debug for project AES ****
+make all 
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+../src/aes_test.c: In function 'main':
+../src/aes_test.c:237:7: warning: too many arguments for format [-Wformat-extra-args]
+       printf("FAILED;\n\r",main_result);
+       ^
+../src/aes_test.c:237:7: warning: too many arguments for format [-Wformat-extra-args]
+C:\Users\Filipe\AppData\Local\Temp\ccgnkyjf.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\ccgnkyjf.s:55: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\ccgnkyjf.s:55: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/aes_test.c'
+' '
+'Building target: AES.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AES_bsp/ps7_cortexa9_0/lib -o "AES.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AES.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AES.elf  |tee "AES.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  89040	   3168	  24572	 116780	  1c82c	AES.elf
+'Finished building: AES.elf.size'
+' '
+14:38:18 **** Auto Build of configuration Debug for project AES ****
+make all 
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+../src/aes_test.c: In function 'main':
+../src/aes_test.c:237:7: warning: too many arguments for format [-Wformat-extra-args]
+       printf("FAILED;\n\r",main_result);
+       ^
+../src/aes_test.c:237:7: warning: too many arguments for format [-Wformat-extra-args]
+C:\Users\Filipe\AppData\Local\Temp\cc7wWHnh.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\cc7wWHnh.s:55: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\cc7wWHnh.s:55: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/aes_test.c'
+' '
+'Building target: AES.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AES_bsp/ps7_cortexa9_0/lib -o "AES.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AES.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AES.elf  |tee "AES.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  89040	   3168	  24572	 116780	  1c82c	AES.elf
+'Finished building: AES.elf.size'
+' '
+14:38:38 **** Auto Build of configuration Debug for project AES ****
+make all 
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+../src/aes_test.c: In function 'main':
+../src/aes_test.c:239:7: error: expected ';' before 'return'
+       return 0;
+       ^
+make: *** [src/aes_test.o] Error 1
+14:38:42 **** Auto Build of configuration Debug for project AES ****
+make all 
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+C:\Users\Filipe\AppData\Local\Temp\ccsiEM2c.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\ccsiEM2c.s:55: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\ccsiEM2c.s:55: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/aes_test.c'
+' '
+'Building target: AES.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AES_bsp/ps7_cortexa9_0/lib -o "AES.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AES.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AES.elf  |tee "AES.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  89048	   3168	  24572	 116788	  1c834	AES.elf
+'Finished building: AES.elf.size'
+' '
+14:38:48 **** Auto Build of configuration Debug for project AES ****
+make all 
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+C:\Users\Filipe\AppData\Local\Temp\ccuwrIIV.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\ccuwrIIV.s:55: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\ccuwrIIV.s:55: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/aes_test.c'
+' '
+'Building target: AES.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AES_bsp/ps7_cortexa9_0/lib -o "AES.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AES.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AES.elf  |tee "AES.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  89048	   3168	  24572	 116788	  1c834	AES.elf
+'Finished building: AES.elf.size'
+' '
+14:38:57 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:38:58 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:38:58 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:39:11 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:39:12 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:39:13 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:43:15 **** Clean-only build of configuration Debug for project AES ****
+make clean 
+rm -rf  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o  ./src/aes.d ./src/aes_dec.d ./src/aes_enc.d ./src/aes_func.d ./src/aes_key.d ./src/aes_test.d ./src/platform.d  AES.elf.size  AES.elf
+' '
+14:43:17 **** Auto Build of configuration Debug for project AES ****
+make all 
+'Building file: ../src/aes.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes.d" -MT"src/aes.d" -o "src/aes.o" "../src/aes.c"
+../src/aes.c: In function 'aes_main':
+../src/aes.c:70:4: warning: implicit declaration of function 'encrypt' [-Wimplicit-function-declaration]
+    encrypt(statemt, key, 128128);
+    ^
+../src/aes.c:77:4: warning: implicit declaration of function 'decrypt' [-Wimplicit-function-declaration]
+    decrypt(statemt, key, 128128);
+    ^
+'Finished building: ../src/aes.c'
+' '
+'Building file: ../src/aes_dec.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_dec.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_dec.d" -MT"src/aes_dec.d" -o "src/aes_dec.o" "../src/aes_dec.c"
+'Finished building: ../src/aes_dec.c'
+' '
+'Building file: ../src/aes_enc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_enc.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_enc.d" -MT"src/aes_enc.d" -o "src/aes_enc.o" "../src/aes_enc.c"
+'Finished building: ../src/aes_enc.c'
+' '
+'Building file: ../src/aes_func.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_func.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_func.d" -MT"src/aes_func.d" -o "src/aes_func.o" "../src/aes_func.c"
+../src/aes_func.c: In function 'AddRoundKey':
+../src/aes_func.c:517:10: warning: 'nb' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int j, nb;
+          ^
+'Finished building: ../src/aes_func.c'
+' '
+'Building file: ../src/aes_key.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_key.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_key.d" -MT"src/aes_key.d" -o "src/aes_key.o" "../src/aes_key.c"
+'Finished building: ../src/aes_key.c'
+' '
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+../src/aes_test.c: In function 'my_timer_interrupt_handler':
+../src/aes_test.c:409:26: warning: array subscript is above array bounds [-Warray-bounds]
+     Xil_Out32(RegsAddress[randword], word);
+                          ^
+../src/aes_test.c:420:26: warning: array subscript is above array bounds [-Warray-bounds]
+     Xil_Out32(RegsAddress[randword], word);
+                          ^
+C:\Users\Filipe\AppData\Local\Temp\ccmGR8PT.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\ccmGR8PT.s:362: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\ccmGR8PT.s:362: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/aes_test.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: AES.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AES_bsp/ps7_cortexa9_0/lib -o "AES.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AES.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AES.elf  |tee "AES.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77956	   3168	  24572	 105696	  19ce0	AES.elf
+'Finished building: AES.elf.size'
+' '
+14:43:23 **** Clean-only build of configuration Debug for project AES ****
+make clean 
+rm -rf  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o  ./src/aes.d ./src/aes_dec.d ./src/aes_enc.d ./src/aes_func.d ./src/aes_key.d ./src/aes_test.d ./src/platform.d  AES.elf.size  AES.elf
+' '
+14:43:24 **** Auto Build of configuration Debug for project AES ****
+make all 
+'Building file: ../src/aes.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes.d" -MT"src/aes.d" -o "src/aes.o" "../src/aes.c"
+../src/aes.c: In function 'aes_main':
+../src/aes.c:70:4: warning: implicit declaration of function 'encrypt' [-Wimplicit-function-declaration]
+    encrypt(statemt, key, 128128);
+    ^
+../src/aes.c:77:4: warning: implicit declaration of function 'decrypt' [-Wimplicit-function-declaration]
+    decrypt(statemt, key, 128128);
+    ^
+'Finished building: ../src/aes.c'
+' '
+'Building file: ../src/aes_dec.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_dec.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_dec.d" -MT"src/aes_dec.d" -o "src/aes_dec.o" "../src/aes_dec.c"
+'Finished building: ../src/aes_dec.c'
+' '
+'Building file: ../src/aes_enc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_enc.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_enc.d" -MT"src/aes_enc.d" -o "src/aes_enc.o" "../src/aes_enc.c"
+'Finished building: ../src/aes_enc.c'
+' '
+'Building file: ../src/aes_func.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_func.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_func.d" -MT"src/aes_func.d" -o "src/aes_func.o" "../src/aes_func.c"
+../src/aes_func.c: In function 'AddRoundKey':
+../src/aes_func.c:517:10: warning: 'nb' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int j, nb;
+          ^
+'Finished building: ../src/aes_func.c'
+' '
+'Building file: ../src/aes_key.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_key.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_key.d" -MT"src/aes_key.d" -o "src/aes_key.o" "../src/aes_key.c"
+'Finished building: ../src/aes_key.c'
+' '
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+../src/aes_test.c: In function 'my_timer_interrupt_handler':
+../src/aes_test.c:409:26: warning: array subscript is above array bounds [-Warray-bounds]
+     Xil_Out32(RegsAddress[randword], word);
+                          ^
+../src/aes_test.c:420:26: warning: array subscript is above array bounds [-Warray-bounds]
+     Xil_Out32(RegsAddress[randword], word);
+                          ^
+C:\Users\Filipe\AppData\Local\Temp\cctuOA4o.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\cctuOA4o.s:362: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\cctuOA4o.s:362: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/aes_test.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: AES.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AES_bsp/ps7_cortexa9_0/lib -o "AES.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AES.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AES.elf  |tee "AES.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77956	   3168	  24572	 105696	  19ce0	AES.elf
+'Finished building: AES.elf.size'
+' '
+14:43:29 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:43:30 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:43:31 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:45:16 **** Auto Build of configuration Debug for project AES ****
+make all 
+'Building file: ../src/aes_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/aes_test.o" -I../../AES_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o "src/aes_test.o" "../src/aes_test.c"
+../src/aes_test.c: In function 'my_timer_interrupt_handler':
+../src/aes_test.c:409:26: warning: array subscript is above array bounds [-Warray-bounds]
+     Xil_Out32(RegsAddress[randword], word);
+                          ^
+../src/aes_test.c:420:26: warning: array subscript is above array bounds [-Warray-bounds]
+     Xil_Out32(RegsAddress[randword], word);
+                          ^
+C:\Users\Filipe\AppData\Local\Temp\ccWBeOhD.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\ccWBeOhD.s:362: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\ccWBeOhD.s:362: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/aes_test.c'
+' '
+'Building target: AES.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AES_bsp/ps7_cortexa9_0/lib -o "AES.elf"  ./src/aes.o ./src/aes_dec.o ./src/aes_enc.o ./src/aes_func.o ./src/aes_key.o ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AES.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size AES.elf  |tee "AES.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77968	   3168	  24572	 105708	  19cec	AES.elf
+'Finished building: AES.elf.size'
+' '
+14:45:30 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:45:31 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:45:32 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:46:18 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:46:19 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:46:20 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:46:33 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:46:34 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:46:35 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:47:16 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:47:17 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:47:20 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.
+14:47:40 **** Incremental Build of configuration Debug for project MxM2 ****
+make all 
+make: Nothing to be done for `all'.
+14:47:41 **** Incremental Build of configuration Debug for project AES ****
+make all 
+make: Nothing to be done for `all'.
+14:47:41 **** Incremental Build of configuration Debug for project AesClockCycles ****
+make all 
+make: Nothing to be done for `all'.

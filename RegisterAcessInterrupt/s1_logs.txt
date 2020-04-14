@@ -1,0 +1,9 @@
+12/01/2016 - 14:12:36 - board hard reseted
+12/01/2016 - 14:12:36 - no serial port. port is busy
+12/01/2016 - 14:12:39 - no serial port. port is busy
+12/01/2016 - 14:12:42 - no serial port. port is busy
+12/01/2016 - 14:13:07 - board hard reseted
+12/01/2016 - 14:13:16 - first readback
+12/01/2016 - 14:16:32 - board hard reseted
+12/01/2016 - 14:16:35 - first readback
+

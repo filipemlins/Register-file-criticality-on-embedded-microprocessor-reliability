@@ -1,0 +1,36 @@
+12:01:45 **** Build of configuration Debug for project QuickSort ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/quicksort.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/quicksort.o" -I../../QuickSort_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/quicksort.d" -MT"src/quicksort.d" -o "src/quicksort.o" "../src/quicksort.c"
+../src/quicksort.c: In function 'main':
+../src/quicksort.c:165:9: warning: unused variable 'i' [-Wunused-variable]
+     int i;
+         ^
+../src/quicksort.c:164:11: warning: unused variable 'sep' [-Wunused-variable]
+     char *sep="";
+           ^
+C:\Users\Filipe\AppData\Local\Temp\ccZ79CMg.s: Assembler messages:
+C:\Users\Filipe\AppData\Local\Temp\ccZ79CMg.s:923: Warning: register range not in ascending order
+C:\Users\Filipe\AppData\Local\Temp\ccZ79CMg.s:923: Warning: if writeback register is in list, it must be the lowest reg in the list
+'Finished building: ../src/quicksort.c'
+' '
+'Building target: QuickSort.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../QuickSort_bsp/ps7_cortexa9_0/lib -o "QuickSort.elf"  ./src/platform.o ./src/quicksort.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: QuickSort.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size QuickSort.elf  |tee "QuickSort.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  68584	   6368	  22652	  97604	  17d44	QuickSort.elf
+'Finished building: QuickSort.elf.size'
+' '
+
+12:01:47 Build Finished (took 2s.226ms)
+

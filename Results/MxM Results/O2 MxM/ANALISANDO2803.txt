@@ -1,0 +1,9169 @@
+r0	
+FAILED	
+400	
+18/03/2016 - 15:23:18 - no data read	
+r8	
+r5	
+FAILED	
+1	
+18/03/2016 - 15:25:40 - no data read	
+r7	
+0	
+n 2093	
+r12	
+0	
+n 23208	
+lr	
+FAILED	
+1	
+18/03/2016 - 15:26:49 - no data read	
+lr	
+0	
+n 7020	
+r7	
+0	
+n 11273	
+r1	
+FAILED	
+245	
+18/03/2016 - 15:27:59 - no data read	
+r2	
+FAILED	
+161	
+18/03/2016 - 15:29:08 - no data read	
+r5	
+0	
+n 12693	
+r4	
+FAILED	
+1	
+18/03/2016 - 15:30:17 - no data read	
+r9	
+FAILED	
+16	
+18/03/2016 - 15:31:26 - no data read	
+lr	
+FAILED	
+19	
+18/03/2016 - 15:32:35 - no data read	
+r2	
+FAILED	
+2	
+18/03/2016 - 15:33:45 - no data read	
+r9	
+FAILED	
+7	
+18/03/2016 - 15:34:54 - no data read	
+r3	
+r10	
+FAILED	
+3	
+18/03/2016 - 15:37:12 - no data read	
+r10	
+FAILED	
+13	
+18/03/2016 - 15:38:21 - no data read	
+r10	
+FAILED	
+18	
+18/03/2016 - 15:39:30 - no data read	
+lr	
+FAILED	
+5	
+18/03/2016 - 15:40:39 - no data read	
+lr	
+FAILED	
+14	
+18/03/2016 - 15:41:48 - no data read	
+r7	
+0	
+n 3296	
+r3	
+r6	
+0	
+n 21874	
+r8	
+r12	
+0	
+n 8572	
+r10	
+FAILED	
+13	
+18/03/2016 - 15:45:14 - no data read	
+r7	
+0	
+n 13101	
+r1	
+FAILED	
+30	
+18/03/2016 - 15:46:23 - no data read	
+r2	
+FAILED	
+62	
+18/03/2016 - 15:47:32 - no data read	
+r12	
+0	
+n 16653	
+r12	
+0	
+n 17931	
+r10	
+FAILED	
+9	
+18/03/2016 - 15:48:42 - no data read	
+r3	
+r3	
+0	
+n 6213	
+r7	
+0	
+n 3135	
+r4	
+FAILED	
+1	
+18/03/2016 - 15:51:00 - no data read	
+r12	
+0	
+n 24857	
+r3	
+r12	
+0	
+n 17345	
+r12	
+0	
+n 15060	
+lr	
+FAILED	
+8	
+18/03/2016 - 15:53:19 - no data read	
+r0	
+FAILED	
+400	
+18/03/2016 - 15:54:28 - no data read	
+r4	
+0	
+n 19116	
+r11	
+0	
+n 20224	
+r0	
+FAILED	
+80	
+18/03/2016 - 15:55:37 - no data read	
+r0	
+FAILED	
+60	
+18/03/2016 - 15:56:46 - no data read	
+r11	
+0	
+n 11841	
+lr	
+FAILED	
+11	
+18/03/2016 - 15:57:56 - no data read	
+r2	
+FAILED	
+400	
+18/03/2016 - 15:59:05 - no data read	
+r10	
+FAILED	
+3	
+18/03/2016 - 16:00:14 - no data read	
+r3	
+r11	
+0	
+n 6962	
+r7	
+0	
+n 23777	
+r3	
+r12	
+0	
+n 14020	
+lr	
+FAILED	
+9	
+18/03/2016 - 16:03:41 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 16:04:50 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 16:05:59 - no data read	
+r8	
+0	
+n 13091	
+r6	
+FAILED	
+400	
+18/03/2016 - 16:07:08 - no data read	
+r6	
+0	
+n 19400	
+lr	
+FAILED	
+5	
+18/03/2016 - 16:08:17 - no data read	
+r9	
+FAILED	
+7	
+18/03/2016 - 16:09:26 - no data read	
+r5	
+0	
+n 23815	
+r10	
+FAILED	
+7	
+18/03/2016 - 16:10:35 - no data read	
+lr	
+FAILED	
+5	
+18/03/2016 - 16:11:44 - no data read	
+r10	
+FAILED	
+11	
+18/03/2016 - 16:12:53 - no data read	
+r10	
+FAILED	
+20	
+18/03/2016 - 16:14:02 - no data read	
+r11	
+0	
+n 21191	
+r3	
+r3	
+r8	
+lr	
+FAILED	
+13	
+18/03/2016 - 16:18:39 - no data read	
+r4	
+0	
+n 22101	
+r0	
+FAILED	
+40	
+18/03/2016 - 16:19:48 - no data read	
+r1	
+FAILED	
+40	
+18/03/2016 - 16:20:59 - no data read	
+r6	
+0	
+n 22498	
+r2	
+FAILED	
+46	
+18/03/2016 - 16:22:08 - no data read	
+r3	
+r5	
+0	
+n 8971	
+r6	
+0	
+n 18207	
+r6	
+0	
+n 22935	
+r9	
+FAILED	
+1	
+18/03/2016 - 16:24:28 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 16:25:37 - no data read	
+r2	
+FAILED	
+286	
+18/03/2016 - 16:26:47 - no data read	
+r10	
+FAILED	
+19	
+18/03/2016 - 16:27:57 - no data read	
+r1	
+FAILED	
+328	
+18/03/2016 - 16:29:06 - no data read	
+r6	
+0	
+n 17279	
+r11	
+0	
+n 899	
+r11	
+0	
+n 1593	
+r8	
+0	
+n 13382	
+r4	
+FAILED	
+400	
+18/03/2016 - 16:30:15 - no data read	
+r0	
+FAILED	
+20	
+18/03/2016 - 16:31:25 - no data read	
+r3	
+r7	
+0	
+n 1799	
+r7	
+0	
+n 22223	
+r11	
+0	
+n 4871	
+r8	
+r5	
+0	
+n 2775	
+r9	
+FAILED	
+13	
+18/03/2016 - 16:34:52 - no data read	
+r3	
+0	
+n 22101	
+r1	
+FAILED	
+56	
+18/03/2016 - 16:36:01 - no data read	
+r7	
+0	
+n 3002	
+r0	
+0	
+n 19533	
+r6	
+0	
+n 4473	
+r9	
+FAILED	
+3	
+18/03/2016 - 16:37:11 - no data read	
+r12	
+0	
+n 21759	
+r0	
+0	
+n 18613	
+r4	
+0	
+n 9358	
+r12	
+0	
+n 21358	
+r6	
+0	
+n 20103	
+r6	
+0	
+n 23501	
+r10	
+FAILED	
+12	
+18/03/2016 - 16:38:20 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 16:39:29 - no data read	
+r7	
+0	
+n 23588	
+r4	
+FAILED	
+1	
+18/03/2016 - 16:40:39 - no data read	
+r0	
+0	
+n 21522	
+r4	
+0	
+n 5427	
+r6	
+0	
+n 13983	
+r1	
+FAILED	
+18	
+18/03/2016 - 16:41:49 - no data read	
+r1	
+FAILED	
+4	
+18/03/2016 - 16:42:58 - no data read	
+r12	
+0	
+n 15744	
+r5	
+FAILED	
+1	
+18/03/2016 - 16:44:10 - no data read	
+r8	
+r5	
+0	
+n 10685	
+r5	
+FAILED	
+1	
+18/03/2016 - 16:46:28 - no data read	
+lr	
+FAILED	
+10	
+18/03/2016 - 16:47:38 - no data read	
+r9	
+FAILED	
+13	
+18/03/2016 - 16:48:47 - no data read	
+r6	
+0	
+n 23417	
+lr	
+FAILED	
+1	
+18/03/2016 - 16:49:57 - no data read	
+r5	
+0	
+n 9311	
+r1	
+FAILED	
+279	
+18/03/2016 - 16:51:07 - no data read	
+r3	
+r11	
+0	
+n 1400	
+r5	
+0	
+n 6469	
+r1	
+FAILED	
+400	
+18/03/2016 - 16:53:24 - no data read	
+r12	
+0	
+n 15971	
+r7	
+0	
+n 11044	
+lr	
+FAILED	
+12	
+18/03/2016 - 16:54:33 - no data read	
+r12	
+0	
+n 24630	
+lr	
+0	
+n 12077	
+r6	
+0	
+n 4967	
+r6	
+0	
+n 4659	
+r3	
+r3	
+r11	
+0	
+n 18150	
+r12	
+0	
+n 557	
+r4	
+FAILED	
+400	
+18/03/2016 - 16:58:00 - no data read	
+r1	
+FAILED	
+327	
+18/03/2016 - 16:59:09 - no data read	
+r0	
+0	
+n 11377	
+lr	
+FAILED	
+12	
+18/03/2016 - 17:00:17 - no data read	
+r3	
+0	
+n 10401	
+r8	
+lr	
+FAILED	
+19	
+18/03/2016 - 17:02:35 - no data read	
+r10	
+FAILED	
+4	
+18/03/2016 - 17:03:44 - no data read	
+r7	
+0	
+n 11093	
+r3	
+0	
+n 8355	
+r6	
+0	
+n 765	
+r6	
+0	
+n 24828	
+r10	
+FAILED	
+9	
+18/03/2016 - 17:04:53 - no data read	
+lr	
+FAILED	
+8	
+18/03/2016 - 17:06:02 - no data read	
+r1	
+FAILED	
+194	
+18/03/2016 - 17:07:11 - no data read	
+r7	
+0	
+n 9776	
+r6	
+0	
+n 12930	
+r12	
+0	
+n 2554	
+r2	
+FAILED	
+381	
+18/03/2016 - 17:08:19 - no data read	
+r1	
+FAILED	
+79	
+18/03/2016 - 17:09:28 - no data read	
+r7	
+0	
+n 21409	
+r5	
+0	
+n 22631	
+lr	
+FAILED	
+2	
+18/03/2016 - 17:10:36 - no data read	
+r6	
+0	
+n 14077	
+r7	
+0	
+n 14767	
+r1	
+FAILED	
+36	
+18/03/2016 - 17:11:45 - no data read	
+r10	
+FAILED	
+20	
+18/03/2016 - 17:12:54 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 17:14:03 - no data read	
+r1	
+FAILED	
+79	
+18/03/2016 - 17:15:12 - no data read	
+r1	
+FAILED	
+382	
+18/03/2016 - 17:16:21 - no data read	
+r10	
+FAILED	
+18	
+18/03/2016 - 17:17:30 - no data read	
+r5	
+FAILED	18/03/2016 - 17:18:19 
+18/03/2016 - 17:18:39 - no data read	
+r5	
+0	
+n 19287	
+r9	
+FAILED	18/03/2016 - 17:19:28 
+18/03/2016 - 17:19:48 - no data read	
+r4	
+FAILED	18/03/2016 - 17:20:37 
+18/03/2016 - 17:20:57 - no data read	
+r9	
+FAILED	18/03/2016 - 17:21:46 
+18/03/2016 - 17:22:06 - no data read	
+r6	
+0	
+n 3694	
+r2	
+FAILED	18/03/2016 - 17:22:55 
+18/03/2016 - 17:23:15 - no data read	
+r9	
+FAILED	18/03/2016 - 17:24:04 
+18/03/2016 - 17:24:24 - no data read	
+r7	
+0	
+n 12580	
+r12	
+0	
+n 11509	
+r12	
+0	
+n 24661	
+r6	
+0	
+n 19570	
+r7	
+0	
+n 23706	
+r9	
+FAILED	
+8	
+18/03/2016 - 17:25:33 - no data read	
+r2	
+FAILED	
+1	
+18/03/2016 - 17:26:42 - no data read	
+r8	
+r2	
+FAILED	
+207	
+18/03/2016 - 17:29:00 - no data read	
+r8	
+r8	
+0	
+n 15564	
+r4	
+FAILED	
+400	
+18/03/2016 - 17:31:18 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 17:32:26 - no data read	
+r5	
+0	
+n 21874	
+r4	
+FAILED	
+1	
+18/03/2016 - 17:33:36 - no data read	
+r4	
+0	
+n 18027	
+r10	
+FAILED	
+8	
+18/03/2016 - 17:34:45 - no data read	
+r8	
+r5	
+0	
+n 10003	
+lr	
+FAILED	
+13	
+18/03/2016 - 17:37:02 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 17:38:11 - no data read	
+r12	
+0	
+n 10059	
+r12	
+0	
+n 11792	
+r6	
+0	
+n 15091	
+r5	
+FAILED	
+1	
+18/03/2016 - 17:39:20 - no data read	
+r6	
+0	
+n 2378	
+r11	
+0	
+n 10125	
+r10	
+FAILED	
+6	
+18/03/2016 - 17:40:29 - no data read	
+r2	
+FAILED	
+400	
+18/03/2016 - 17:41:38 - no data read	
+r11	
+0	
+n 17514	
+r4	
+FAILED	
+1	
+18/03/2016 - 17:42:47 - no data read	
+r8	
+r8	
+r7	
+0	
+n 24620	
+r2	
+0	
+n 1354	
+r3	
+r11	
+0	
+n 10581	
+r1	
+FAILED	
+256	
+18/03/2016 - 17:47:24 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 17:48:33 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 17:49:42 - no data read	
+r1	
+FAILED	
+49	
+18/03/2016 - 17:50:51 - no data read	
+r6	
+0	
+n 11888	
+r3	
+r1	
+FAILED	
+194	
+18/03/2016 - 17:53:09 - no data read	
+r0	
+FAILED	
+380	
+18/03/2016 - 17:54:18 - no data read	
+r10	
+FAILED	
+7	
+18/03/2016 - 17:55:27 - no data read	
+r1	
+FAILED	
+9	
+18/03/2016 - 17:56:36 - no data read	
+r7	
+0	
+n 12693	
+r4	
+FAILED	
+1	
+18/03/2016 - 17:57:45 - no data read	
+r3	
+r3	
+r11	
+0	
+n 16369	
+r11	
+0	
+n 2850	
+r11	
+0	
+n 5458	
+lr	
+FAILED	
+17	
+18/03/2016 - 18:01:14 - no data read	
+r8	
+r5	
+FAILED	
+1	
+18/03/2016 - 18:03:33 - no data read	
+r9	
+FAILED	
+10	
+18/03/2016 - 18:04:43 - no data read	
+r3	
+0	
+n 16994	
+r11	
+0	
+n 24117	
+r6	
+0	
+n 11952	
+r3	
+r10	
+FAILED	
+20	
+18/03/2016 - 18:07:01 - no data read	
+r1	
+FAILED	
+382	
+18/03/2016 - 18:08:10 - no data read	
+r7	
+0	
+n 14815	
+r5	
+0	
+n 5427	
+r8	
+r4	
+0	
+n 18311	
+r7	
+0	
+n 24810	
+r1	
+0	
+n 16919	
+r12	
+0	
+n 17383	
+r2	
+FAILED	
+122	
+18/03/2016 - 18:10:28 - no data read	
+r6	
+0	
+n 10401	
+r7	
+0	
+n 151	
+r8	
+FAILED	
+320	
+18/03/2016 - 18:11:37 - no data read	
+r10	
+FAILED	
+18	
+18/03/2016 - 18:12:45 - no data read	
+r0	
+FAILED	
+260	
+18/03/2016 - 18:13:54 - no data read	
+r10	
+FAILED	
+3	
+18/03/2016 - 18:15:03 - no data read	
+r8	
+r6	
+0	
+n 2491	
+r2	
+FAILED	
+385	
+18/03/2016 - 18:17:20 - no data read	
+r9	
+FAILED	
+8	
+18/03/2016 - 18:18:29 - no data read	
+r10	
+FAILED	
+20	
+18/03/2016 - 18:19:37 - no data read	
+r0	
+FAILED	
+240	
+18/03/2016 - 18:20:47 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 18:21:56 - no data read	
+r0	
+FAILED	
+380	
+18/03/2016 - 18:23:05 - no data read	
+r0	
+FAILED	
+160	
+18/03/2016 - 18:24:15 - no data read	
+r2	
+FAILED	
+202	
+18/03/2016 - 18:25:26 - no data read	
+r3	
+r10	
+FAILED	
+8	
+18/03/2016 - 18:27:44 - no data read	
+r11	
+0	
+n 3466	
+r10	
+FAILED	
+2	
+18/03/2016 - 18:28:53 - no data read	
+r3	
+0	
+n 14815	
+r12	
+0	
+n 7208	
+lr	
+FAILED	
+15	
+18/03/2016 - 18:30:02 - no data read	
+r7	
+0	
+n 23077	
+r8	
+r0	
+0	
+n 13158	
+r8	
+r10	
+FAILED	
+1	
+18/03/2016 - 18:33:28 - no data read	
+r3	
+0	
+n 13101	
+lr	
+FAILED	
+10	
+18/03/2016 - 18:34:37 - no data read	
+r9	
+FAILED	
+7	
+18/03/2016 - 18:35:46 - no data read	
+r3	
+r4	
+FAILED	
+1	
+18/03/2016 - 18:38:03 - no data read	
+r10	
+FAILED	
+3	
+18/03/2016 - 18:39:12 - no data read	
+r1	
+FAILED	
+91	
+18/03/2016 - 18:40:21 - no data read	
+r6	
+0	
+n 11377	
+r5	
+0	
+n 23550	
+r9	
+FAILED	
+11	
+18/03/2016 - 18:41:30 - no data read	
+r12	
+0	
+n 8572	
+r4	
+FAILED	
+1	
+18/03/2016 - 18:42:39 - no data read	
+r6	
+0	
+n 3002	
+r10	
+FAILED	
+10	
+18/03/2016 - 18:43:48 - no data read	
+lr	
+FAILED	
+16	
+18/03/2016 - 18:44:57 - no data read	
+r9	
+FAILED	
+1	
+18/03/2016 - 18:46:05 - no data read	
+r5	
+0	
+n 3865	
+r0	
+FAILED	
+360	
+18/03/2016 - 18:47:15 - no data read	
+r7	
+0	
+n 10572	
+r5	
+FAILED	
+1	
+18/03/2016 - 18:48:24 - no data read	
+r9	
+FAILED	
+8	
+18/03/2016 - 18:49:33 - no data read	
+r0	
+FAILED	
+380	
+18/03/2016 - 18:50:41 - no data read	
+r4	
+0	
+n 18718	
+r12	
+0	
+n 9159	
+lr	
+FAILED	
+15	
+18/03/2016 - 18:51:51 - no data read	
+r7	
+0	
+n 16710	
+r0	
+0	
+n 17752	
+lr	
+FAILED	
+6	
+18/03/2016 - 18:53:00 - no data read	
+r12	
+0	
+n 18548	
+r4	
+FAILED	
+1	
+18/03/2016 - 18:54:09 - no data read	
+r9	
+FAILED	
+1	
+18/03/2016 - 18:55:17 - no data read	
+r9	
+FAILED	
+7	
+18/03/2016 - 18:56:27 - no data read	
+r10	
+FAILED	
+12	
+18/03/2016 - 18:57:35 - no data read	
+r6	
+0	
+n 9084	
+r11	
+0	
+n 11793	
+r0	
+FAILED	
+20	
+18/03/2016 - 18:58:44 - no data read	
+r0	
+FAILED	
+300	
+18/03/2016 - 18:59:53 - no data read	
+r3	
+r1	
+0	
+n 19808	
+r11	
+0	
+n 8524	
+r8	
+r3	
+r9	
+FAILED	
+18	
+18/03/2016 - 19:04:30 - no data read	
+r2	
+FAILED	
+281	
+18/03/2016 - 19:05:38 - no data read	
+r0	
+FAILED	
+60	
+18/03/2016 - 19:06:48 - no data read	
+r5	
+0	
+n 12182	
+r3	
+r9	
+FAILED	
+17	
+18/03/2016 - 19:09:07 - no data read	
+r0	
+0	
+n 14986	
+r0	
+0	
+n 9786	
+r4	
+0	
+n 805	
+r6	
+0	
+n 22926	
+r12	
+0	
+n 11226	
+r5	
+0	
+n 12956	
+r2	
+FAILED	
+203	
+18/03/2016 - 19:10:16 - no data read	
+r0	
+FAILED	
+260	
+18/03/2016 - 19:11:25 - no data read	
+lr	
+FAILED	
+16	
+18/03/2016 - 19:12:34 - no data read	
+r5	
+0	
+n 11717	
+r11	
+0	
+n 10419	
+r9	
+FAILED	
+19	
+18/03/2016 - 19:13:43 - no data read	
+r4	
+0	
+n 20898	
+lr	
+FAILED	
+3	
+18/03/2016 - 19:14:51 - no data read	
+r1	
+FAILED	
+400	
+18/03/2016 - 19:16:00 - no data read	
+r11	
+0	
+n 22451	
+r3	
+0	
+n 7832	
+r12	
+0	
+n 20733	
+r12	
+0	
+n 14650	
+r2	
+FAILED	
+186	
+18/03/2016 - 19:17:08 - no data read	
+r11	
+0	
+n 1400	
+r12	
+0	
+n 24695	
+r0	
+0	
+n 16075	
+r0	
+FAILED	
+20	
+18/03/2016 - 19:18:17 - no data read	
+r1	
+FAILED	
+79	
+18/03/2016 - 19:19:25 - no data read	
+r2	
+FAILED	
+61	
+18/03/2016 - 19:20:34 - no data read	
+lr	
+FAILED	
+16	
+18/03/2016 - 19:21:43 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 19:22:52 - no data read	
+r1	
+FAILED	
+297	
+18/03/2016 - 19:24:00 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 19:25:09 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 19:26:19 - no data read	
+r5	
+0	
+n 11377	
+r10	
+FAILED	
+4	
+18/03/2016 - 19:27:27 - no data read	
+r2	
+FAILED	
+61	
+18/03/2016 - 19:28:36 - no data read	
+r1	
+FAILED	
+382	
+18/03/2016 - 19:29:45 - no data read	
+r3	
+r3	
+r12	
+0	
+n 20840	
+r3	
+r2	
+FAILED	
+344	
+18/03/2016 - 19:34:20 - no data read	
+r10	
+0	
+n 19580	
+r0	
+FAILED	
+20	
+18/03/2016 - 19:35:29 - no data read	
+r12	
+0	
+n 776	
+lr	
+0	
+n 14835	
+r1	
+FAILED	
+182	
+18/03/2016 - 19:36:37 - no data read	
+r6	
+0	
+n 823	
+r1	
+FAILED	
+20	
+18/03/2016 - 19:37:46 - no data read	
+r10	
+FAILED	
+13	
+18/03/2016 - 19:38:55 - no data read	
+r4	
+0	
+n 20898	
+r8	
+r8	
+r7	
+0	
+n 5873	
+r7	
+0	
+n 17752	
+r2	
+FAILED	
+4	
+18/03/2016 - 19:42:22 - no data read	
+r3	
+r5	
+0	
+n 2831	
+r6	
+0	
+n 16038	
+r11	
+0	
+n 18845	
+r7	
+0	
+n 8250	
+r10	
+FAILED	
+18	
+18/03/2016 - 19:44:40 - no data read	
+r2	
+FAILED	
+244	
+18/03/2016 - 19:45:48 - no data read	
+r10	
+FAILED	
+20	
+18/03/2016 - 19:46:57 - no data read	
+r3	
+r1	
+0	
+n 15099	
+lr	
+FAILED	
+8	
+18/03/2016 - 19:49:14 - no data read	
+r12	
+0	
+n 10173	
+r8	
+r12	
+0	
+n 12589	
+r2	
+FAILED	
+3	
+18/03/2016 - 19:51:32 - no data read	
+r5	
+0	
+n 10628	
+r3	
+r3	
+r7	
+0	
+n 14010	
+r4	
+FAILED	
+1	
+18/03/2016 - 19:54:59 - no data read	
+r6	
+0	
+n 22498	
+lr	
+FAILED	
+2	
+18/03/2016 - 19:56:08 - no data read	
+r1	
+0	
+n 19003	
+r4	
+0	
+n 11216	
+lr	
+FAILED	
+12	
+18/03/2016 - 19:57:17 - no data read	
+r11	
+0	
+n 19978	
+r10	
+FAILED	
+14	
+18/03/2016 - 19:58:27 - no data read	
+lr	
+FAILED	
+20	
+18/03/2016 - 19:59:36 - no data read	
+r6	
+0	
+n 1799	
+lr	
+0	
+n 3817	
+r7	
+0	
+n 17543	
+r9	
+FAILED	
+15	
+18/03/2016 - 20:00:46 - no data read	
+r11	
+0	
+n 18490	
+r11	
+0	
+n 23492	
+r5	
+0	
+n 246	
+r2	
+0	
+n 13301	
+r1	
+FAILED	
+209	
+18/03/2016 - 20:01:55 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 20:03:05 - no data read	
+r8	
+r3	
+r11	
+0	
+n 4850	
+lr	
+FAILED	
+17	
+18/03/2016 - 20:06:32 - no data read	
+r7	
+0	
+n 4376	
+lr	
+FAILED	
+18	
+18/03/2016 - 20:07:41 - no data read	
+r2	
+FAILED	
+322	
+18/03/2016 - 20:08:51 - no data read	
+r8	
+0	
+n 9776	
+r11	
+FAILED	
+400	
+18/03/2016 - 20:10:01 - no data read	
+r9	
+FAILED	
+17	
+18/03/2016 - 20:11:10 - no data read	
+r12	
+0	
+n 7767	
+r2	
+FAILED	
+306	
+18/03/2016 - 20:12:20 - no data read	
+r0	
+FAILED	
+400	
+18/03/2016 - 20:13:29 - no data read	
+r1	
+FAILED	
+382	
+18/03/2016 - 20:14:38 - no data read	
+r0	
+FAILED	
+160	
+18/03/2016 - 20:15:47 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 20:16:56 - no data read	
+r11	
+0	
+n 3068	
+r4	
+0	
+n 1817	
+r0	
+FAILED	
+400	
+18/03/2016 - 20:18:05 - no data read	
+r1	
+FAILED	
+110	
+18/03/2016 - 20:19:13 - no data read	
+r8	
+r2	
+FAILED	
+62	
+18/03/2016 - 20:21:32 - no data read	
+r1	
+FAILED	
+400	
+18/03/2016 - 20:22:41 - no data read	
+lr	
+FAILED	
+19	
+18/03/2016 - 20:23:50 - no data read	
+r0	
+FAILED	
+220	
+18/03/2016 - 20:25:00 - no data read	
+r7	
+0	
+n 2718	
+r10	
+FAILED	
+14	
+18/03/2016 - 20:26:09 - no data read	
+r12	
+0	
+n 12239	
+r0	
+FAILED	
+220	
+18/03/2016 - 20:27:18 - no data read	
+lr	
+FAILED	
+8	
+18/03/2016 - 20:28:27 - no data read	
+r10	
+FAILED	
+7	
+18/03/2016 - 20:29:36 - no data read	
+r4	
+0	
+n 9311	
+r8	
+r5	
+0	
+n 85	
+r9	
+0	
+n 84	
+r9	
+0	
+n 2772	
+r5	
+0	
+n 19021	
+r12	
+0	
+n 10419	
+r6	
+0	
+n 23043	
+r11	
+0	
+n 1605	
+r11	
+0	
+n 5741	
+r4	
+FAILED	
+1	
+18/03/2016 - 20:31:55 - no data read	
+r0	
+0	
+n 596	
+r5	
+r2	
+FAILED	
+384	
+18/03/2016 - 20:34:12 - no data read	
+lr	
+FAILED	
+16	
+18/03/2016 - 20:35:21 - no data read	
+r8	
+r10	
+FAILED	
+20	
+18/03/2016 - 20:37:38 - no data read	
+r6	
+0	
+n 4272	
+r10	
+FAILED	
+8	
+18/03/2016 - 20:38:47 - no data read	
+r10	
+FAILED	
+12	
+18/03/2016 - 20:39:55 - no data read	
+r4	
+0	
+n 23077	
+r5	
+0	
+n 3419	
+r9	
+FAILED	
+1	
+18/03/2016 - 20:41:04 - no data read	
+r11	
+0	
+n 12068	
+r10	
+FAILED	
+11	
+18/03/2016 - 20:42:13 - no data read	
+r6	
+0	
+n 8279	
+r3	
+r6	
+0	
+n 7711	
+r12	
+0	
+n 5142	
+lr	
+FAILED	
+17	
+18/03/2016 - 20:44:30 - no data read	
+r7	
+0	
+n 2083	
+r4	
+0	
+n 435	
+r10	
+0	
+n 3301	
+r5	
+0	
+n 9859	
+lr	
+FAILED	
+13	
+18/03/2016 - 20:45:39 - no data read	
+r4	
+FAILED	
+400	
+18/03/2016 - 20:46:48 - no data read	
+r8	
+r1	
+FAILED	
+297	
+18/03/2016 - 20:49:07 - no data read	
+r6	
+0	
+n 13670	
+r3	
+lr	
+FAILED	
+16	
+18/03/2016 - 20:51:25 - no data read	
+r6	
+0	
+n 17392	
+r1	
+FAILED	
+138	
+18/03/2016 - 20:52:35 - no data read	
+r11	
+0	
+n 20670	
+r6	
+0	
+n 2329	
+r5	
+FAILED	
+400	
+18/03/2016 - 20:53:44 - no data read	
+r9	
+FAILED	
+9	
+18/03/2016 - 20:54:53 - no data read	
+r1	
+FAILED	
+382	
+18/03/2016 - 20:56:03 - no data read	
+r2	
+FAILED	
+347	
+18/03/2016 - 20:57:12 - no data read	
+r10	
+FAILED	
+3	
+18/03/2016 - 20:58:21 - no data read	
+r11	
+0	
+n 9662	
+r4	
+FAILED	
+1	
+18/03/2016 - 20:59:30 - no data read	
+r3	
+r2	
+FAILED	
+2	
+18/03/2016 - 21:01:49 - no data read	
+lr	
+FAILED	
+16	
+18/03/2016 - 21:03:01 - no data read	
+r9	
+FAILED	
+15	
+18/03/2016 - 21:04:10 - no data read	
+r3	
+r4	
+FAILED	
+1	
+18/03/2016 - 21:06:28 - no data read	
+r12	
+0	
+n 20329	
+r10	
+FAILED	
+8	
+18/03/2016 - 21:07:37 - no data read	
+lr	
+FAILED	
+13	
+18/03/2016 - 21:08:46 - no data read	
+r1	
+FAILED	
+79	
+18/03/2016 - 21:09:56 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 21:11:05 - no data read	
+r12	
+0	
+n 12930	
+r8	
+r0	
+FAILED	
+60	
+18/03/2016 - 21:13:22 - no data read	
+r10	
+0	
+n 7075	
+r7	
+0	
+n 16207	
+r6	
+0	
+n 5448	
+r10	
+FAILED	
+7	
+18/03/2016 - 21:14:31 - no data read	
+r10	
+FAILED	
+13	
+18/03/2016 - 21:15:40 - no data read	
+r7	
+0	
+n 9084	
+r4	
+FAILED	
+1	
+18/03/2016 - 21:16:49 - no data read	
+r2	
+FAILED	
+2	
+18/03/2016 - 21:17:57 - no data read	
+r4	
+FAILED	
+400	
+18/03/2016 - 21:19:06 - no data read	
+lr	
+FAILED	
+13	
+18/03/2016 - 21:20:14 - no data read	
+r11	
+0	
+n 7256	
+r6	
+0	
+n 14493	
+r10	
+FAILED	
+9	
+18/03/2016 - 21:21:24 - no data read	
+r10	
+FAILED	
+19	
+18/03/2016 - 21:22:32 - no data read	
+r0	
+0	
+n 15507	
+r12	
+0	
+n 5891	
+r11	
+0	
+n 14708	
+r11	
+0	
+n 6684	
+r1	
+FAILED	
+96	
+18/03/2016 - 21:23:41 - no data read	
+r9	
+FAILED	
+18	
+18/03/2016 - 21:24:50 - no data read	
+r3	
+0	
+n 14077	
+r1	
+FAILED	
+56	
+18/03/2016 - 21:25:58 - no data read	
+lr	
+FAILED	
+12	
+18/03/2016 - 21:27:07 - no data read	
+r4	
+FAILED	
+400	
+18/03/2016 - 21:28:16 - no data read	
+r3	
+0	
+n 12409	
+r10	
+FAILED	
+6	
+18/03/2016 - 21:29:25 - no data read	
+r9	
+FAILED	
+3	
+18/03/2016 - 21:30:33 - no data read	
+r1	
+FAILED	
+336	
+18/03/2016 - 21:31:42 - no data read	
+r8	
+r5	
+0	
+n 16767	
+r0	
+FAILED	
+140	
+18/03/2016 - 21:34:00 - no data read	
+r5	
+0	
+n 8687	
+r7	
+0	
+n 5654	
+r9	
+FAILED	
+2	
+18/03/2016 - 21:35:09 - no data read	
+r9	
+FAILED	
+10	
+18/03/2016 - 21:36:17 - no data read	
+r11	
+0	
+n 5474	
+r0	
+FAILED	
+340	
+18/03/2016 - 21:37:27 - no data read	
+r0	
+FAILED	
+400	
+18/03/2016 - 21:38:35 - no data read	
+r11	
+0	
+n 4612	
+r2	
+FAILED	
+363	
+18/03/2016 - 21:39:45 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 21:40:54 - no data read	
+lr	
+FAILED	
+10	
+18/03/2016 - 21:42:03 - no data read	
+r10	
+FAILED	
+20	
+18/03/2016 - 21:43:11 - no data read	
+r5	
+0	
+n 21693	
+r3	
+0	
+n 7028	
+lr	
+FAILED	
+15	
+18/03/2016 - 21:44:20 - no data read	
+lr	
+FAILED	
+16	
+18/03/2016 - 21:45:29 - no data read	
+r6	
+0	
+n 13158	
+r8	
+r11	
+0	
+n 10286	
+r5	
+0	
+n 36	
+r10	
+0	
+n 1374	
+r1	
+FAILED	
+400	
+18/03/2016 - 21:47:47 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 21:48:57 - no data read	
+lr	
+0	
+n 3059	
+r4	
+0	
+n 12816	
+r2	
+FAILED	
+201	
+18/03/2016 - 21:50:06 - no data read	
+r5	
+0	
+n 12409	
+r8	
+r3	
+r5	
+0	
+n 3116	
+r9	
+FAILED	
+7	
+18/03/2016 - 21:53:35 - no data read	
+r8	
+0	
+n 11717	
+r11	
+FAILED	
+400	
+18/03/2016 - 21:54:44 - no data read	
+r7	
+0	
+n 24280	
+r5	
+0	
+n 20963	
+lr	
+FAILED	
+3	
+18/03/2016 - 21:55:53 - no data read	
+r3	
+r11	
+0	
+n 7653	
+r3	
+r1	
+FAILED	
+297	
+18/03/2016 - 21:59:22 - no data read	
+r8	
+r1	
+FAILED	
+173	
+18/03/2016 - 22:01:40 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 22:02:50 - no data read	
+r1	
+0	
+n 17118	
+r0	
+0	
+n 17808	
+r0	
+FAILED	
+120	
+18/03/2016 - 22:03:59 - no data read	
+r6	
+0	
+n 13556	
+r7	
+0	
+n 15687	
+r3	
+0	
+n 13114	
+lr	
+FAILED	
+10	
+18/03/2016 - 22:05:08 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 22:06:17 - no data read	
+r12	
+0	
+n 7880	
+r12	
+0	
+n 19191	
+r5	
+FAILED	
+1	
+18/03/2016 - 22:07:26 - no data read	
+r9	
+0	
+n 20784	
+r12	
+0	
+n 2215	
+r2	
+FAILED	
+105	
+18/03/2016 - 22:08:35 - no data read	
+r1	
+FAILED	
+20	
+18/03/2016 - 22:09:43 - no data read	
+r1	
+FAILED	
+79	
+18/03/2016 - 22:10:52 - no data read	
+lr	
+FAILED	
+14	
+18/03/2016 - 22:12:00 - no data read	
+lr	
+FAILED	
+19	
+18/03/2016 - 22:13:09 - no data read	
+r11	
+0	
+n 8572	
+r1	
+FAILED	
+292	
+18/03/2016 - 22:14:18 - no data read	
+lr	
+FAILED	
+8	
+18/03/2016 - 22:15:27 - no data read	
+r8	
+r5	
+0	
+n 19003	
+r5	
+0	
+n 17922	
+r1	
+FAILED	
+129	
+18/03/2016 - 22:17:45 - no data read	
+r2	
+FAILED	
+286	
+18/03/2016 - 22:18:53 - no data read	
+r1	
+FAILED	
+391	
+18/03/2016 - 22:20:03 - no data read	
+r6	
+0	
+n 12988	
+r10	
+FAILED	
+15	
+18/03/2016 - 22:21:12 - no data read	
+r9	
+FAILED	
+9	
+18/03/2016 - 22:22:21 - no data read	
+lr	
+FAILED	
+14	
+18/03/2016 - 22:23:30 - no data read	
+r10	
+FAILED	
+3	
+18/03/2016 - 22:24:40 - no data read	
+r12	
+0	
+n 3579	
+r10	
+FAILED	
+20	
+18/03/2016 - 22:25:49 - no data read	
+r0	
+FAILED	
+60	
+18/03/2016 - 22:26:58 - no data read	
+r6	
+0	
+n 596	
+r2	
+0	
+n 12759	
+r10	
+FAILED	
+20	
+18/03/2016 - 22:28:07 - no data read	
+r7	
+0	
+n 7711	
+r7	
+0	
+n 7549	
+r2	
+FAILED	
+305	
+18/03/2016 - 22:29:17 - no data read	
+r8	
+r9	
+FAILED	
+19	
+18/03/2016 - 22:31:35 - no data read	
+r10	
+0	
+n 2718	
+r9	
+FAILED	
+14	
+18/03/2016 - 22:32:45 - no data read	
+r6	
+0	
+n 2889	
+r5	
+FAILED	
+1	
+18/03/2016 - 22:33:55 - no data read	
+r11	
+0	
+n 23076	
+r9	
+FAILED	
+19	
+18/03/2016 - 22:35:05 - no data read	
+r3	
+r0	
+FAILED	
+260	
+18/03/2016 - 22:37:24 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 22:38:33 - no data read	
+r0	
+FAILED	
+280	
+18/03/2016 - 22:39:42 - no data read	
+r1	
+FAILED	
+382	
+18/03/2016 - 22:40:52 - no data read	
+r2	
+FAILED	
+360	
+18/03/2016 - 22:42:01 - no data read	
+r3	
+r9	
+FAILED	
+2	
+18/03/2016 - 22:44:19 - no data read	
+r12	
+0	
+n 9083	
+r7	
+0	
+n 6573	
+r2	
+FAILED	
+323	
+18/03/2016 - 22:45:28 - no data read	
+lr	
+FAILED	
+17	
+18/03/2016 - 22:46:37 - no data read	
+r11	
+0	
+n 11092	
+r12	
+0	
+n 19883	
+lr	
+FAILED	
+4	
+18/03/2016 - 22:47:46 - no data read	
+r12	
+0	
+n 19580	
+r0	
+FAILED	
+100	
+18/03/2016 - 22:48:56 - no data read	
+r9	
+FAILED	
+7	
+18/03/2016 - 22:50:05 - no data read	
+r1	
+FAILED	
+400	
+18/03/2016 - 22:51:14 - no data read	
+r1	
+FAILED	
+203	
+18/03/2016 - 22:52:24 - no data read	
+r1	
+FAILED	
+391	
+18/03/2016 - 22:53:33 - no data read	
+r0	
+FAILED	
+280	
+18/03/2016 - 22:54:42 - no data read	
+r4	
+0	
+n 18197	
+r0	
+FAILED	
+120	
+18/03/2016 - 22:55:52 - no data read	
+r0	
+0	
+n 14361	
+r6	
+0	
+n 5939	
+r8	
+r4	
+0	
+n 17402	
+r6	
+0	
+n 17241	
+r4	
+FAILED	
+1	
+18/03/2016 - 22:58:10 - no data read	
+lr	
+FAILED	
+19	
+18/03/2016 - 22:59:19 - no data read	
+r8	
+r2	
+FAILED	
+400	
+18/03/2016 - 23:01:37 - no data read	
+r4	
+0	
+n 24393	
+r5	
+0	
+n 23142	
+r5	
+0	
+n 10365	
+r4	
+FAILED	
+1	
+18/03/2016 - 23:02:46 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 23:03:55 - no data read	
+r7	
+0	
+n 9596	
+r8	
+r4	
+FAILED	
+1	
+18/03/2016 - 23:06:13 - no data read	
+r2	
+FAILED	
+400	
+18/03/2016 - 23:07:22 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 23:08:31 - no data read	
+r11	
+0	
+n 3579	
+r2	
+FAILED	
+361	
+18/03/2016 - 23:09:41 - no data read	
+r3	
+r5	
+0	
+n 10287	
+r6	
+0	
+n 12029	
+r3	
+r4	
+FAILED	
+1	
+18/03/2016 - 23:13:08 - no data read	
+r10	
+FAILED	
+15	
+18/03/2016 - 23:14:17 - no data read	
+r7	
+0	
+n 5010	
+r10	
+FAILED	
+15	
+18/03/2016 - 23:15:26 - no data read	
+r2	
+FAILED	
+65	
+18/03/2016 - 23:16:35 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 23:17:44 - no data read	
+r8	
+r7	
+0	
+n 12409	
+r3	
+0	
+n 4281	
+r1	
+FAILED	
+366	
+18/03/2016 - 23:20:02 - no data read	
+r10	
+FAILED	
+14	
+18/03/2016 - 23:21:11 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 23:22:20 - no data read	
+r7	
+0	
+n 13783	
+r4	
+FAILED	
+1	
+18/03/2016 - 23:23:28 - no data read	
+lr	
+FAILED	
+3	
+18/03/2016 - 23:24:37 - no data read	
+r10	
+0	
+n 14939	
+r5	
+0	
+n 23379	
+r3	
+r12	
+0	
+n 20896	
+r11	
+0	
+n 13062	
+r0	
+FAILED	
+200	
+18/03/2016 - 23:26:55 - no data read	
+r3	
+r9	
+FAILED	
+2	
+18/03/2016 - 23:29:12 - no data read	
+r0	
+FAILED	
+380	
+18/03/2016 - 23:30:21 - no data read	
+r7	
+0	
+n 24507	
+r9	
+FAILED	
+14	
+18/03/2016 - 23:31:29 - no data read	
+r8	
+r8	
+lr	
+FAILED	
+10	
+18/03/2016 - 23:34:56 - no data read	
+r8	
+r1	
+FAILED	
+382	
+18/03/2016 - 23:37:13 - no data read	
+r10	
+FAILED	
+3	
+18/03/2016 - 23:38:22 - no data read	
+r0	
+FAILED	
+180	
+18/03/2016 - 23:39:31 - no data read	
+r10	
+FAILED	
+10	
+18/03/2016 - 23:40:40 - no data read	
+r2	
+FAILED	
+7	
+18/03/2016 - 23:41:49 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 23:42:58 - no data read	
+lr	
+FAILED	
+8	
+18/03/2016 - 23:44:07 - no data read	
+r7	
+0	
+n 12978	
+r4	
+FAILED	
+1	
+18/03/2016 - 23:45:15 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 23:46:24 - no data read	
+r9	
+FAILED	
+6	
+18/03/2016 - 23:47:33 - no data read	
+r6	
+0	
+n 6100	
+r11	
+0	
+n 22801	
+r0	
+FAILED	
+40	
+18/03/2016 - 23:48:41 - no data read	
+r0	
+0	
+n 23882	
+r10	
+FAILED	
+5	
+18/03/2016 - 23:49:51 - no data read	
+r11	
+0	
+n 21248	
+r3	
+r3	
+r10	
+FAILED	
+7	
+18/03/2016 - 23:53:17 - no data read	
+r2	
+FAILED	
+1	
+18/03/2016 - 23:54:26 - no data read	
+r12	
+0	
+n 18150	
+r5	
+0	
+n 6403	
+lr	
+FAILED	
+16	
+18/03/2016 - 23:55:36 - no data read	
+r3	
+r3	
+r1	
+FAILED	
+59	
+18/03/2016 - 23:59:04 - no data read	
+r6	
+0	
+n 21987	
+r5	
+0	
+n 8525	
+r10	
+FAILED	
+13	
+19/03/2016 - 00:00:13 - no data read	
+r7	
+0	
+n 9369	
+lr	
+FAILED	
+13	
+19/03/2016 - 00:01:22 - no data read	
+r0	
+FAILED	
+380	
+19/03/2016 - 00:02:32 - no data read	
+r0	
+FAILED	
+140	
+19/03/2016 - 00:03:41 - no data read	
+r4	
+FAILED	
+1	
+19/03/2016 - 00:04:50 - no data read	
+r10	
+FAILED	
+14	
+19/03/2016 - 00:05:59 - no data read	
+r3	
+r8	
+r8	
+r7	
+0	
+n 9311	
+r2	
+FAILED	
+264	
+19/03/2016 - 00:10:35 - no data read	
+r2	
+FAILED	
+1	
+19/03/2016 - 00:11:45 - no data read	
+r5	
+FAILED	
+400	
+19/03/2016 - 00:12:54 - no data read	
+r12	
+0	
+n 7653	
+r12	
+0	
+n 17534	
+r10	
+FAILED	
+16	
+19/03/2016 - 00:14:04 - no data read	
+r7	
+0	
+n 6792	
+r2	
+0	
+n 18671	
+lr	
+FAILED	
+5	
+19/03/2016 - 00:15:13 - no data read	
+r12	
+0	
+n 16766	
+r7	
+0	
+n 24923	
+r8	
+lr	
+FAILED	
+13	
+19/03/2016 - 00:17:32 - no data read	
+r12	
+0	
+n 23076	
+r2	
+FAILED	
+25	
+19/03/2016 - 00:18:40 - no data read	
+lr	
+FAILED	
+13	
+19/03/2016 - 00:19:49 - no data read	
+r11	
+0	
+n 18490	
+lr	
+FAILED	
+5	
+19/03/2016 - 00:20:58 - no data read	
+r1	
+FAILED	
+8	
+19/03/2016 - 00:22:06 - no data read	
+r3	
+lr	
+FAILED	
+19	
+19/03/2016 - 00:24:24 - no data read	
+r11	
+0	
+n 23189	
+r7	
+0	
+n 14493	
+r12	
+0	
+n 7010	
+r5	
+0	
+n 1130	
+r8	
+0	
+n 18696	
+r3	
+r3	
+r0	
+FAILED	
+260	
+19/03/2016 - 00:27:50 - no data read	
+r1	
+FAILED	
+358	
+19/03/2016 - 00:28:59 - no data read	
+r7	
+0	
+n 5181	
+r8	
+r10	
+FAILED	
+16	
+19/03/2016 - 00:31:16 - no data read	
+r11	
+0	
+n 23076	
+r4	
+0	
+n 207	
+r0	
+FAILED	
+20	
+19/03/2016 - 00:32:25 - no data read	
+r12	
+0	
+n 21475	
+r7	
+0	
+n 17704	
+r7	
+0	
+n 24049	
+r4	
+0	
+n 5545	
+r4	
+FAILED	
+1	
+19/03/2016 - 00:33:34 - no data read	
+r12	
+0	
+n 20726	
+r1	
+FAILED	
+4	
+19/03/2016 - 00:34:43 - no data read	
+r2	
+FAILED	
+164	
+19/03/2016 - 00:35:52 - no data read	
+r10	
+FAILED	
+20	
+19/03/2016 - 00:37:01 - no data read	
+r9	
+FAILED	
+19	
+19/03/2016 - 00:38:10 - no data read	
+r9	
+FAILED	
+19	
+19/03/2016 - 00:39:18 - no data read	
+r7	
+0	
+n 20319	
+r5	
+0	
+n 9377	
+r0	
+FAILED	
+260	
+19/03/2016 - 00:40:27 - no data read	
+r7	
+0	
+n 21352	
+lr	
+FAILED	
+3	
+19/03/2016 - 00:41:35 - no data read	
+r5	
+0	
+n 1913	
+lr	
+0	
+n 2614	
+r8	
+lr	
+0	
+n 22669	
+r8	
+r0	
+FAILED	
+100	
+19/03/2016 - 00:45:02 - no data read	
+r7	
+0	
+n 6327	
+lr	
+FAILED	
+16	
+19/03/2016 - 00:46:10 - no data read	
+r9	
+FAILED	
+17	
+19/03/2016 - 00:47:19 - no data read	
+r0	
+FAILED	
+20	
+19/03/2016 - 00:48:28 - no data read	
+r2	
+FAILED	
+203	
+19/03/2016 - 00:49:37 - no data read	
+r10	
+FAILED	
+2	
+19/03/2016 - 00:50:46 - no data read	
+r10	
+FAILED	
+3	
+19/03/2016 - 00:51:54 - no data read	
+r3	
+r6	
+0	
+n 14010	
+r1	
+FAILED	
+196	
+19/03/2016 - 00:54:12 - no data read	
+r1	
+0	
+n 15564	
+r0	
+0	
+n 19126	
+r0	
+FAILED	
+100	
+19/03/2016 - 00:55:21 - no data read	
+r10	
+FAILED	
+18	
+19/03/2016 - 00:56:30 - no data read	
+r3	
+r12	
+0	
+n 8345	
+r0	
+FAILED	
+280	
+19/03/2016 - 00:58:48 - no data read	
+r11	
+0	
+n 18490	
+r3	
+r0	
+FAILED	
+60	
+19/03/2016 - 01:01:06 - no data read	
+r6	
+0	
+n 4092	
+r4	
+0	
+n 3306	
+r9	
+FAILED	
+3	
+19/03/2016 - 01:02:15 - no data read	
+r10	
+FAILED	
+18	
+19/03/2016 - 01:03:25 - no data read	
+r7	
+0	
+n 14418	
+r11	
+0	
+n 9841	
+r10	
+FAILED	
+10	
+19/03/2016 - 01:04:35 - no data read	
+r6	
+0	
+n 6327	
+r5	
+0	
+n 15062	
+lr	
+FAILED	
+8	
+19/03/2016 - 01:05:44 - no data read	
+r12	
+0	
+n 11035	
+r1	
+FAILED	
+249	
+19/03/2016 - 01:06:53 - no data read	
+r12	
+0	
+n 20272	
+r5	
+0	
+n 8013	
+r12	
+0	
+n 23424	
+r4	
+0	
+n 8529	
+r7	
+0	
+n 11365	
+r10	
+FAILED	
+4	
+19/03/2016 - 01:08:02 - no data read	
+r6	
+0	
+n 10060	
+r10	
+FAILED	
+7	
+19/03/2016 - 01:09:11 - no data read	
+r0	
+FAILED	
+260	
+19/03/2016 - 01:10:20 - no data read	
+r12	
+0	
+n 12068	
+r4	
+FAILED	
+1	
+19/03/2016 - 01:11:29 - no data read	
+r10	
+FAILED	
+20	
+19/03/2016 - 01:12:38 - no data read	
+r10	
+FAILED	
+18	
+19/03/2016 - 01:13:47 - no data read	
+r9	
+FAILED	
+19	
+19/03/2016 - 01:14:56 - no data read	
+r3	
+r10	
+FAILED	
+11	
+19/03/2016 - 01:17:13 - no data read	
+r9	
+0	
+n 22498	
+r1	
+FAILED	
+49	
+19/03/2016 - 01:18:22 - no data read	
+r9	
+FAILED	
+13	
+19/03/2016 - 01:19:30 - no data read	
+r9	
+FAILED	
+13	
+19/03/2016 - 01:20:39 - no data read	
+r7	
+0	
+n 5816	
+r9	
+0	
+n 21768	
+r7	
+0	
+n 9406	
+r8	
+r10	
+FAILED	
+20	
+19/03/2016 - 01:22:56 - no data read	
+r11	
+0	
+n 15677	
+r5	
+0	
+n 320	
+r2	
+FAILED	
+240	
+19/03/2016 - 01:24:05 - no data read	
+r0	
+FAILED	
+380	
+19/03/2016 - 01:25:14 - no data read	
+r12	
+0	
+n 24686	
+r10	
+FAILED	
+12	
+19/03/2016 - 01:26:23 - no data read	
+r4	
+0	
+n 5305	
+r12	
+0	
+n 20564	
+r9	
+FAILED	
+3	
+19/03/2016 - 01:27:32 - no data read	
+r11	
+0	
+n 20896	
+r11	
+0	
+n 22686	
+r3	
+r0	
+FAILED	
+320	
+19/03/2016 - 01:29:49 - no data read	
+r1	
+FAILED	
+382	
+19/03/2016 - 01:30:58 - no data read	
+r8	
+r4	
+FAILED	
+1	
+19/03/2016 - 01:33:16 - no data read	
+r11	
+0	
+n 19410	
+r9	
+FAILED	
+3	
+19/03/2016 - 01:34:25 - no data read	
+r7	
+0	
+n 7484	
+r4	
+0	
+n 11045	
+r10	
+FAILED	
+9	
+19/03/2016 - 01:35:34 - no data read	
+r4	
+0	
+n 13783	
+r2	
+FAILED	
+205	
+19/03/2016 - 01:36:43 - no data read	
+r12	
+0	
+n 5247	
+r9	
+FAILED	
+10	
+19/03/2016 - 01:37:52 - no data read	
+r11	
+0	
+n 17799	
+r0	
+FAILED	
+120	
+19/03/2016 - 01:39:01 - no data read	
+r7	
+0	
+n 4557	
+r11	
+0	
+n 15231	
+r5	
+0	
+n 1935	
+r2	
+FAILED	
+400	
+19/03/2016 - 01:40:10 - no data read	
+r6	
+0	
+n 7303	
+r5	
+0	
+n 12759	
+r7	
+0	
+n 2644	
+r10	
+FAILED	
+16	
+19/03/2016 - 01:41:19 - no data read	
+r6	
+0	
+n 22044	
+r5	
+n 7891	
+r4	
+FAILED	
+1	
+19/03/2016 - 01:42:28 - no data read	
+r9	
+FAILED	
+8	
+19/03/2016 - 01:43:37 - no data read	
+r6	
+0	
+n 1572	
+r7	
+0	
+n 2841	
+r11	
+0	
+n 22423	
+r8	
+lr	
+FAILED	
+5	
+19/03/2016 - 01:45:55 - no data read	
+lr	
+FAILED	
+1	
+19/03/2016 - 01:47:04 - no data read	
+r3	
+r12	
+0	
+n 18888	
+r11	
+0	
+n 9159	
+r7	
+0	
+n 22970	
+r6	
+0	
+n 5090	
+r8	
+r2	
+FAILED	
+2	
+19/03/2016 - 01:50:31 - no data read	
+r12	
+0	
+n 9264	
+r7	
+0	
+n 2793	
+r0	
+FAILED	
+380	
+19/03/2016 - 01:51:40 - no data read	
+r5	
+FAILED	
+1	
+19/03/2016 - 01:52:49 - no data read	
+r7	
+0	
+n 15451	
+r7	
+0	
+n 14019	
+r0	
+FAILED	
+180	
+19/03/2016 - 01:53:58 - no data read	
+r1	
+FAILED	
+382	
+19/03/2016 - 01:55:07 - no data read	
+r1	
+FAILED	
+266	
+19/03/2016 - 01:56:16 - no data read	
+lr	
+FAILED	
+10	
+19/03/2016 - 01:57:25 - no data read	
+r6	
+0	
+n 22101	
+r4	
+FAILED	
+1	
+19/03/2016 - 01:58:34 - no data read	
+r0	
+FAILED	
+280	
+19/03/2016 - 01:59:43 - no data read	
+r4	
+FAILED	
+1	
+19/03/2016 - 02:00:53 - no data read	
+r3	
+r9	
+FAILED	
+8	
+19/03/2016 - 02:03:10 - no data read	
+r8	
+r4	
+FAILED	
+1	
+19/03/2016 - 02:05:28 - no data read	
+r0	
+FAILED	
+200	
+19/03/2016 - 02:06:37 - no data read	
+r1	
+FAILED	
+203	
+19/03/2016 - 02:07:46 - no data read	
+r7	
+0	
+n 10695	
+r6	
+0	
+n 7890	
+r8	
+r1	
+FAILED	
+328	
+19/03/2016 - 02:10:04 - no data read	
+r10	
+FAILED	
+5	
+19/03/2016 - 02:11:13 - no data read	
+r9	
+FAILED	
+13	
+19/03/2016 - 02:12:23 - no data read	
+r3	
+r9	
+0	
+n 20319	
+r9	
+FAILED	
+7	
+19/03/2016 - 02:14:40 - no data read	
+r11	
+0	
+n 19693	
+r0	
+FAILED	
+80	
+19/03/2016 - 02:15:49 - no data read	
+r7	
+0	
+n 9596	
+r11	
+0	
+n 14483	
+r10	
+FAILED	
+10	
+19/03/2016 - 02:16:58 - no data read	
+lr	
+FAILED	
+19	
+19/03/2016 - 02:18:07 - no data read	
+r1	
+FAILED	
+72	
+19/03/2016 - 02:19:16 - no data read	
+r2	
+FAILED	
+2	
+19/03/2016 - 02:20:24 - no data read	
+r2	
+FAILED	
+3	
+19/03/2016 - 02:21:34 - no data read	
+r10	
+FAILED	
+3	
+19/03/2016 - 02:22:43 - no data read	
+r6	
+0	
+n 5929	
+r0	
+FAILED	
+320	
+19/03/2016 - 02:23:52 - no data read	
+r11	
+0	
+n 10921	
+r9	
+FAILED	
+11	
+19/03/2016 - 02:25:01 - no data read	
+r5	
+0	
+n 12988	
+r0	
+FAILED	
+200	
+19/03/2016 - 02:26:09 - no data read	
+r5	
+0	
+n 11717	
+r10	
+FAILED	
+18	
+19/03/2016 - 02:27:18 - no data read	
+r8	
+r8	
+r2	
+FAILED	
+322	
+19/03/2016 - 02:30:44 - no data read	
+r6	
+0	
+n 2604	
+r4	
+FAILED	
+1	
+19/03/2016 - 02:31:53 - no data read	
+r3	
+r12	
+0	
+n 3466	
+r8	
+r5	
+0	
+n 12807	
+r0	
+FAILED	
+200	
+19/03/2016 - 02:35:19 - no data read	
+r3	
+r6	
+0	
+n 3865	
+r11	
+0	
+n 13507	
+r11	
+0	
+n 3480	
+r9	
+0	
+n 20773	
+lr	
+FAILED	
+3	
+19/03/2016 - 02:37:37 - no data read	
+r4	
+FAILED	
+1	
+19/03/2016 - 02:38:46 - no data read	
+r1	
+FAILED	
+400	
+19/03/2016 - 02:39:55 - no data read	
+r0	
+FAILED	
+60	
+19/03/2016 - 02:41:04 - no data read	
+r0	
+FAILED	
+40	
+19/03/2016 - 02:42:13 - no data read	
+r12	
+0	
+n 13100	
+r2	
+FAILED	
+202	
+19/03/2016 - 02:43:22 - no data read	
+r5	
+0	
+n 6100	
+r5	
+0	
+n 22450	
+r11	
+0	
+n 89	
+r2	
+0	
+n 19640	
+r0	
+0	
+n 7842	
+lr	
+FAILED	
+15	
+19/03/2016 - 02:44:30 - no data read	
+r6	
+0	
+n 24053	
+r10	
+FAILED	
+2	
+19/03/2016 - 02:45:39 - no data read	
+r7	
+0	
+n 19979	
+r2	
+FAILED	
+87	
+19/03/2016 - 02:46:48 - no data read	
+r12	
+0	
+n 19182	
+r5	
+0	
+n 11736	
+r3	
+0	
+n 15577	
+r10	
+FAILED	
+10	
+19/03/2016 - 02:47:58 - no data read	
+r5	
+0	
+n 2831	
+r2	
+FAILED	
+2	
+19/03/2016 - 02:49:07 - no data read	
+r1	
+FAILED	
+400	
+19/03/2016 - 02:50:16 - no data read	
+r2	
+FAILED	
+400	
+19/03/2016 - 02:51:24 - no data read	
+r7	
+0	
+n 3467	
+r4	
+FAILED	
+1	
+19/03/2016 - 02:52:33 - no data read	
+r11	
+0	
+n 8799	
+r3	
+r4	
+FAILED	
+1	
+19/03/2016 - 02:54:52 - no data read	
+r5	
+0	
+n 11433	
+r5	
+0	
+n 2851	
+r5	
+FAILED	
+1	
+19/03/2016 - 02:56:01 - no data read	
+r10	
+FAILED	
+8	
+19/03/2016 - 02:57:11 - no data read	
+r2	
+FAILED	
+165	
+19/03/2016 - 02:58:20 - no data read	
+r10	
+FAILED	
+3	
+19/03/2016 - 02:59:29 - no data read	
+r10	
+FAILED	
+6	
+19/03/2016 - 03:00:38 - no data read	
+r8	
+r0	
+FAILED	
+380	
+19/03/2016 - 03:02:57 - no data read	
+r12	
+0	
+n 9889	
+r2	
+FAILED	
+260	
+19/03/2016 - 03:04:07 - no data read	
+r8	
+r12	
+0	
+n 7653	
+r9	
+FAILED	
+7	
+19/03/2016 - 03:06:26 - no data read	
+r1	
+FAILED	
+400	
+19/03/2016 - 03:07:35 - no data read	
+r8	
+0	
+n 23417	
+r8	
+r8	
+r9	
+FAILED	
+10	
+19/03/2016 - 03:11:02 - no data read	
+r9	
+FAILED	
+14	
+19/03/2016 - 03:12:11 - no data read	
+r5	
+0	
+n 5589	
+lr	
+FAILED	
+17	
+19/03/2016 - 03:13:20 - no data read	
+r2	
+FAILED	
+2	
+19/03/2016 - 03:14:29 - no data read	
+r11	
+0	
+n 23710	
+r5	
+0	
+n 11792	
+lr	
+FAILED	
+11	
+19/03/2016 - 03:15:38 - no data read	
+lr	
+FAILED	
+3	
+19/03/2016 - 03:16:47 - no data read	
+lr	
+FAILED	
+8	
+19/03/2016 - 03:17:56 - no data read	
+r10	
+0	
+n 10467	
+r10	
+FAILED	
+20	
+19/03/2016 - 03:19:04 - no data read	
+r2	
+FAILED	
+61	
+19/03/2016 - 03:20:13 - no data read	
+lr	
+FAILED	
+3	
+19/03/2016 - 03:21:22 - no data read	
+r4	
+0	
+n 15791	
+r1	
+FAILED	
+166	
+19/03/2016 - 03:22:30 - no data read	
+r10	
+FAILED	
+9	
+19/03/2016 - 03:23:39 - no data read	
+r9	
+FAILED	
+19	
+19/03/2016 - 03:24:48 - no data read	
+r9	
+FAILED	
+2	
+19/03/2016 - 03:25:57 - no data read	
+r11	
+0	
+n 15677	
+lr	
+FAILED	
+8	
+22/03/2016 - 11:34:05 - no data read	
+r5	
+FAILED	
+1	
+22/03/2016 - 11:35:17 - no data read	
+r12	
+0	
+n 1060	
+r9	
+0	
+n 24980	
+r1	
+FAILED	
+5	
+22/03/2016 - 11:36:30 - no data read	
+r10	
+FAILED	
+4	
+22/03/2016 - 11:37:42 - no data read	
+r5	
+FAILED	
+1	
+22/03/2016 - 11:38:58 - no data read	
+r2	
+FAILED	
+400	
+22/03/2016 - 11:40:11 - no data read	
+r11	
+0	
+n 9083	
+r6	
+0	
+n 11101	
+r10	
+FAILED	
+9	
+22/03/2016 - 11:41:22 - no data read	
+r9	
+FAILED	
+7	
+22/03/2016 - 11:42:32 - no data read	
+lr	
+FAILED	
+8	
+22/03/2016 - 11:43:43 - no data read	
+r4	
+FAILED	
+1	
+22/03/2016 - 11:44:52 - no data read	
+lr	
+0	
+n 5580	
+r9	
+FAILED	
+4	
+22/03/2016 - 11:46:01 - no data read	
+r6	
+0	
+n 16483	
+r12	
+0	
+n 12020	
+r1	
+FAILED	
+232	
+22/03/2016 - 11:47:09 - no data read	
+r6	
+0	
+n 1913	
+r5	
+FAILED	
+400	
+22/03/2016 - 11:48:19 - no data read	
+r6	
+0	
+n 10174	
+r5	
+0	
+n 14654	
+r8	
+lr	
+FAILED	
+18	
+22/03/2016 - 11:50:36 - no data read	
+r3	
+r0	
+FAILED	
+60	
+22/03/2016 - 11:52:54 - no data read	
+r9	
+FAILED	
+19	
+22/03D	
+1	
+18/03/2016 - 17:18:39 - no data read	
+r5	
+0	
+n 19287	
+r9	
+FAILED	
+5	
+18/03/2016 - 17:19:48 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 17:20:57 - no data read	
+r9	
+FAILED	03/2016 - 11:57:28 - no data read
+r5	
+0	
+n 10628	
+r8	
+r2	
+FAILED	
+386	
+22/03/2016 - 11:59:46 - no data read	
+r1	
+FAILED	
+382	
+22/03/2016 - 12:00:54 - no data read	
+r5	
+0	
+n 10866	
+lr	
+FAILED	
+12	
+22/03/2016 - 12:02:03 - no data read	
+r11	
+0	
+n 21181	
+r5	
+0	
+n 6629	
+r9	
+FAILED	
+6	
+22/03/2016 - 12:03:12 - no data read	
+r7	
+0	
+n 2889	
+r6	
+0	
+n 13916	
+r4	
+0	
+n 14844	
+r1	
+FAILED	
+36	
+22/03/2016 - 12:04:20 - no data read	
+r4	
+FAILED	
+1	
+22/03/2016 - 12:05:29 - no data read	
+r12	
+0	
+n 11670	
+r3	
+0	
+n 4631	
+r7	
+0	
+n 9213	
+r0	
+FAILED	
+280	
+22/03/2016 - 12:06:38 - no data read	
+r2	
+FAILED	
+205	
+22/03/2016 - 12:07:46 - no data read	
+r0	
+FAILED	
+400	
+22/03/2016 - 12:08:55 - no data read	
+r9	
+FAILED	
+9	
+22/03/2016 - 12:10:04 - no data read	
+r10	
+FAILED	
+9	
+22/03/2016 - 12:11:13 - no data read	
+r11	
+0	
+n 8345	
+r6	
+0	
+n 24117	
+r9	
+FAILED	
+1	
+22/03/2016 - 12:12:22 - no data read	
+r11	
+0	
+n 7483	
+lr	
+FAILED	
+15	
+22/03/2016 - 12:13:30 - no data read	
+r7	
+0	
+n 4092	
+r3	
+r4	
+FAILED	
+1	
+22/03/2016 - 12:15:48 - no data read	
+r2	
+FAILED	
+306	
+22/03/2016 - 12:16:57 - no data read	
+lr	
+FAILED	
+14	
+22/03/2016 - 12:18:09 - no data read	
+r1	
+0	
+n 710	
+r7	
+0	
+n 15460	
+lr	
+FAILED	
+8	
+22/03/2016 - 12:19:19 - no data read	
+r7	
+0	
+n 8857	
+r11	
+0	
+n 7208	
+r2	
+FAILED	
+303	
+22/03/2016 - 12:20:29 - no data read	
+r0	
+FAILED	
+160	
+22/03/2016 - 12:21:39 - no data read	
+lr	
+FAILED	
+3	
+22/03/2016 - 12:22:49 - no data read	
+r5	
+0	
+n 4386	
+r4	
+FAILED	
+1	
+22/03/2016 - 12:24:01 - no data read	
+r9	
+FAILED	
+11	
+22/03/2016 - 12:25:12 - no data read	
+lr	
+FAILED	
+16	
+17/03/2016 - 17:52:15 - board hard reseted	
+r7	
+SUCCESS	S
+n 14361	
+r7	
+SUCCESS	S
+n 24981	
+r7	
+SUCCESS	S
+n 3489	
+r7	
+SUCCESS	S
+n 22098	
+r8	
+FAILED	
+17/03/2016 - 17:54:49 - no data read	
+r4	
+SUCCESS	S
+n 5589	
+r5	
+SUCCESS	S
+n 23256	
+r5	
+SUCCESS	S
+n 20755	
+r2	
+FAILED	
+64	
+17/03/2016 - 17:55:55 - no data read	
+lr	
+FAILED	
+17/03/2016 - 17:57:01 - no data read	
+r1	
+FAILED	
+173	
+17/03/2016 - 17:58:06 - no data read	
+r12	
+SUCCESS	S
+n 22099	
+r11	
+SUCCESS	S
+n 7558	
+FAILED	
+17/03/2016 - 17:59:12 - no data read	
+r12	
+SUCCESS	S
+n 4271	
+r1	
+SUCCESS	S
+n 21938	
+lr	
+FAILED	
+2	
+17/03/2016 - 18:00:18 - no data read	
+r2	
+FAILED	
+1	
+17/03/2016 - 18:01:25 - no data read	
+lr	
+FAILED	
+2	
+17/03/2016 - 18:02:31 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 18:03:37 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 18:04:43 - no data read	
+FAILED	
+17/03/2016 - 18:05:49 - no data read	
+r4	
+FAILED	
+17/03/2016 - 18:06:56 - no data read	
+r1	
+FAILED	
+79	
+17/03/2016 - 18:08:02 - no data read	
+r6	
+SUCCESS	S
+n 22612	
+r6	
+SUCCESS	S
+n 8525	
+r4	
+SUCCESS	S
+n 5276	
+lr	
+FAILED	
+17	
+17/03/2016 - 18:09:09 - no data read	
+r11	
+SUCCESS	S
+n 9083	
+r1	
+FAILED	
+283	
+17/03/2016 - 18:10:15 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 18:11:21 - no data read	
+r12	
+SUCCESS	S
+n 3693	
+r4	
+FAILED	
+1	
+17/03/2016 - 18:12:28 - no data read	
+r12	
+SUCCESS	S
+n 8856	
+r3	
+r6	
+SUCCESS	S
+n 6963	
+r11	
+SUCCESS	S
+n 5711	
+r3	
+SUCCESS	S
+n 4479	
+r12	
+SUCCESS	S
+n 9772	
+r6	
+SUCCESS	S
+n 15478	
+lr	
+FAILED	
+8	
+17/03/2016 - 18:14:40 - no data read	
+r1	
+FAILED	
+29	
+17/03/2016 - 18:15:46 - no data read	
+r9	
+FAILED	
+19	
+17/03/2016 - 18:16:52 - no data read	
+FAILED	
+17/03/2016 - 18:17:58 - no data read	
+SUCCESS	S
+n 2662	
+lr	
+FAILED	
+19	
+17/03/2016 - 18:19:04 - no data read	
+lr	
+FAILED	
+13	
+17/03/2016 - 18:20:10 - no data read	
+r9	
+FAILED	
+19	
+17/03/2016 - 18:21:16 - no data read	
+r3	
+r8	
+r1	
+FAILED	
+267	
+17/03/2016 - 18:24:34 - no data read	
+r9	
+FAILED	
+3	
+17/03/2016 - 18:25:40 - no data read	
+SUCCESS	S
+n 1401	
+r11	
+SUCCESS	S
+r9	
+FAILED	
+9	
+17/03/2016 - 18:26:46 - no data read	
+FAILED	
+17/03/2016 - 18:27:52 - no data read	
+r3	
+r9	
+FAILED	
+19	
+17/03/2016 - 18:30:04 - no data read	
+FAILED	
+17/03/2016 - 18:31:10 - no data read	
+FAILED	
+17/03/2016 - 18:32:16 - no data read	
+r5	
+FAILED	
+1	
+17/03/2016 - 18:33:23 - no data read	
+FAILED	
+17/03/2016 - 18:34:29 - no data read	
+r6	
+SUCCESS	S
+r6	
+SUCCESS	S
+n 13337	
+r12	
+SUCCESS	S
+FAILED	
+7	
+17/03/2016 - 18:35:35 - no data read	
+r1	
+FAILED	
+388	
+17/03/2016 - 18:36:41 - no data read	
+FAILED	
+17/03/2016 - 18:37:48 - no data read	
+FAILED	
+16	
+17/03/2016 - 18:38:54 - no data read	
+FAILED	
+17/03/2016 - 18:40:00 - no data read	
+FAILED	
+14	
+17/03/2016 - 18:41:06 - no data read	
+FAILED	
+9	
+17/03/2016 - 18:42:12 - no data read	
+r1	
+FAILED	
+79	
+17/03/2016 - 18:43:18 - no data read	
+r8	
+r7	
+SUCCESS	S
+n 21522	
+r2	
+FAILED	
+62	
+17/03/2016 - 18:45:30 - no data read	
+FAILED	
+9	
+17/03/2016 - 18:46:36 - no data read	
+r1	
+FAILED	
+17/03/2016 - 18:47:42 - no data read	
+r5	
+FAILED	
+1	
+17/03/2016 - 18:48:48 - no data read	
+r5	
+SUCCESS	S
+r3	
+r12	
+SUCCESS	S
+n 11376	
+r12	
+SUCCESS	S
+n 10702	
+r8	
+r8	
+r11	
+SUCCESS	S
+n 1287	
+r6	
+SUCCESS	S
+n 8297	
+FAILED	
+17	
+17/03/2016 - 18:53:12 - no data read	
+r6	
+SUCCESS	S
+n 21874	
+r7	
+SUCCESS	S
+n 21599	
+r5	
+SUCCESS	S
+n 14081	
+r12	
+SUCCESS	S
+n 553	
+r12	
+SUCCESS	S
+n 3275	
+r5	
+FAILED	
+1	
+17/03/2016 - 18:54:18 - no data read	
+r1	
+FAILED	
+242	
+17/03/2016 - 18:55:24 - no data read	
+r11	
+SUCCESS	S
+n 18264	
+FAILED	
+3	
+17/03/2016 - 18:56:29 - no data read	
+r6	
+SUCCESS	S
+n 13896	
+r7	
+SUCCESS	S
+n 15403	
+r12	
+SUCCESS	S
+n 9148	
+r5	
+FAILED	
+1	
+17/03/2016 - 18:57:35 - no data read	
+FAILED	
+4	
+17/03/2016 - 18:58:41 - no data read	
+lr	
+FAILED	
+16	
+17/03/2016 - 18:59:47 - no data read	
+r9	
+FAILED	
+2	
+17/03/2016 - 19:00:53 - no data read	
+FAILED	
+14	
+17/03/2016 - 19:01:59 - no data read	
+r3	
+r4	
+SUCCESS	S
+n 11898	
+lr	
+FAILED	
+11	
+17/03/2016 - 19:04:11 - no data read	
+r1	
+FAILED	
+297	
+17/03/2016 - 19:05:17 - no data read	
+r12	
+SUCCESS	S
+n 9946	
+FAILED	
+9	
+17/03/2016 - 19:06:22 - no data read	
+FAILED	
+17/03/2016 - 19:07:29 - no data read	
+FAILED	
+18	
+17/03/2016 - 19:08:35 - no data read	
+r6	
+SUCCESS	S
+n 11604	
+r5	
+SUCCESS	S
+n 22631	
+r9	
+FAILED	
+6	
+17/03/2016 - 19:09:41 - no data read	
+r4	
+SUCCESS	S
+n 8279	
+FAILED	
+18	
+17/03/2016 - 19:10:48 - no data read	
+r11	
+SUCCESS	S
+n 8799	
+r12	
+SUCCESS	S
+n 7672	
+r7	
+SUCCESS	S
+n 3667	
+FAILED	
+17/03/2016 - 19:11:53 - no data read	
+lr	
+FAILED	
+1	
+17/03/2016 - 19:12:59 - no data read	
+r12	
+SUCCESS	S
+n 24165	
+r2	
+FAILED	
+17/03/2016 - 19:14:06 - no data read	
+r4	
+SUCCESS	S
+n 18197	
+SUCCESS	S
+r11	
+SUCCESS	S
+n 22222	
+r7	
+SUCCESS	S
+n 5658	
+r7	
+SUCCESS	S
+n 24892	
+r7	
+SUCCESS	S
+n 9372	
+r6	
+SUCCESS	S
+n 7907	
+FAILED	
+4	
+17/03/2016 - 19:15:12 - no data read	
+r8	
+r9	
+FAILED	
+6	
+17/03/2016 - 19:17:25 - no data read	
+r3	
+lr	
+FAILED	
+19	
+17/03/2016 - 19:19:37 - no data read	
+r6	
+SUCCESS	S
+n 8108	
+r3	
+r5	
+SUCCESS	S
+n 10866	
+r8	
+r2	
+SUCCESS	S
+n 4784	
+r4	
+FAILED	
+1	
+17/03/2016 - 19:22:55 - no data read	
+r9	
+FAILED	
+4	
+17/03/2016 - 19:24:01 - no data read	
+SUCCESS	S
+n 6394	
+r4	
+SUCCESS	S
+n 10647	
+r6	
+SUCCESS	S
+n 17952	
+r12	
+SUCCESS	S
+r11	
+SUCCESS	S
+n 4997	
+r7	
+SUCCESS	S
+n 24231	
+FAILED	
+17/03/2016 - 19:25:06 - no data read	
+r9	
+FAILED	
+19	
+17/03/2016 - 19:26:12 - no data read	
+r3	
+lr	
+FAILED	
+5	
+17/03/2016 - 19:28:25 - no data read	
+r7	
+SUCCESS	S
+n 4897	
+r3	
+r6	
+SUCCESS	S
+n 9311	
+r5	
+SUCCESS	S
+r1	
+FAILED	
+169	
+17/03/2016 - 19:30:37 - no data read	
+r3	
+r6	
+SUCCESS	S
+n 19752	
+r11	
+SUCCESS	S
+n 21995	
+r11	
+SUCCESS	S
+n 11946	
+lr	
+FAILED	
+11	
+17/03/2016 - 19:32:49 - no data read	
+r8	
+FAILED	
+17/03/2016 - 19:35:01 - no data read	
+FAILED	
+17/03/2016 - 19:36:07 - no data read	
+r2	
+FAILED	
+4	
+17/03/2016 - 19:37:13 - no data read	
+FAILED	
+17/03/2016 - 19:38:20 - no data read	
+r12	
+SUCCESS	S
+n 11092	
+r4	
+FAILED	
+1	
+17/03/2016 - 19:39:26 - no data read	
+FAILED	
+17/03/2016 - 19:40:32 - no data read	
+r8	
+r9	
+FAILED	
+12	
+17/03/2016 - 19:42:44 - no data read	
+r7	
+SUCCESS	S
+n 22792	
+r2	
+FAILED	
+44	
+17/03/2016 - 19:43:49 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 19:44:55 - no data read	
+r12	
+SUCCESS	S
+n 8232	
+r4	
+SUCCESS	S
+r5	
+FAILED	
+1	
+17/03/2016 - 19:46:01 - no data read	
+r1	
+FAILED	
+79	
+17/03/2016 - 19:47:08 - no data read	
+r12	
+SUCCESS	S
+n 15166	
+r2	
+FAILED	
+5	
+17/03/2016 - 19:48:15 - no data read	
+r7	
+SUCCESS	S
+n 20841	
+r4	
+SUCCESS	S
+n 14484	
+lr	
+FAILED	
+9	
+17/03/2016 - 19:49:21 - no data read	
+r9	
+FAILED	
+8	
+17/03/2016 - 19:50:28 - no data read	
+r6	
+SUCCESS	S
+n 20784	
+FAILED	
+17/03/2016 - 19:51:33 - no data read	
+lr	
+SUCCESS	S
+n 132	
+r2	
+FAILED	
+17/03/2016 - 19:52:40 - no data read	
+r2	
+FAILED	
+165	
+17/03/2016 - 19:53:46 - no data read	
+r5	
+SUCCESS	S
+n 6565	
+r1	
+FAILED	
+32	
+17/03/2016 - 19:54:52 - no data read	
+r9	
+SUCCESS	S
+n 19865	
+r2	
+FAILED	
+82	
+17/03/2016 - 19:55:58 - no data read	
+r12	
+SUCCESS	S
+n 8345	
+FAILED	
+17	
+17/03/2016 - 19:57:04 - no data read	
+r1	
+FAILED	
+47	
+17/03/2016 - 19:58:10 - no data read	
+r6	
+SUCCESS	S
+n 10458	
+FAILED	
+17/03/2016 - 19:59:16 - no data read	
+FAILED	
+17/03/2016 - 20:00:22 - no data read	
+FAILED	
+9	
+17/03/2016 - 20:01:28 - no data read	
+r2	
+FAILED	
+2	
+17/03/2016 - 20:02:34 - no data read	
+r6	
+SUCCESS	S
+n 8857	
+FAILED	
+7	
+17/03/2016 - 20:03:40 - no data read	
+r3	
+lr	
+FAILED	
+13	
+17/03/2016 - 20:05:52 - no data read	
+r9	
+FAILED	
+12	
+17/03/2016 - 20:06:59 - no data read	
+r8	
+FAILED	
+17/03/2016 - 20:09:11 - no data read	
+r9	
+FAILED	
+13	
+17/03/2016 - 20:10:18 - no data read	
+r12	
+SUCCESS	S
+n 17061	
+r3	
+r11	
+SUCCESS	S
+n 13678	
+r1	
+FAILED	
+202	
+17/03/2016 - 20:12:30 - no data read	
+FAILED	
+17/03/2016 - 20:13:36 - no data read	
+FAILED	
+17/03/2016 - 20:14:42 - no data read	
+r7	
+SUCCESS	S
+n 7416	
+r4	
+FAILED	
+1	
+17/03/2016 - 20:15:48 - no data read	
+r3	
+SUCCESS	S
+n 19173	
+r2	
+SUCCESS	S
+n 12305	
+r1	
+FAILED	
+66	
+17/03/2016 - 20:16:54 - no data read	
+FAILED	
+17/03/2016 - 20:18:00 - no data read	
+r1	
+FAILED	
+328	
+17/03/2016 - 20:19:06 - no data read	
+r12	
+SUCCESS	S
+n 13384	
+FAILED	
+9	
+17/03/2016 - 20:20:12 - no data read	
+FAILED	
+17/03/2016 - 20:21:18 - no data read	
+r11	
+SUCCESS	S
+n 19693	
+FAILED	
+17/03/2016 - 20:22:24 - no data read	
+r5	
+FAILED	
+1	
+17/03/2016 - 20:23:30 - no data read	
+lr	
+FAILED	
+14	
+17/03/2016 - 20:24:36 - no data read	
+r9	
+SUCCESS	S
+n 4784	
+lr	
+FAILED	
+17	
+17/03/2016 - 20:25:42 - no data read	
+r8	
+r9	
+SUCCESS	S
+n 3002	
+r8	
+FAILED	
+17/03/2016 - 20:29:01 - no data read	
+lr	
+FAILED	
+5	
+17/03/2016 - 20:30:07 - no data read	
+r8	
+r6	
+SUCCESS	S
+n 23077	
+FAILED	
+17/03/2016 - 20:32:19 - no data read	
+r3	
+SUCCESS	S
+n 9084	
+r3	
+SUCCESS	S
+n 832	
+FAILED	
+17/03/2016 - 20:33:25 - no data read	
+r11	
+SUCCESS	S
+n 7653	
+r7	
+SUCCESS	S
+n 2793	
+r8	
+r9	
+FAILED	
+11	
+17/03/2016 - 20:35:37 - no data read	
+r7	
+SUCCESS	S
+n 3354	
+r3	
+SUCCESS	S
+n 9434	
+r1	
+FAILED	
+277	
+17/03/2016 - 20:36:43 - no data read	
+FAILED	
+17/03/2016 - 20:37:50 - no data read	
+lr	
+FAILED	
+14	
+17/03/2016 - 20:38:55 - no data read	
+r3	
+r2	
+FAILED	
+6	
+17/03/2016 - 20:41:08 - no data read	
+r6	
+SUCCESS	S
+n 2889	
+r3	
+r11	
+SUCCESS	S
+n 17061	
+r6	
+SUCCESS	S
+n 11509	
+r1	
+FAILED	
+17/03/2016 - 20:43:20 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 20:44:25 - no data read	
+r3	
+r8	
+r9	
+FAILED	
+2	
+17/03/2016 - 20:47:44 - no data read	
+r9	
+FAILED	
+17	
+17/03/2016 - 20:48:50 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 20:49:56 - no data read	
+r2	
+FAILED	
+17/03/2016 - 20:51:02 - no data read	
+r8	
+lr	
+FAILED	
+14	
+17/03/2016 - 20:53:14 - no data read	
+lr	
+SUCCESS	S
+lr	
+FAILED	
+16	
+17/03/2016 - 20:54:20 - no data read	
+r9	
+FAILED	
+2	
+17/03/2016 - 20:55:26 - no data read	
+lr	
+FAILED	
+11	
+17/03/2016 - 20:56:32 - no data read	
+r7	
+SUCCESS	S
+n 11604	
+r5	
+SUCCESS	S
+n 17241	
+FAILED	
+1	
+17/03/2016 - 20:57:38 - no data read	
+r1	
+FAILED	
+203	
+17/03/2016 - 20:58:44 - no data read	
+r1	
+FAILED	
+318	
+17/03/2016 - 20:59:51 - no data read	
+FAILED	
+17/03/2016 - 21:00:57 - no data read	
+FAILED	
+4	
+17/03/2016 - 21:02:03 - no data read	
+r3	
+r3	
+r6	
+SUCCESS	S
+n 12466	
+r6	
+SUCCESS	S
+FAILED	
+17	
+17/03/2016 - 21:05:21 - no data read	
+r8	
+r4	
+FAILED	
+17/03/2016 - 21:07:34 - no data read	
+FAILED	
+3	
+17/03/2016 - 21:08:40 - no data read	
+r7	
+SUCCESS	S
+n 7654	
+r6	
+SUCCESS	S
+n 11443	
+r12	
+SUCCESS	S
+n 6179	
+r12	
+SUCCESS	S
+n 4765	
+r8	
+r4	
+FAILED	
+1	
+17/03/2016 - 21:10:52 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 21:11:58 - no data read	
+lr	
+FAILED	
+1	
+17/03/2016 - 21:13:04 - no data read	
+FAILED	
+17/03/2016 - 21:14:11 - no data read	
+lr	
+FAILED	
+17/03/2016 - 21:15:16 - no data read	
+r8	
+r7	
+SUCCESS	S
+n 24166	
+r2	
+FAILED	
+21	
+17/03/2016 - 21:17:28 - no data read	
+FAILED	
+7	
+17/03/2016 - 21:18:34 - no data read	
+FAILED	
+17/03/2016 - 21:19:40 - no data read	
+lr	
+FAILED	
+12	
+17/03/2016 - 21:20:46 - no data read	
+FAILED	
+17/03/2016 - 21:21:52 - no data read	
+r5	
+FAILED	
+1	
+17/03/2016 - 21:22:58 - no data read	
+r1	
+FAILED	
+328	
+17/03/2016 - 21:24:04 - no data read	
+FAILED	
+3	
+17/03/2016 - 21:25:10 - no data read	
+FAILED	
+17/03/2016 - 21:26:15 - no data read	
+r3	
+r8	
+r5	
+SUCCESS	S
+n 22612	
+r2	
+FAILED	
+2	
+17/03/2016 - 21:29:34 - no data read	
+r2	
+FAILED	
+7	
+17/03/2016 - 21:30:40 - no data read	
+r6	
+SUCCESS	S
+n 4272	
+r4	
+SUCCESS	S
+n 22745	
+r4	
+SUCCESS	S
+n 8041	
+r5	
+SUCCESS	S
+n 958	
+r3	
+r1	
+FAILED	
+79	
+17/03/2016 - 21:32:52 - no data read	
+r6	
+SUCCESS	S
+n 19116	
+r9	
+FAILED	
+8	
+17/03/2016 - 21:33:58 - no data read	
+r12	
+SUCCESS	S
+n 11443	
+r9	
+FAILED	
+2	
+17/03/2016 - 21:35:04 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 21:36:10 - no data read	
+r11	
+SUCCESS	S
+n 22337	
+lr	
+FAILED	
+2	
+17/03/2016 - 21:37:16 - no data read	
+r5	
+SUCCESS	S
+n 767	
+FAILED	
+17/03/2016 - 21:38:22 - no data read	
+r3	
+SUCCESS	S
+n 10174	
+r9	
+FAILED	
+4	
+17/03/2016 - 21:39:28 - no data read	
+r12	
+SUCCESS	S
+n 19864	
+r2	
+FAILED	
+82	
+17/03/2016 - 21:40:34 - no data read	
+r12	
+SUCCESS	S
+n 14825	
+r11	
+SUCCESS	S
+n 16728	
+r8	
+r3	
+r3	
+r4	
+FAILED	
+17/03/2016 - 21:44:58 - no data read	
+r5	
+FAILED	
+1	
+17/03/2016 - 21:46:04 - no data read	
+r5	
+SUCCESS	S
+n 21182	
+r9	
+FAILED	
+12	
+17/03/2016 - 21:47:10 - no data read	
+r8	
+r3	
+r6	
+SUCCESS	S
+n 8857	
+r2	
+FAILED	
+2	
+17/03/2016 - 21:50:28 - no data read	
+r1	
+FAILED	
+267	
+17/03/2016 - 21:51:33 - no data read	
+FAILED	
+17/03/2016 - 21:52:39 - no data read	
+r12	
+SUCCESS	S
+n 5588	
+r4	
+FAILED	
+1	
+17/03/2016 - 21:53:45 - no data read	
+FAILED	
+5	
+17/03/2016 - 21:54:52 - no data read	
+r12	
+SUCCESS	S
+n 9832	
+r3	
+FAILED	
+17/03/2016 - 21:57:04 - no data read	
+r7	
+SUCCESS	S
+n 23077	
+SUCCESS	S
+n 3533	
+r4	
+SUCCESS	S
+n 23845	
+lr	
+FAILED	
+1	
+17/03/2016 - 21:58:10 - no data read	
+r8	
+r8	
+r12	
+SUCCESS	S
+n 21011	
+FAILED	
+17/03/2016 - 22:01:28 - no data read	
+r7	
+SUCCESS	S
+n 5475	
+r7	
+SUCCESS	S
+n 15119	
+r7	
+SUCCESS	S
+n 12203	
+FAILED	
+9	
+17/03/2016 - 22:02:34 - no data read	
+r6	
+SUCCESS	S
+n 20603	
+r8	
+r7	
+SUCCESS	S
+n 3694	
+r12	
+SUCCESS	S
+n 5313	
+r2	
+FAILED	
+5	
+17/03/2016 - 22:04:46 - no data read	
+r5	
+FAILED	
+1	
+17/03/2016 - 22:05:51 - no data read	
+r5	
+SUCCESS	S
+n 12523	
+FAILED	
+4	
+17/03/2016 - 22:06:58 - no data read	
+r5	
+FAILED	
+1	
+17/03/2016 - 22:08:03 - no data read	
+FAILED	
+17/03/2016 - 22:09:09 - no data read	
+r4	
+FAILED	
+17/03/2016 - 22:10:15 - no data read	
+r5	
+SUCCESS	S
+n 5987	
+r11	
+SUCCESS	S
+n 16434	
+r3	
+r5	
+SUCCESS	S
+n 5124	
+r1	
+FAILED	
+352	
+17/03/2016 - 22:12:27 - no data read	
+lr	
+SUCCESS	S
+n 21864	
+FAILED	
+17/03/2016 - 22:13:33 - no data read	
+r3	
+r12	
+SUCCESS	S
+n 17742	
+r7	
+SUCCESS	S
+n 18671	
+r12	
+SUCCESS	S
+n 8792	
+r9	
+FAILED	
+8	
+17/03/2016 - 22:15:45 - no data read	
+lr	
+FAILED	
+4	
+17/03/2016 - 22:16:51 - no data read	
+r9	
+FAILED	
+17	
+17/03/2016 - 22:17:57 - no data read	
+r2	
+FAILED	
+222	
+17/03/2016 - 22:19:03 - no data read	
+r5	
+FAILED	
+17/03/2016 - 22:21:15 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 22:22:21 - no data read	
+r1	
+FAILED	
+17/03/2016 - 22:23:26 - no data read	
+r6	
+SUCCESS	S
+n 21522	
+lr	
+FAILED	
+3	
+17/03/2016 - 22:24:32 - no data read	
+lr	
+FAILED	
+17/03/2016 - 22:25:38 - no data read	
+r6	
+SUCCESS	S
+r6	
+SUCCESS	S
+n 20215	
+r12	
+SUCCESS	S
+n 1586	
+r4	
+SUCCESS	S
+n 7406	
+r6	
+FAILED	
+17/03/2016 - 22:26:44 - no data read	
+r3	
+r7	
+SUCCESS	S
+n 20774	
+FAILED	
+17/03/2016 - 22:28:56 - no data read	
+FAILED	
+17/03/2016 - 22:30:02 - no data read	
+lr	
+FAILED	
+14	
+17/03/2016 - 22:31:08 - no data read	
+r5	
+SUCCESS	S
+n 14986	
+FAILED	
+1	
+17/03/2016 - 22:32:14 - no data read	
+r11	
+SUCCESS	S
+n 3987	
+r11	
+SUCCESS	S
+n 21777	
+r6	
+SUCCESS	S
+n 19349	
+r8	
+lr	
+FAILED	
+13	
+17/03/2016 - 22:34:26 - no data read	
+FAILED	
+17/03/2016 - 22:35:32 - no data read	
+r4	
+SUCCESS	S
+n 14304	
+lr	
+FAILED	
+9	
+17/03/2016 - 22:36:38 - no data read	
+FAILED	
+17/03/2016 - 22:37:44 - no data read	
+r7	
+SUCCESS	S
+n 14191	
+r12	
+SUCCESS	S
+n 24923	
+r4	
+SUCCESS	S
+n 23123	
+lr	
+FAILED	
+1	
+17/03/2016 - 22:38:50 - no data read	
+SUCCESS	S
+n 10628	
+r5	
+SUCCESS	S
+n 10647	
+r8	
+r3	
+r9	
+FAILED	
+13	
+17/03/2016 - 22:42:09 - no data read	
+r5	
+FAILED	
+1	
+17/03/2016 - 22:43:15 - no data read	
+FAILED	
+17/03/2016 - 22:44:21 - no data read	
+r9	
+FAILED	
+19	
+17/03/2016 - 22:45:27 - no data read	
+lr	
+FAILED	
+14	
+17/03/2016 - 22:46:33 - no data read	
+r11	
+SUCCESS	S
+n 13963	
+r5	
+SUCCESS	S
+n 3305	
+r2	
+FAILED	
+387	
+17/03/2016 - 22:47:39 - no data read	
+r7	
+SUCCESS	S
+n 19752	
+r5	
+FAILED	
+1	
+17/03/2016 - 22:48:45 - no data read	
+r3	
+r8	
+r11	
+SUCCESS	S
+n 22099	
+r5	
+FAILED	
+1	
+17/03/2016 - 22:52:03 - no data read	
+r6	
+SUCCESS	S
+r9	
+FAILED	
+15	
+17/03/2016 - 22:53:09 - no data read	
+r8	
+r9	
+FAILED	
+19	
+17/03/2016 - 22:55:22 - no data read	
+r4	
+SUCCESS	S
+n 8222	
+r4	
+FAILED	
+1	
+17/03/2016 - 22:56:27 - no data read	
+r12	
+SUCCESS	S
+n 10751	
+lr	
+FAILED	
+12	
+17/03/2016 - 22:57:34 - no data read	
+FAILED	
+17/03/2016 - 22:58:40 - no data read	
+r11	
+SUCCESS	S
+n 2263	
+r6	
+SUCCESS	S
+n 22801	
+FAILED	
+5	
+17/03/2016 - 22:59:46 - no data read	
+r11	
+SUCCESS	S
+FAILED	
+17/03/2016 - 23:00:52 - no data read	
+r7	
+SUCCESS	S
+n 17221	
+r7	
+SUCCESS	S
+n 20509	
+r6	
+SUCCESS	S
+n 7839	
+r2	
+FAILED	
+2	
+17/03/2016 - 23:01:58 - no data read	
+r2	
+FAILED	
+107	
+17/03/2016 - 23:03:04 - no data read	
+r4	
+SUCCESS	S
+n 1913	
+r5	
+FAILED	
+17/03/2016 - 23:04:10 - no data read	
+r2	
+FAILED	
+4	
+17/03/2016 - 23:05:16 - no data read	
+r6	
+SUCCESS	S
+r9	
+FAILED	
+8	
+17/03/2016 - 23:06:21 - no data read	
+r2	
+FAILED	
+61	
+17/03/2016 - 23:07:27 - no data read	
+r1	
+FAILED	
+172	
+17/03/2016 - 23:08:33 - no data read	
+r7	
+SUCCESS	S
+n 17108	
+r2	
+FAILED	
+4	
+17/03/2016 - 23:09:39 - no data read	
+r5	
+SUCCESS	S
+n 11727	
+r12	
+SUCCESS	S
+n 9851	
+r5	
+FAILED	
+1	
+17/03/2016 - 23:10:45 - no data read	
+SUCCESS	S
+n 22101	
+lr	
+FAILED	
+2	
+17/03/2016 - 23:11:51 - no data read	
+r2	
+FAILED	
+4	
+17/03/2016 - 23:12:57 - no data read	
+r3	
+r3	
+lr	
+FAILED	
+5	
+17/03/2016 - 23:16:16 - no data read	
+FAILED	
+18	
+17/03/2016 - 23:17:22 - no data read	
+FAILED	
+17/03/2016 - 23:18:27 - no data read	
+r5	
+FAILED	
+1	
+17/03/2016 - 23:19:34 - no data read	
+r3	
+lr	
+FAILED	
+16	
+17/03/2016 - 23:21:45 - no data read	
+r11	
+SUCCESS	S
+n 84	
+r1	
+r6	
+SUCCESS	S
+n 14646	
+r2	
+FAILED	
+3	
+17/03/2016 - 23:23:57 - no data read	
+FAILED	
+3	
+17/03/2016 - 23:25:03 - no data read	
+r5	
+SUCCESS	S
+n 14815	
+r8	
+r3	
+SUCCESS	S
+n 10695	
+FAILED	
+17/03/2016 - 23:27:15 - no data read	
+r6	
+SUCCESS	S
+n 12807	
+r4	
+FAILED	
+1	
+17/03/2016 - 23:28:21 - no data read	
+r5	
+SUCCESS	S
+n 14702	
+r9	
+FAILED	
+5	
+17/03/2016 - 23:29:27 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 23:30:33 - no data read	
+r7	
+SUCCESS	S
+n 6384	
+lr	
+FAILED	
+16	
+17/03/2016 - 23:31:39 - no data read	
+r6	
+SUCCESS	S
+n 13612	
+r2	
+FAILED	
+205	
+17/03/2016 - 23:32:45 - no data read	
+FAILED	
+12	
+17/03/2016 - 23:33:51 - no data read	
+r7	
+SUCCESS	S
+n 20092	
+SUCCESS	S
+r2	
+FAILED	
+287	
+17/03/2016 - 23:34:57 - no data read	
+r9	
+FAILED	
+13	
+17/03/2016 - 23:36:03 - no data read	
+r12	
+SUCCESS	S
+n 5474	
+r8	
+r4	
+SUCCESS	S
+n 18311	
+lr	
+FAILED	
+6	
+17/03/2016 - 23:38:15 - no data read	
+r2	
+FAILED	
+381	
+17/03/2016 - 23:39:21 - no data read	
+r1	
+FAILED	
+17/03/2016 - 23:40:27 - no data read	
+r12	
+SUCCESS	S
+n 18604	
+r4	
+SUCCESS	S
+lr	
+FAILED	
+12	
+17/03/2016 - 23:41:33 - no data read	
+r11	
+SUCCESS	S
+n 5882	
+r6	
+SUCCESS	S
+n 11849	
+r4	
+SUCCESS	S
+n 894	
+r11	
+SUCCESS	S
+n 4195	
+r12	
+SUCCESS	S
+n 22437	
+r12	
+SUCCESS	S
+n 7127	
+r11	
+SUCCESS	S
+n 14247	
+r12	
+SUCCESS	S
+n 141	
+r2	
+FAILED	
+17/03/2016 - 23:42:39 - no data read	
+SUCCESS	S
+n 17459	
+r5	
+FAILED	
+1	
+17/03/2016 - 23:43:45 - no data read	
+r4	
+FAILED	
+1	
+17/03/2016 - 23:44:51 - no data read	
+r4	
+SUCCESS	S
+r1	
+FAILED	
+175	
+17/03/2016 - 23:45:57 - no data read	
+r6	
+SUCCESS	S
+n 8506	
+r5	
+SUCCESS	S
+n 6744	
+r2	
+FAILED	
+325	
+17/03/2016 - 23:47:03 - no data read	
+r11	
+SUCCESS	S
+r2	
+FAILED	
+17/03/2016 - 23:48:09 - no data read	
+r9	
+FAILED	
+5	
+17/03/2016 - 23:49:15 - no data read	
+r12	
+SUCCESS	S
+n 6564	
+FAILED	
+17/03/2016 - 23:50:21 - no data read	
+FAILED	
+17/03/2016 - 23:51:27 - no data read	
+r8	
+r1	
+FAILED	
+19	
+17/03/2016 - 23:53:40 - no data read	
+r2	
+FAILED	
+2	
+17/03/2016 - 23:54:45 - no data read	
+r5	
+SUCCESS	S
+n 14191	
+r4	
+FAILED	
+1	
+17/03/2016 - 23:55:51 - no data read	
+r7	
+SUCCESS	S
+r3	
+SUCCESS	S
+n 6517	
+lr	
+FAILED	
+16	
+17/03/2016 - 23:56:57 - no data read	
+lr	
+SUCCESS	S
+n 2254	
+lr	
+SUCCESS	S
+n 7767	
+r11	
+SUCCESS	S
+r8	
+r8	
+FAILED	
+4	
+18/03/2016 - 00:00:15 - no data read	
+r2	
+FAILED	
+386	
+18/03/2016 - 00:01:21 - no data read	
+r12	
+SUCCESS	S
+n 6677	
+r5	
+SUCCESS	S
+n 21938	
+r9	
+FAILED	
+19	
+18/03/2016 - 00:02:27 - no data read	
+r2	
+FAILED	
+347	
+18/03/2016 - 00:03:33 - no data read	
+r8	
+FAILED	
+18/03/2016 - 00:05:45 - no data read	
+r11	
+SUCCESS	S
+n 197	
+r7	
+SUCCESS	S
+n 13688	
+lr	
+FAILED	
+18/03/2016 - 00:06:51 - no data read	
+r6	
+SUCCESS	S
+n 2264	
+lr	
+SUCCESS	S
+n 14484	
+r6	
+SUCCESS	S
+n 11934	
+r8	
+r8	
+lr	
+FAILED	
+19	
+18/03/2016 - 00:10:09 - no data read	
+r2	
+FAILED	
+18/03/2016 - 00:11:15 - no data read	
+FAILED	
+3	
+18/03/2016 - 00:12:21 - no data read	
+r7	
+SUCCESS	S
+n 17459	
+r6	
+SUCCESS	S
+n 2614	
+r3	
+SUCCESS	S
+n 10552	
+lr	
+FAILED	
+12	
+18/03/2016 - 00:13:27 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 00:14:33 - no data read	
+r11	
+SUCCESS	S
+n 12352	
+r1	
+FAILED	
+226	
+18/03/2016 - 00:15:38 - no data read	
+r12	
+SUCCESS	S
+n 5077	
+r6	
+SUCCESS	S
+n 955	
+r7	
+SUCCESS	S
+n 8625	
+r7	
+SUCCESS	S
+n 11926	
+r2	
+FAILED	
+224	
+18/03/2016 - 00:16:45 - no data read	
+FAILED	
+18/03/2016 - 00:17:51 - no data read	
+r8	
+r7	
+SUCCESS	S
+n 7416	
+r12	
+SUCCESS	S
+n 24923	
+r4	
+FAILED	
+1	
+18/03/2016 - 00:20:03 - no data read	
+r1	
+FAILED	
+173	
+18/03/2016 - 00:21:09 - no data read	
+r8	
+lr	
+FAILED	
+12	
+18/03/2016 - 00:23:21 - no data read	
+r12	
+SUCCESS	S
+n 4044	
+r1	
+SUCCESS	S
+n 19816	
+FAILED	
+17	
+18/03/2016 - 00:24:27 - no data read	
+lr	
+FAILED	
+18/03/2016 - 00:25:33 - no data read	
+lr	
+FAILED	
+14	
+18/03/2016 - 00:26:39 - no data read	
+r2	
+FAILED	
+107	
+18/03/2016 - 00:27:45 - no data read	
+r6	
+SUCCESS	S
+n 6736	
+r1	
+FAILED	
+32	
+18/03/2016 - 00:28:51 - no data read	
+SUCCESS	S
+n 20556	
+r11	
+SUCCESS	S
+n 1362	
+SUCCESS	S
+n 18945	
+r11	
+SUCCESS	S
+n 9764	
+r8	
+r4	
+FAILED	
+18/03/2016 - 00:31:04 - no data read	
+r11	
+SUCCESS	S
+n 11272	
+r3	
+FAILED	
+18/03/2016 - 00:33:15 - no data read	
+r6	
+SUCCESS	S
+n 9947	
+r1	
+FAILED	
+65	
+18/03/2016 - 00:34:21 - no data read	
+FAILED	
+7	
+18/03/2016 - 00:35:27 - no data read	
+r2	
+FAILED	
+5	
+18/03/2016 - 00:36:33 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 00:37:39 - no data read	
+r7	
+SUCCESS	S
+n 24449	
+FAILED	
+16	
+18/03/2016 - 00:38:45 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 00:39:51 - no data read	
+r8	
+r8	
+r6	
+SUCCESS	S
+n 10287	
+r4	
+SUCCESS	S
+n 18955	
+lr	
+FAILED	
+5	
+18/03/2016 - 00:43:09 - no data read	
+r3	
+SUCCESS	S
+FAILED	
+18/03/2016 - 00:44:15 - no data read	
+r9	
+FAILED	
+7	
+18/03/2016 - 00:45:21 - no data read	
+r8	
+r1	
+FAILED	
+18/03/2016 - 00:47:33 - no data read	
+r6	
+SUCCESS	S
+n 6678	
+r3	
+r2	
+FAILED	
+166	
+18/03/2016 - 00:49:45 - no data read	
+r12	
+SUCCESS	S
+r7	
+SUCCESS	S
+n 22176	
+r9	
+FAILED	
+14	
+18/03/2016 - 00:50:52 - no data read	
+r8	
+r9	
+SUCCESS	S
+n 6726	
+r1	
+FAILED	
+48	
+18/03/2016 - 00:53:04 - no data read	
+r8	
+r12	
+SUCCESS	S
+n 1865	
+r7	
+SUCCESS	S
+n 14493	
+r1	
+FAILED	
+188	
+18/03/2016 - 00:55:16 - no data read	
+r7	
+SUCCESS	S
+n 19003	
+r1	
+FAILED	
+18/03/2016 - 00:56:22 - no data read	
+r5	
+FAILED	
+18/03/2016 - 00:57:28 - no data read	
+r11	
+SUCCESS	S
+n 23189	
+r11	
+SUCCESS	S
+n 14265	
+r3	
+r1	
+FAILED	
+65	
+18/03/2016 - 00:59:40 - no data read	
+r3	
+SUCCESS	S
+n 18889	
+r4	
+FAILED	
+1	
+18/03/2016 - 01:00:46 - no data read	
+r7	
+SUCCESS	S
+n 18084	
+r2	
+FAILED	
+1	
+18/03/2016 - 01:01:52 - no data read	
+r12	
+SUCCESS	S
+n 20329	
+r11	
+SUCCESS	S
+n 17182	
+FAILED	
+18/03/2016 - 01:02:58 - no data read	
+r9	
+FAILED	
+18/03/2016 - 01:04:04 - no data read	
+r2	
+FAILED	
+165	
+18/03/2016 - 01:05:10 - no data read	
+r1	
+FAILED	
+14	
+18/03/2016 - 01:06:16 - no data read	
+r11	
+SUCCESS	S
+n 13849	
+FAILED	
+18/03/2016 - 01:07:22 - no data read	
+r11	
+SUCCESS	S
+n 2036	
+FAILED	
+18/03/2016 - 01:08:28 - no data read	
+r9	
+FAILED	
+16	
+18/03/2016 - 01:09:34 - no data read	
+FAILED	
+18/03/2016 - 01:10:39 - no data read	
+r2	
+FAILED	
+282	
+18/03/2016 - 01:11:45 - no data read	
+r9	
+FAILED	
+3	
+18/03/2016 - 01:12:51 - no data read	
+r1	
+FAILED	
+7	
+18/03/2016 - 01:13:57 - no data read	
+r6	
+SUCCESS	S
+n 17459	
+r7	
+SUCCESS	S
+r4	
+SUCCESS	S
+n 16659	
+r1	
+FAILED	
+151	
+18/03/2016 - 01:15:03 - no data read	
+r3	
+r12	
+SUCCESS	S
+n 22678	
+r9	
+FAILED	
+6	
+18/03/2016 - 01:17:15 - no data read	
+r2	
+FAILED	
+207	
+18/03/2016 - 01:18:21 - no data read	
+r1	
+FAILED	
+18/03/2016 - 01:19:27 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 01:20:33 - no data read	
+r2	
+FAILED	
+6	
+18/03/2016 - 01:21:39 - no data read	
+r8	
+r4	
+SUCCESS	S
+r1	
+FAILED	
+228	
+18/03/2016 - 01:23:51 - no data read	
+r9	
+FAILED	
+8	
+18/03/2016 - 01:24:58 - no data read	
+r3	
+r2	
+FAILED	
+161	
+18/03/2016 - 01:27:09 - no data read	
+lr	
+FAILED	
+18/03/2016 - 01:28:15 - no data read	
+SUCCESS	S
+n 5124	
+r5	
+SUCCESS	S
+n 14654	
+lr	
+FAILED	
+9	
+18/03/2016 - 01:29:21 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 01:30:27 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 01:31:33 - no data read	
+lr	
+FAILED	
+3	
+18/03/2016 - 01:32:39 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 01:33:45 - no data read	
+FAILED	
+3	
+18/03/2016 - 01:34:51 - no data read	
+r12	
+SUCCESS	S
+n 18434	
+r2	
+FAILED	
+124	
+18/03/2016 - 01:35:58 - no data read	
+r8	
+r8	
+r2	
+FAILED	
+18/03/2016 - 01:39:15 - no data read	
+r3	
+FAILED	
+4	
+18/03/2016 - 01:41:27 - no data read	
+r4	
+SUCCESS	S
+n 19116	
+r4	
+FAILED	
+1	
+18/03/2016 - 01:42:33 - no data read	
+r4	
+SUCCESS	S
+n 3978	
+FAILED	
+18/03/2016 - 01:43:39 - no data read	
+r3	
+r8	
+r3	
+r5	
+SUCCESS	S
+r2	
+FAILED	
+18/03/2016 - 01:48:03 - no data read	
+r5	
+SUCCESS	S
+n 5124	
+r7	
+SUCCESS	S
+n 8525	
+r8	
+r11	
+SUCCESS	S
+n 6393	
+r8	
+r7	
+SUCCESS	S
+n 11263	
+r1	
+FAILED	
+245	
+18/03/2016 - 01:51:21 - no data read	
+r12	
+SUCCESS	S
+n 5474	
+r4	
+SUCCESS	S
+n 23833	
+r2	
+FAILED	
+23	
+18/03/2016 - 01:52:27 - no data read	
+r12	
+SUCCESS	S
+n 10581	
+lr	
+FAILED	
+12	
+18/03/2016 - 01:53:33 - no data read	
+lr	
+FAILED	
+15	
+18/03/2016 - 01:54:39 - no data read	
+r6	
+SUCCESS	S
+n 12069	
+r3	
+r4	
+FAILED	
+1	
+18/03/2016 - 01:56:51 - no data read	
+SUCCESS	S
+n 15905	
+r3	
+SUCCESS	S
+n 4044	
+r4	
+SUCCESS	S
+n 9334	
+r11	
+SUCCESS	S
+n 18974	
+r6	
+SUCCESS	S
+n 17559	
+r5	
+SUCCESS	S
+n 14875	
+FAILED	
+3	
+18/03/2016 - 01:57:57 - no data read	
+r6	
+SUCCESS	S
+n 8971	
+r11	
+SUCCESS	S
+n 9614	
+r12	
+SUCCESS	S
+n 10699	
+r7	
+SUCCESS	S
+n 17081	
+FAILED	
+4	
+18/03/2016 - 01:59:03 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 02:00:09 - no data read	
+r1	
+FAILED	
+328	
+18/03/2016 - 02:01:15 - no data read	
+r3	
+SUCCESS	S
+r8	
+SUCCESS	S
+n 13452	
+r7	
+FAILED	
+18/03/2016 - 02:02:21 - no data read	
+r12	
+SUCCESS	S
+n 6166	
+FAILED	
+15	
+18/03/2016 - 02:03:27 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 02:04:33 - no data read	
+r11	
+SUCCESS	S
+n 15563	
+FAILED	
+11	
+18/03/2016 - 02:05:39 - no data read	
+r1	
+FAILED	
+18/03/2016 - 02:06:45 - no data read	
+r11	
+SUCCESS	S
+n 9889	
+FAILED	
+18/03/2016 - 02:07:51 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 02:08:57 - no data read	
+r12	
+SUCCESS	S
+n 16596	
+r3	
+r11	
+SUCCESS	S
+n 17061	
+FAILED	
+18/03/2016 - 02:11:10 - no data read	
+r7	
+SUCCESS	S
+r4	
+SUCCESS	S
+n 3135	
+r8	
+r3	
+lr	
+SUCCESS	S
+n 20036	
+r3	
+r1	
+SUCCESS	S
+n 14702	
+r2	
+FAILED	
+182	
+18/03/2016 - 02:15:34 - no data read	
+r12	
+SUCCESS	S
+n 12295	
+r8	
+r12	
+SUCCESS	S
+n 4782	
+FAILED	
+19	
+18/03/2016 - 02:17:47 - no data read	
+r6	
+SUCCESS	S
+n 1856	
+r12	
+SUCCESS	S
+n 5881	
+r2	
+FAILED	
+4	
+18/03/2016 - 02:18:53 - no data read	
+r8	
+r11	
+SUCCESS	S
+n 4044	
+r9	
+FAILED	
+11	
+18/03/2016 - 02:21:05 - no data read	
+r2	
+FAILED	
+3	
+18/03/2016 - 02:22:10 - no data read	
+r11	
+SUCCESS	S
+n 1287	
+r3	
+SUCCESS	S
+n 6629	
+r3	
+FAILED	
+18	
+18/03/2016 - 02:24:22 - no data read	
+r6	
+SUCCESS	S
+n 369	
+r5	
+FAILED	
+18/03/2016 - 02:25:28 - no data read	
+FAILED	
+2	
+18/03/2016 - 02:26:34 - no data read	
+r12	
+SUCCESS	S
+n 19353	
+r6	
+SUCCESS	S
+n 3191	
+FAILED	
+18/03/2016 - 02:27:40 - no data read	
+lr	
+FAILED	
+4	
+18/03/2016 - 02:28:46 - no data read	
+lr	
+FAILED	
+14	
+18/03/2016 - 02:29:52 - no data read	
+lr	
+FAILED	
+8	
+18/03/2016 - 02:30:58 - no data read	
+r11	
+SUCCESS	S
+n 378	
+lr	
+SUCCESS	S
+n 12656	
+FAILED	
+1	
+18/03/2016 - 02:32:04 - no data read	
+r3	
+r7	
+SUCCESS	S
+n 4092	
+r4	
+FAILED	
+1	
+18/03/2016 - 02:34:16 - no data read	
+r1	
+FAILED	
+18/03/2016 - 02:35:22 - no data read	
+r11	
+SUCCESS	S
+n 18321	
+r2	
+FAILED	
+127	
+18/03/2016 - 02:36:28 - no data read	
+r3	
+r12	
+SUCCESS	S
+n 2661	
+lr	
+FAILED	
+19	
+18/03/2016 - 02:38:40 - no data read	
+SUCCESS	S
+n 19695	
+r5	
+SUCCESS	S
+n 9377	
+r11	
+SUCCESS	S
+n 16674	
+r4	
+FAILED	
+1	
+18/03/2016 - 02:39:47 - no data read	
+lr	
+FAILED	
+4	
+18/03/2016 - 02:40:53 - no data read	
+r1	
+FAILED	
+328	
+18/03/2016 - 02:41:58 - no data read	
+FAILED	
+18/03/2016 - 02:43:04 - no data read	
+r9	
+FAILED	
+11	
+18/03/2016 - 02:44:10 - no data read	
+r8	
+r12	
+SUCCESS	S
+n 8165	
+r12	
+SUCCESS	S
+r4	
+SUCCESS	S
+n 19814	
+r5	
+FAILED	
+1	
+18/03/2016 - 02:46:23 - no data read	
+r12	
+SUCCESS	S
+n 6564	
+lr	
+FAILED	
+17	
+18/03/2016 - 02:47:29 - no data read	
+FAILED	
+7	
+18/03/2016 - 02:48:35 - no data read	
+FAILED	
+14	
+18/03/2016 - 02:49:41 - no data read	
+r5	
+SUCCESS	S
+n 5181	
+r5	
+SUCCESS	S
+r1	
+FAILED	
+398	
+18/03/2016 - 02:50:48 - no data read	
+r12	
+SUCCESS	S
+n 8061	
+r12	
+SUCCESS	S
+n 5379	
+r11	
+SUCCESS	S
+n 21027	
+r6	
+SUCCESS	S
+n 12327	
+r2	
+FAILED	
+224	
+18/03/2016 - 02:51:53 - no data read	
+r8	
+r12	
+SUCCESS	S
+n 22849	
+r4	
+SUCCESS	S
+n 20395	
+r5	
+SUCCESS	S
+n 18253	
+r7	
+SUCCESS	S
+n 7772	
+r8	
+r7	
+SUCCESS	S
+n 8222	
+r7	
+SUCCESS	S
+n 21361	
+r6	
+SUCCESS	S
+n 4414	
+FAILED	
+18/03/2016 - 02:55:12 - no data read	
+r4	
+SUCCESS	S
+n 4386	
+r11	
+SUCCESS	S
+n 22517	
+r9	
+FAILED	
+8	
+18/03/2016 - 02:56:17 - no data read	
+r2	
+FAILED	
+186	
+18/03/2016 - 02:57:24 - no data read	
+lr	
+FAILED	
+18/03/2016 - 02:58:30 - no data read	
+r1	
+FAILED	
+76	
+18/03/2016 - 02:59:36 - no data read	
+r12	
+SUCCESS	S
+n 8459	
+r8	
+lr	
+FAILED	
+18/03/2016 - 03:01:48 - no data read	
+r8	
+r2	
+FAILED	
+18/03/2016 - 03:04:00 - no data read	
+r12	
+SUCCESS	S
+n 22791	
+r11	
+SUCCESS	S
+n 12891	
+r5	
+SUCCESS	S
+n 7417	
+r4	
+FAILED	
+1	
+18/03/2016 - 03:05:06 - no data read	
+r3	
+r5	
+SUCCESS	S
+n 5124	
+r5	
+FAILED	
+1	
+18/03/2016 - 03:07:18 - no data read	
+r7	
+SUCCESS	S
+n 5465	
+r12	
+SUCCESS	S
+n 19816	
+r4	
+SUCCESS	S
+n 21384	
+r3	
+r6	
+SUCCESS	S
+n 8393	
+r5	
+FAILED	
+1	
+18/03/2016 - 03:09:30 - no data read	
+r6	
+SUCCESS	S
+n 13385	
+r9	
+FAILED	
+8	
+18/03/2016 - 03:10:36 - no data read	
+lr	
+FAILED	
+17	
+18/03/2016 - 03:11:42 - no data read	
+SUCCESS	S
+r4	
+FAILED	
+18/03/2016 - 03:12:48 - no data read	
+r2	
+FAILED	
+2	
+18/03/2016 - 03:13:54 - no data read	
+lr	
+FAILED	
+11	
+18/03/2016 - 03:15:00 - no data read	
+r12	
+SUCCESS	S
+r1	
+FAILED	
+212	
+18/03/2016 - 03:16:06 - no data read	
+r7	
+SUCCESS	S
+n 1165	
+r5	
+SUCCESS	S
+n 24639	
+FAILED	
+9	
+18/03/2016 - 03:17:12 - no data read	
+r3	
+r3	
+r3	
+r6	
+SUCCESS	S
+n 2831	
+r4	
+FAILED	
+1	
+18/03/2016 - 03:21:37 - no data read	
+r1	
+FAILED	
+18/03/2016 - 03:22:43 - no data read	
+r3	
+r1	
+FAILED	
+391	
+18/03/2016 - 03:24:55 - no data read	
+r12	
+SUCCESS	S
+n 18377	
+FAILED	
+2	
+18/03/2016 - 03:26:01 - no data read	
+r3	
+SUCCESS	S
+n 20898	
+lr	
+FAILED	
+3	
+18/03/2016 - 03:27:07 - no data read	
+r11	
+SUCCESS	S
+n 22962	
+lr	
+FAILED	
+2	
+18/03/2016 - 03:28:13 - no data read	
+r8	
+r12	
+SUCCESS	S
+n 4612	
+r3	
+SUCCESS	S
+n 217	
+r3	
+r4	
+FAILED	
+1	
+18/03/2016 - 03:31:31 - no data read	
+r5	
+SUCCESS	S
+n 19865	
+r1	
+FAILED	
+25	
+18/03/2016 - 03:32:37 - no data read	
+r8	
+r9	
+FAILED	
+19	
+18/03/2016 - 03:34:49 - no data read	
+r9	
+FAILED	
+13	
+18/03/2016 - 03:35:55 - no data read	
+r1	
+FAILED	
+149	
+18/03/2016 - 03:37:01 - no data read	
+r12	
+SUCCESS	S
+n 8232	
+r11	
+SUCCESS	S
+n 4971	
+r11	
+SUCCESS	S
+n 4375	
+r6	
+SUCCESS	S
+n 21781	
+r8	
+r8	
+r4	
+FAILED	
+1	
+18/03/2016 - 03:40:19 - no data read	
+r3	
+r6	
+SUCCESS	S
+n 142	
+r12	
+SUCCESS	S
+n 17411	
+r9	
+FAILED	
+18	
+18/03/2016 - 03:42:32 - no data read	
+r6	
+SUCCESS	S
+n 18662	
+r8	
+r5	
+SUCCESS	S
+n 3807	
+r11	
+SUCCESS	S
+n 19646	
+r6	
+SUCCESS	S
+n 12667	
+lr	
+FAILED	
+11	
+18/03/2016 - 03:44:44 - no data read	
+r6	
+SUCCESS	S
+n 11377	
+r8	
+r4	
+FAILED	
+1	
+18/03/2016 - 03:46:56 - no data read	
+lr	
+FAILED	
+3	
+18/03/2016 - 03:48:02 - no data read	
+r6	
+SUCCESS	S
+n 20603	
+FAILED	
+18/03/2016 - 03:49:08 - no data read	
+r3	
+SUCCESS	S
+n 5929	
+r12	
+SUCCESS	S
+n 4518	
+r6	
+SUCCESS	S
+n 20398	
+FAILED	
+6	
+18/03/2016 - 03:50:14 - no data read	
+r12	
+SUCCESS	S
+n 1571	
+r8	
+SUCCESS	S
+n 4508	
+FAILED	
+18/03/2016 - 03:51:20 - no data read	
+r8	
+r11	
+SUCCESS	S
+n 4726	
+r9	
+FAILED	
+19	
+18/03/2016 - 03:53:31 - no data read	
+r2	
+FAILED	
+18/03/2016 - 03:54:38 - no data read	
+FAILED	
+18/03/2016 - 03:55:44 - no data read	
+r5	
+SUCCESS	S
+n 5475	
+r6	
+SUCCESS	S
+n 21361	
+r7	
+SUCCESS	S
+n 11569	
+r5	
+SUCCESS	S
+n 10201	
+lr	
+FAILED	
+13	
+18/03/2016 - 03:56:49 - no data read	
+FAILED	
+16	
+18/03/2016 - 03:57:56 - no data read	
+r2	
+FAILED	
+326	
+18/03/2016 - 03:59:02 - no data read	
+r3	
+r3	
+FAILED	
+18/03/2016 - 04:02:20 - no data read	
+r1	
+FAILED	
+79	
+18/03/2016 - 04:03:26 - no data read	
+r2	
+FAILED	
+7	
+18/03/2016 - 04:04:32 - no data read	
+r3	
+SUCCESS	S
+n 17686	
+r4	
+SUCCESS	S
+n 10704	
+r5	
+SUCCESS	S
+n 18748	
+r5	
+FAILED	
+1	
+18/03/2016 - 04:05:38 - no data read	
+r5	
+SUCCESS	S
+n 23417	
+r4	
+FAILED	
+1	
+18/03/2016 - 04:06:44 - no data read	
+r8	
+lr	
+FAILED	
+3	
+18/03/2016 - 04:08:56 - no data read	
+FAILED	
+18/03/2016 - 04:10:03 - no data read	
+FAILED	
+18/03/2016 - 04:11:09 - no data read	
+FAILED	
+9	
+18/03/2016 - 04:12:15 - no data read	
+r11	
+SUCCESS	S
+n 13384	
+r6	
+SUCCESS	S
+n 17297	
+r4	
+SUCCESS	S
+n 20148	
+r5	
+SUCCESS	S
+n 20562	
+r12	
+SUCCESS	S
+n 14365	
+r9	
+FAILED	
+11	
+18/03/2016 - 04:13:21 - no data read	
+FAILED	
+3	
+18/03/2016 - 04:14:27 - no data read	
+r3	
+lr	
+FAILED	
+16	
+18/03/2016 - 04:16:39 - no data read	
+r3	
+lr	
+FAILED	
+3	
+18/03/2016 - 04:18:51 - no data read	
+FAILED	
+18/03/2016 - 04:19:57 - no data read	
+r6	
+SUCCESS	S
+n 10174	
+r11	
+SUCCESS	S
+n 7435	
+r6	
+SUCCESS	S
+r5	
+FAILED	
+1	
+18/03/2016 - 04:21:03 - no data read	
+r11	
+SUCCESS	S
+n 9946	
+SUCCESS	S
+n 19987	
+FAILED	
+18/03/2016 - 04:22:10 - no data read	
+r12	
+SUCCESS	S
+n 5872	
+SUCCESS	S
+n 11395	
+r8	
+FAILED	
+19	
+18/03/2016 - 04:24:21 - no data read	
+r11	
+SUCCESS	S
+n 16482	
+r5	
+FAILED	
+1	
+18/03/2016 - 04:25:27 - no data read	
+lr	
+FAILED	
+12	
+18/03/2016 - 04:26:33 - no data read	
+r9	
+FAILED	
+17	
+18/03/2016 - 04:27:39 - no data read	
+SUCCESS	S
+n 15507	
+r1	
+FAILED	
+171	
+18/03/2016 - 04:28:45 - no data read	
+r2	
+FAILED	
+261	
+18/03/2016 - 04:29:51 - no data read	
+r12	
+SUCCESS	S
+n 10865	
+r9	
+FAILED	
+12	
+18/03/2016 - 04:30:57 - no data read	
+r4	
+SUCCESS	S
+n 17629	
+r12	
+SUCCESS	S
+n 16263	
+r3	
+r9	
+FAILED	
+9	
+18/03/2016 - 04:33:09 - no data read	
+FAILED	
+5	
+18/03/2016 - 04:34:15 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 04:35:21 - no data read	
+r12	
+SUCCESS	S
+n 3931	
+r11	
+SUCCESS	S
+n 4166	
+r9	
+FAILED	
+9	
+18/03/2016 - 04:36:28 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 04:37:34 - no data read	
+r12	
+SUCCESS	S
+n 3931	
+r3	
+lr	
+FAILED	
+18/03/2016 - 04:39:46 - no data read	
+r1	
+FAILED	
+382	
+18/03/2016 - 04:40:53 - no data read	
+FAILED	
+14	
+18/03/2016 - 04:41:58 - no data read	
+r6	
+SUCCESS	S
+n 16483	
+r2	
+FAILED	
+1	
+18/03/2016 - 04:43:04 - no data read	
+r11	
+SUCCESS	S
+n 2263	
+r2	
+FAILED	
+42	
+18/03/2016 - 04:44:11 - no data read	
+r2	
+FAILED	
+102	
+18/03/2016 - 04:45:17 - no data read	
+r11	
+SUCCESS	S
+n 24449	
+SUCCESS	S
+n 9093	
+r1	
+SUCCESS	S
+n 13587	
+r12	
+SUCCESS	S
+n 4406	
+FAILED	
+18/03/2016 - 04:46:23 - no data read	
+r3	
+r4	
+FAILED	
+1	
+18/03/2016 - 04:48:36 - no data read	
+r3	
+SUCCESS	S
+n 13896	
+r1	
+FAILED	
+198	
+18/03/2016 - 04:49:41 - no data read	
+r1	
+FAILED	
+382	
+18/03/2016 - 04:50:47 - no data read	
+FAILED	
+18/03/2016 - 04:51:53 - no data read	
+r9	
+SUCCESS	S
+n 5181	
+FAILED	
+12	
+18/03/2016 - 04:52:59 - no data read	
+r9	
+FAILED	
+13	
+18/03/2016 - 04:54:05 - no data read	
+lr	
+FAILED	
+3	
+18/03/2016 - 04:55:12 - no data read	
+r12	
+SUCCESS	S
+n 2955	
+r11	
+SUCCESS	S
+n 6469	
+r5	
+FAILED	
+1	
+18/03/2016 - 04:56:17 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 04:57:24 - no data read	
+r3	
+SUCCESS	S
+n 4613	
+r6	
+SUCCESS	S
+n 24288	
+r11	
+SUCCESS	S
+n 5798	
+r6	
+SUCCESS	S
+n 16544	
+r6	
+SUCCESS	S
+n 3543	
+r11	
+SUCCESS	S
+n 13648	
+SUCCESS	S
+n 24444	
+r1	
+SUCCESS	S
+n 12068	
+r11	
+SUCCESS	S
+n 9548	
+r11	
+SUCCESS	S
+n 1473	
+r2	
+FAILED	
+18/03/2016 - 04:58:30 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 04:59:36 - no data read	
+r9	
+FAILED	
+9	
+18/03/2016 - 05:00:42 - no data read	
+lr	
+FAILED	
+14	
+18/03/2016 - 05:01:49 - no data read	
+r3	
+r5	
+FAILED	
+18/03/2016 - 05:04:01 - no data read	
+lr	
+FAILED	
+3	
+18/03/2016 - 05:05:07 - no data read	
+FAILED	
+3	
+18/03/2016 - 05:06:13 - no data read	
+r5	
+SUCCESS	S
+n 7587	
+r1	
+FAILED	
+309	
+18/03/2016 - 05:07:19 - no data read	
+r11	
+SUCCESS	S
+n 8628	
+r1	
+FAILED	
+291	
+18/03/2016 - 05:08:26 - no data read	
+r11	
+SUCCESS	S
+n 8856	
+r6	
+SUCCESS	S
+n 4394	
+FAILED	
+5	
+18/03/2016 - 05:09:31 - no data read	
+r6	
+SUCCESS	S
+n 14588	
+r5	
+SUCCESS	S
+n 24005	
+r9	
+FAILED	
+2	
+18/03/2016 - 05:10:37 - no data read	
+r2	
+FAILED	
+4	
+18/03/2016 - 05:11:43 - no data read	
+r3	
+SUCCESS	S
+n 85	
+r6	
+SUCCESS	S
+n 4272	
+r6	
+SUCCESS	S
+n 5764	
+r3	
+SUCCESS	S
+n 20697	
+r5	
+SUCCESS	S
+n 2931	
+r1	
+FAILED	
+18/03/2016 - 05:12:49 - no data read	
+r2	
+FAILED	
+18/03/2016 - 05:13:56 - no data read	
+r12	
+SUCCESS	S
+n 24052	
+r12	
+SUCCESS	S
+n 17931	
+r7	
+SUCCESS	S
+n 3628	
+r11	
+SUCCESS	S
+n 6561	
+r8	
+r6	
+SUCCESS	S
+n 5987	
+r3	
+FAILED	
+12	
+18/03/2016 - 05:17:14 - no data read	
+r2	
+FAILED	
+102	
+18/03/2016 - 05:18:19 - no data read	
+r11	
+SUCCESS	S
+r3	
+r1	
+FAILED	
+79	
+18/03/2016 - 05:20:31 - no data read	
+r3	
+r3	
+r3	
+r9	
+FAILED	
+19	
+18/03/2016 - 05:24:55 - no data read	
+r3	
+r12	
+SUCCESS	S
+n 22451	
+r7	
+SUCCESS	S
+n 24923	
+r9	
+FAILED	
+7	
+18/03/2016 - 05:27:07 - no data read	
+FAILED	
+18/03/2016 - 05:28:13 - no data read	
+r1	
+FAILED	
+19	
+18/03/2016 - 05:29:19 - no data read	
+r2	
+FAILED	
+7	
+18/03/2016 - 05:30:25 - no data read	
+r2	
+FAILED	
+61	
+18/03/2016 - 05:31:32 - no data read	
+lr	
+FAILED	
+16	
+18/03/2016 - 05:32:38 - no data read	
+lr	
+SUCCESS	S
+n 8109	
+r1	
+FAILED	
+18/03/2016 - 05:33:44 - no data read	
+FAILED	
+4	
+18/03/2016 - 05:34:50 - no data read	
+r7	
+SUCCESS	S
+n 13612	
+lr	
+FAILED	
+18/03/2016 - 05:35:57 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 05:37:03 - no data read	
+r2	
+FAILED	
+106	
+18/03/2016 - 05:38:09 - no data read	
+r6	
+SUCCESS	S
+n 7995	
+lr	
+FAILED	
+15	
+18/03/2016 - 05:39:15 - no data read	
+r12	
+SUCCESS	S
+n 21986	
+r8	
+r11	
+SUCCESS	S
+n 3987	
+r9	
+FAILED	
+12	
+18/03/2016 - 05:41:28 - no data read	
+FAILED	
+18/03/2016 - 05:42:34 - no data read	
+r7	
+SUCCESS	S
+n 5589	
+r4	
+SUCCESS	S
+n 10363	
+r4	
+SUCCESS	S
+n 15878	
+r2	
+FAILED	
+167	
+18/03/2016 - 05:43:40 - no data read	
+r5	
+SUCCESS	S
+n 10979	
+FAILED	
+18/03/2016 - 05:44:46 - no data read	
+r6	
+SUCCESS	S
+n 16199	
+r8	
+r7	
+SUCCESS	S
+n 13272	
+r9	
+FAILED	
+18/03/2016 - 05:46:58 - no data read	
+r1	
+FAILED	
+328	
+18/03/2016 - 05:48:04 - no data read	
+lr	
+FAILED	
+6	
+18/03/2016 - 05:49:11 - no data read	
+FAILED	
+18/03/2016 - 05:50:16 - no data read	
+r7	
+SUCCESS	S
+n 3002	
+r12	
+SUCCESS	S
+n 23493	
+FAILED	
+18/03/2016 - 05:51:22 - no data read	
+r7	
+SUCCESS	S
+r11	
+SUCCESS	S
+n 11565	
+r1	
+FAILED	
+18/03/2016 - 05:52:29 - no data read	
+lr	
+FAILED	
+8	
+18/03/2016 - 05:53:34 - no data read	
+r3	
+r6	
+SUCCESS	S
+n 13385	
+r1	
+FAILED	
+208	
+18/03/2016 - 05:55:46 - no data read	
+lr	
+FAILED	
+4	
+18/03/2016 - 05:56:52 - no data read	
+r8	
+FAILED	
+18/03/2016 - 05:59:04 - no data read	
+r8	
+r11	
+SUCCESS	S
+n 23767	
+r8	
+r7	
+SUCCESS	S
+n 7587	
+r3	
+SUCCESS	S
+n 13735	
+r8	
+r1	
+FAILED	
+99	
+18/03/2016 - 06:03:28 - no data read	
+lr	
+FAILED	
+19	
+18/03/2016 - 06:04:34 - no data read	
+r1	
+FAILED	
+212	
+18/03/2016 - 06:05:40 - no data read	
+r5	
+SUCCESS	S
+n 483	
+lr	
+SUCCESS	S
+n 21248	
+r6	
+SUCCESS	S
+n 17236	
+r2	
+FAILED	
+7	
+18/03/2016 - 06:06:46 - no data read	
+r5	
+SUCCESS	S
+n 19695	
+FAILED	
+18/03/2016 - 06:07:52 - no data read	
+r1	
+FAILED	
+173	
+18/03/2016 - 06:08:58 - no data read	
+r2	
+FAILED	
+2	
+18/03/2016 - 06:10:05 - no data read	
+r9	
+FAILED	
+7	
+18/03/2016 - 06:11:11 - no data read	
+r7	
+SUCCESS	S
+n 9255	
+r8	
+r1	
+FAILED	
+286	
+18/03/2016 - 06:13:23 - no data read	
+r3	
+r12	
+SUCCESS	S
+n 23654	
+lr	
+FAILED	
+1	
+18/03/2016 - 06:15:35 - no data read	
+FAILED	
+9	
+18/03/2016 - 06:16:41 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 06:17:47 - no data read	
+FAILED	
+14	
+18/03/2016 - 06:18:54 - no data read	
+r1	
+FAILED	
+337	
+18/03/2016 - 06:20:00 - no data read	
+FAILED	
+18/03/2016 - 06:21:06 - no data read	
+FAILED	
+11	
+18/03/2016 - 06:22:12 - no data read	
+FAILED	
+18/03/2016 - 06:23:18 - no data read	
+r6	
+SUCCESS	S
+n 7881	
+r12	
+SUCCESS	S
+n 4802	
+FAILED	
+18/03/2016 - 06:24:25 - no data read	
+r8	
+r6	
+SUCCESS	S
+n 12978	
+r9	
+FAILED	
+15	
+18/03/2016 - 06:26:36 - no data read	
+lr	
+FAILED	
+4	
+18/03/2016 - 06:27:43 - no data read	
+r9	
+FAILED	
+13	
+18/03/2016 - 06:28:49 - no data read	
+r6	
+SUCCESS	S
+r3	
+r7	
+SUCCESS	S
+n 20671	
+FAILED	
+2	
+18/03/2016 - 06:31:01 - no data read	
+r8	
+r8	
+r2	
+FAILED	
+107	
+18/03/2016 - 06:34:19 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 06:35:25 - no data read	
+r3	
+r3	
+FAILED	
+9	
+18/03/2016 - 06:38:44 - no data read	
+r2	
+FAILED	
+2	
+18/03/2016 - 06:39:50 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 06:40:56 - no data read	
+r11	
+SUCCESS	S
+n 16142	
+r12	
+SUCCESS	S
+n 8467	
+lr	
+FAILED	
+14	
+18/03/2016 - 06:42:03 - no data read	
+r11	
+SUCCESS	S
+n 6677	
+r2	
+FAILED	
+3	
+18/03/2016 - 06:43:09 - no data read	
+r3	
+r5	
+SUCCESS	S
+n 18311	
+r4	
+FAILED	
+1	
+18/03/2016 - 06:45:21 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 06:46:27 - no data read	
+lr	
+FAILED	
+8	
+18/03/2016 - 06:47:33 - no data read	
+r11	
+SUCCESS	S
+n 889	
+r8	
+SUCCESS	S
+FAILED	
+18/03/2016 - 06:48:39 - no data read	
+r5	
+SUCCESS	S
+n 1288	
+lr	
+SUCCESS	S
+n 7607	
+r9	
+FAILED	
+8	
+18/03/2016 - 06:49:45 - no data read	
+r9	
+FAILED	
+8	
+18/03/2016 - 06:50:51 - no data read	
+lr	
+FAILED	
+16	
+18/03/2016 - 06:51:57 - no data read	
+r7	
+SUCCESS	S
+n 13783	
+lr	
+FAILED	
+18/03/2016 - 06:53:03 - no data read	
+r4	
+SUCCESS	S
+n 13612	
+r1	
+FAILED	
+204	
+18/03/2016 - 06:54:10 - no data read	
+r5	
+SUCCESS	S
+n 18776	
+r1	
+SUCCESS	S
+n 7607	
+r2	
+FAILED	
+307	
+18/03/2016 - 06:55:16 - no data read	
+r9	
+FAILED	
+6	
+18/03/2016 - 06:56:23 - no data read	
+r8	
+r5	
+FAILED	
+1	
+18/03/2016 - 06:58:35 - no data read	
+r8	
+r9	
+FAILED	
+6	
+18/03/2016 - 07:00:47 - no data read	
+FAILED	
+18/03/2016 - 07:01:53 - no data read	
+r9	
+FAILED	
+18/03/2016 - 07:02:59 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 07:04:05 - no data read	
+r3	
+r12	
+SUCCESS	S
+n 21702	
+r3	
+lr	
+FAILED	
+13	
+18/03/2016 - 07:07:23 - no data read	
+r2	
+FAILED	
+286	
+18/03/2016 - 07:08:29 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 07:09:34 - no data read	
+r8	
+r5	
+SUCCESS	S
+n 20206	
+r7	
+SUCCESS	S
+n 3533	
+r3	
+SUCCESS	S
+n 12828	
+FAILED	
+18/03/2016 - 07:11:47 - no data read	
+r9	
+SUCCESS	S
+n 8223	
+r7	
+SUCCESS	S
+n 21702	
+r12	
+SUCCESS	S
+n 9454	
+r11	
+SUCCESS	S
+n 6723	
+r8	
+r4	
+SUCCESS	S
+n 7076	
+r6	
+SUCCESS	S
+n 94	
+r2	
+SUCCESS	S
+n 1877	
+lr	
+SUCCESS	S
+n 3396	
+lr	
+FAILED	
+19	
+18/03/2016 - 07:13:59 - no data read	
+r4	
+SUCCESS	S
+n 2207	
+r4	
+SUCCESS	S
+n 9558	
+r8	
+r5	
+FAILED	
+1	
+18/03/2016 - 07:16:11 - no data read	
+r2	
+FAILED	
+264	
+18/03/2016 - 07:17:17 - no data read	
+FAILED	
+9	
+18/03/2016 - 07:18:23 - no data read	
+FAILED	
+18/03/2016 - 07:19:29 - no data read	
+r1	
+FAILED	
+173	
+18/03/2016 - 07:20:35 - no data read	
+FAILED	
+18/03/2016 - 07:21:41 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 07:22:47 - no data read	
+FAILED	
+12	
+18/03/2016 - 07:23:53 - no data read	
+r12	
+SUCCESS	S
+n 12239	
+FAILED	
+18/03/2016 - 07:24:59 - no data read	
+FAILED	
+9	
+18/03/2016 - 07:26:05 - no data read	
+r3	
+lr	
+FAILED	
+14	
+18/03/2016 - 07:28:16 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 07:29:22 - no data read	
+r9	
+FAILED	
+18/03/2016 - 07:30:28 - no data read	
+r2	
+FAILED	
+18/03/2016 - 07:31:34 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 07:32:40 - no data read	
+r1	
+FAILED	
+173	
+18/03/2016 - 07:33:46 - no data read	
+r5	
+SUCCESS	S
+n 19116	
+r12	
+SUCCESS	S
+r9	
+SUCCESS	S
+n 10008	
+r3	
+SUCCESS	S
+n 9797	
+r4	
+FAILED	
+1	
+18/03/2016 - 07:34:52 - no data read	
+r3	
+SUCCESS	S
+r5	
+SUCCESS	S
+n 2159	
+r11	
+SUCCESS	S
+n 16041	
+r11	
+SUCCESS	S
+n 8017	
+r9	
+FAILED	
+1	
+18/03/2016 - 07:35:58 - no data read	
+r11	
+SUCCESS	S
+n 19978	
+r11	
+SUCCESS	S
+n 13346	
+r12	
+SUCCESS	S
+n 11189	
+r6	
+SUCCESS	S
+n 19466	
+r1	
+FAILED	
+102	
+18/03/2016 - 07:37:04 - no data read	
+r5	
+SUCCESS	S
+n 12807	
+r7	
+SUCCESS	S
+n 16265	
+r2	
+FAILED	
+147	
+18/03/2016 - 07:38:10 - no data read	
+FAILED	
+18/03/2016 - 07:39:16 - no data read	
+r11	
+SUCCESS	S
+n 5995	
+r2	
+FAILED	
+327	
+18/03/2016 - 07:40:22 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 07:41:28 - no data read	
+r9	
+FAILED	
+11	
+18/03/2016 - 07:42:34 - no data read	
+r12	
+SUCCESS	S
+n 5532	
+r1	
+FAILED	
+345	
+18/03/2016 - 07:43:40 - no data read	
+r5	
+SUCCESS	S
+r7	
+SUCCESS	S
+n 12475	
+r3	
+SUCCESS	S
+n 8749	
+r5	
+SUCCESS	S
+n 23796	
+FAILED	
+18/03/2016 - 07:44:46 - no data read	
+r8	
+r7	
+SUCCESS	S
+n 12864	
+r4	
+FAILED	
+1	
+18/03/2016 - 07:46:58 - no data read	
+FAILED	
+18/03/2016 - 07:48:04 - no data read	
+r7	
+SUCCESS	S
+n 13272	
+lr	
+FAILED	
+18/03/2016 - 07:49:09 - no data read	
+r9	
+SUCCESS	S
+n 16019	
+r2	
+FAILED	
+161	
+18/03/2016 - 07:50:15 - no data read	
+r1	
+SUCCESS	S
+n 23882	
+r6	
+SUCCESS	S
+n 22631	
+FAILED	
+8	
+18/03/2016 - 07:51:21 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 07:52:27 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 07:53:33 - no data read	
+r3	
+r2	
+FAILED	
+18/03/2016 - 07:55:45 - no data read	
+FAILED	
+15	
+18/03/2016 - 07:56:51 - no data read	
+r9	
+FAILED	
+8	
+18/03/2016 - 07:57:57 - no data read	
+r1	
+FAILED	
+173	
+18/03/2016 - 07:59:03 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 08:00:09 - no data read	
+r8	
+r3	
+r12	
+SUCCESS	S
+n 8345	
+r8	
+r11	
+SUCCESS	S
+n 19978	
+lr	
+FAILED	
+4	
+18/03/2016 - 08:04:33 - no data read	
+r2	
+FAILED	
+18/03/2016 - 08:05:39 - no data read	
+r2	
+FAILED	
+323	
+18/03/2016 - 08:06:45 - no data read	
+r12	
+SUCCESS	S
+r7	
+SUCCESS	S
+r5	
+SUCCESS	S
+n 3707	
+r3	
+r6	
+SUCCESS	S
+r7	
+SUCCESS	S
+n 9094	
+lr	
+FAILED	
+15	
+18/03/2016 - 08:08:58 - no data read	
+FAILED	
+13	
+18/03/2016 - 08:10:04 - no data read	
+r11	
+SUCCESS	S
+n 9083	
+r6	
+SUCCESS	S
+n 17808	
+r4	
+FAILED	
+1	
+18/03/2016 - 08:11:11 - no data read	
+r4	
+SUCCESS	S
+lr	
+FAILED	
+15	
+18/03/2016 - 08:12:16 - no data read	
+r9	
+SUCCESS	S
+n 21693	
+r11	
+SUCCESS	S
+n 672	
+r4	
+FAILED	
+18/03/2016 - 08:13:22 - no data read	
+r4	
+SUCCESS	S
+n 20206	
+r9	
+FAILED	
+9	
+18/03/2016 - 08:14:29 - no data read	
+FAILED	
+19	
+18/03/2016 - 08:15:34 - no data read	
+lr	
+FAILED	
+8	
+18/03/2016 - 08:16:40 - no data read	
+r8	
+r8	
+r11	
+SUCCESS	S
+n 10173	
+r7	
+SUCCESS	S
+n 13915	
+r7	
+SUCCESS	S
+r2	
+FAILED	
+346	
+18/03/2016 - 08:20:00 - no data read	
+lr	
+FAILED	
+13	
+18/03/2016 - 08:21:07 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 08:22:13 - no data read	
+r1	
+FAILED	
+173	
+18/03/2016 - 08:23:19 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 08:24:24 - no data read	
+r12	
+SUCCESS	S
+n 662	
+r5	
+SUCCESS	S
+n 18964	
+r11	
+SUCCESS	S
+n 14368	
+r9	
+FAILED	
+11	
+18/03/2016 - 08:25:30 - no data read	
+r9	
+FAILED	
+8	
+18/03/2016 - 08:26:36 - no data read	
+FAILED	
+18/03/2016 - 08:27:43 - no data read	
+r7	
+SUCCESS	S
+n 8857	
+r9	
+FAILED	
+7	
+18/03/2016 - 08:28:48 - no data read	
+FAILED	
+18/03/2016 - 08:29:54 - no data read	
+r11	
+SUCCESS	S
+n 24857	
+FAILED	
+9	
+18/03/2016 - 08:31:00 - no data read	
+r6	
+SUCCESS	S
+n 17459	
+r11	
+SUCCESS	S
+n 10703	
+r2	
+FAILED	
+243	
+18/03/2016 - 08:32:07 - no data read	
+r12	
+SUCCESS	S
+n 3579	
+r5	
+SUCCESS	S
+n 13688	
+r4	
+FAILED	
+1	
+18/03/2016 - 08:33:13 - no data read	
+r6	
+SUCCESS	S
+n 3581	
+FAILED	
+18/03/2016 - 08:34:19 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 08:35:25 - no data read	
+lr	
+FAILED	
+13	
+18/03/2016 - 08:36:31 - no data read	
+r8	
+r12	
+SUCCESS	S
+n 12873	
+r9	
+FAILED	
+17	
+18/03/2016 - 08:38:43 - no data read	
+r12	
+SUCCESS	S
+n 20272	
+r9	
+FAILED	
+7	
+18/03/2016 - 08:39:49 - no data read	
+r5	
+SUCCESS	S
+n 10628	
+lr	
+FAILED	
+12	
+18/03/2016 - 08:40:55 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 08:42:02 - no data read	
+lr	
+FAILED	
+18/03/2016 - 08:43:07 - no data read	
+r8	
+lr	
+FAILED	
+19	
+18/03/2016 - 08:45:20 - no data read	
+r2	
+FAILED	
+385	
+18/03/2016 - 08:46:25 - no data read	
+r8	
+lr	
+FAILED	
+8	
+18/03/2016 - 08:48:37 - no data read	
+r1	
+r3	
+FAILED	
+3	
+18/03/2016 - 08:51:55 - no data read	
+r11	
+SUCCESS	S
+n 24459	
+r4	
+SUCCESS	S
+n 3134	
+r12	
+SUCCESS	S
+r6	
+SUCCESS	S
+lr	
+SUCCESS	S
+n 20348	
+r9	
+FAILED	
+6	
+18/03/2016 - 08:53:01 - no data read	
+lr	
+FAILED	
+3	
+18/03/2016 - 08:54:07 - no data read	
+r11	
+SUCCESS	S
+r1	
+FAILED	
+18/03/2016 - 08:55:13 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 08:56:19 - no data read	
+r11	
+SUCCESS	S
+n 16369	
+FAILED	
+17	
+18/03/2016 - 08:57:25 - no data read	
+r11	
+SUCCESS	S
+n 1979	
+r1	
+FAILED	
+18/03/2016 - 08:58:31 - no data read	
+FAILED	
+5	
+18/03/2016 - 08:59:37 - no data read	
+r3	
+r6	
+SUCCESS	S
+n 3183	
+r2	
+FAILED	
+2	
+18/03/2016 - 09:01:49 - no data read	
+r12	
+SUCCESS	S
+r5	
+FAILED	
+1	
+18/03/2016 - 09:02:55 - no data read	
+SUCCESS	S
+n 12988	
+r1	
+FAILED	
+215	
+18/03/2016 - 09:04:01 - no data read	
+r3	
+FAILED	
+9	
+18/03/2016 - 09:06:14 - no data read	
+r3	
+r3	
+lr	
+FAILED	
+15	
+18/03/2016 - 09:09:32 - no data read	
+r8	
+r4	
+FAILED	
+1	
+18/03/2016 - 09:11:44 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 09:12:50 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 09:13:56 - no data read	
+r8	
+r9	
+FAILED	
+3	
+18/03/2016 - 09:16:08 - no data read	
+r1	
+FAILED	
+297	
+18/03/2016 - 09:17:14 - no data read	
+r1	
+FAILED	
+382	
+18/03/2016 - 09:18:20 - no data read	
+r3	
+SUCCESS	S
+r11	
+SUCCESS	S
+n 18273	
+r8	
+r9	
+FAILED	
+13	
+18/03/2016 - 09:20:32 - no data read	
+r8	
+r1	
+FAILED	
+213	
+18/03/2016 - 09:22:44 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 09:23:50 - no data read	
+r7	
+SUCCESS	S
+n 22329	
+r12	
+SUCCESS	S
+n 5143	
+r6	
+SUCCESS	S
+n 5798	
+lr	
+FAILED	
+17	
+18/03/2016 - 09:24:56 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 09:26:02 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 09:27:08 - no data read	
+r8	
+lr	
+FAILED	
+3	
+18/03/2016 - 09:29:20 - no data read	
+r8	
+lr	
+FAILED	
+19	
+18/03/2016 - 09:31:32 - no data read	
+r8	
+SUCCESS	S
+n 21579	
+r2	
+FAILED	
+18/03/2016 - 09:32:38 - no data read	
+FAILED	
+18/03/2016 - 09:33:45 - no data read	
+r11	
+SUCCESS	S
+n 14076	
+SUCCESS	S
+n 18794	
+r4	
+FAILED	
+1	
+18/03/2016 - 09:34:51 - no data read	
+r2	
+FAILED	
+343	
+18/03/2016 - 09:35:57 - no data read	
+r1	
+FAILED	
+297	
+18/03/2016 - 09:37:03 - no data read	
+r6	
+SUCCESS	S
+n 18776	
+SUCCESS	S
+n 16662	
+r1	
+FAILED	
+151	
+18/03/2016 - 09:38:09 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 09:39:16 - no data read	
+r4	
+SUCCESS	S
+n 9776	
+r4	
+SUCCESS	S
+n 6223	
+FAILED	
+18/03/2016 - 09:40:22 - no data read	
+r2	
+FAILED	
+24	
+18/03/2016 - 09:41:28 - no data read	
+r7	
+SUCCESS	S
+n 24971	
+r2	
+SUCCESS	S
+n 5541	
+r11	
+SUCCESS	S
+n 22855	
+r7	
+SUCCESS	S
+n 12998	
+r6	
+SUCCESS	S
+n 9803	
+r3	
+r9	
+FAILED	
+7	
+18/03/2016 - 09:43:42 - no data read	
+r6	
+SUCCESS	S
+n 198	
+r4	
+FAILED	
+18/03/2016 - 09:44:47 - no data read	
+FAILED	
+14	
+18/03/2016 - 09:45:53 - no data read	
+r2	
+FAILED	
+206	
+18/03/2016 - 09:46:59 - no data read	
+r11	
+SUCCESS	S
+n 10751	
+r7	
+SUCCESS	S
+n 12712	
+r1	
+FAILED	
+18/03/2016 - 09:48:05 - no data read	
+r6	
+SUCCESS	S
+n 2548	
+FAILED	
+18	
+18/03/2016 - 09:49:11 - no data read	
+r9	
+SUCCESS	S
+n 8279	
+r7	
+SUCCESS	S
+n 15403	
+r12	
+SUCCESS	S
+n 14374	
+r11	
+SUCCESS	S
+n 19764	
+r4	
+SUCCESS	S
+r4	
+FAILED	
+1	
+18/03/2016 - 09:50:17 - no data read	
+SUCCESS	S
+n 1288	
+r8	
+SUCCESS	S
+r7	
+FAILED	
+18/03/2016 - 09:51:23 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 09:52:29 - no data read	
+r8	
+r11	
+SUCCESS	S
+n 5588	
+r4	
+SUCCESS	S
+n 21767	
+r5	
+FAILED	
+1	
+18/03/2016 - 09:54:41 - no data read	
+r8	
+r11	
+SUCCESS	S
+n 662	
+SUCCESS	S
+n 19361	
+r12	
+SUCCESS	S
+n 3309	
+r6	
+SUCCESS	S
+n 6032	
+SUCCESS	S
+n 5145	
+r6	
+SUCCESS	S
+n 23176	
+r12	
+SUCCESS	S
+n 19499	
+r4	
+FAILED	
+1	
+18/03/2016 - 09:56:53 - no data read	
+FAILED	
+18/03/2016 - 09:57:59 - no data read	
+r5	
+SUCCESS	S
+n 16824	
+r5	
+SUCCESS	S
+n 9955	
+r12	
+SUCCESS	S
+n 5384	
+FAILED	
+8	
+18/03/2016 - 09:59:06 - no data read	
+r6	
+SUCCESS	S
+n 7416	
+r1	
+FAILED	
+311	
+18/03/2016 - 10:00:11 - no data read	
+r2	
+FAILED	
+18/03/2016 - 10:01:18 - no data read	
+r6	
+SUCCESS	S
+r8	
+r12	
+SUCCESS	S
+n 17685	
+r3	
+r1	
+SUCCESS	S
+n 6394	
+r1	
+FAILED	
+329	
+18/03/2016 - 10:04:35 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 10:05:41 - no data read	
+r12	
+SUCCESS	S
+n 23767	
+r1	
+FAILED	
+27	
+18/03/2016 - 10:06:47 - no data read	
+r11	
+SUCCESS	S
+n 14076	
+r11	
+SUCCESS	S
+n 7378	
+r6	
+SUCCESS	S
+n 11269	
+r5	
+FAILED	
+1	
+18/03/2016 - 10:07:53 - no data read	
+r8	
+r7	
+SUCCESS	S
+n 19287	
+FAILED	
+18/03/2016 - 10:10:05 - no data read	
+r6	
+SUCCESS	S
+n 23758	
+r8	
+FAILED	
+18/03/2016 - 10:12:17 - no data read	
+FAILED	
+3	
+18/03/2016 - 10:13:23 - no data read	
+r7	
+SUCCESS	S
+n 9709	
+r3	
+r6	
+SUCCESS	S
+n 13091	
+r8	
+lr	
+FAILED	
+4	
+18/03/2016 - 10:16:42 - no data read	
+r2	
+FAILED	
+205	
+18/03/2016 - 10:17:48 - no data read	
+r2	
+FAILED	
+3	
+18/03/2016 - 10:18:54 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 10:19:59 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 10:21:05 - no data read	
+r2	
+FAILED	
+2	
+18/03/2016 - 10:22:12 - no data read	
+r1	
+FAILED	
+213	
+18/03/2016 - 10:23:18 - no data read	
+r9	
+FAILED	
+18/03/2016 - 10:24:24 - no data read	
+r5	
+SUCCESS	S
+n 24904	
+SUCCESS	S
+n 1127	
+r1	
+FAILED	
+18/03/2016 - 10:25:30 - no data read	
+r6	
+SUCCESS	S
+r5	
+FAILED	
+1	
+18/03/2016 - 10:26:36 - no data read	
+r12	
+SUCCESS	S
+r8	
+r11	
+SUCCESS	S
+n 13678	
+FAILED	
+4	
+18/03/2016 - 10:28:49 - no data read	
+r3	
+r7	
+SUCCESS	S
+n 17857	
+SUCCESS	S
+n 14087	
+r2	
+FAILED	
+185	
+18/03/2016 - 10:31:01 - no data read	
+r7	
+SUCCESS	S
+lr	
+FAILED	
+9	
+18/03/2016 - 10:32:08 - no data read	
+r1	
+FAILED	
+28	
+18/03/2016 - 10:33:14 - no data read	
+r5	
+SUCCESS	S
+n 2378	
+r12	
+SUCCESS	S
+n 22914	
+r3	
+SUCCESS	S
+n 23894	
+r9	
+FAILED	
+5	
+18/03/2016 - 10:34:20 - no data read	
+r11	
+SUCCESS	S
+n 17287	
+r6	
+SUCCESS	S
+n 23606	
+r1	
+FAILED	
+1	
+18/03/2016 - 10:35:26 - no data read	
+lr	
+FAILED	
+14	
+18/03/2016 - 10:36:33 - no data read	
+lr	
+FAILED	
+5	
+18/03/2016 - 10:37:38 - no data read	
+r8	
+r6	
+SUCCESS	S
+n 4034	
+r6	
+SUCCESS	S
+r11	
+SUCCESS	S
+n 2862	
+r8	
+r5	
+SUCCESS	S
+r5	
+FAILED	
+1	
+18/03/2016 - 10:40:58 - no data read	
+r7	
+SUCCESS	S
+n 17289	
+r8	
+r4	
+FAILED	
+1	
+18/03/2016 - 10:43:09 - no data read	
+lr	
+FAILED	
+13	
+18/03/2016 - 10:44:16 - no data read	
+r3	
+r8	
+r7	
+SUCCESS	S
+n 23417	
+r4	
+FAILED	
+1	
+18/03/2016 - 10:47:34 - no data read	
+lr	
+FAILED	
+3	
+18/03/2016 - 10:48:40 - no data read	
+r3	
+r11	
+SUCCESS	S
+r5	
+SUCCESS	S
+n 21598	
+r5	
+SUCCESS	S
+n 11717	
+lr	
+FAILED	
+11	
+18/03/2016 - 10:50:56 - no data read	
+r9	
+FAILED	
+19	
+18/03/2016 - 10:52:03 - no data read	
+r11	
+SUCCESS	S
+n 17685	
+r9	
+FAILED	
+13	
+18/03/2016 - 10:53:08 - no data read	
+r12	
+SUCCESS	S
+n 22678	
+r4	
+FAILED	
+1	
+18/03/2016 - 10:54:14 - no data read	
+r1	
+FAILED	
+101	
+18/03/2016 - 10:55:21 - no data read	
+r12	
+SUCCESS	S
+n 197	
+r6	
+SUCCESS	S
+n 7606	
+r7	
+SUCCESS	S
+n 20147	
+r4	
+FAILED	
+1	
+18/03/2016 - 10:56:27 - no data read	
+r3	
+SUCCESS	S
+n 9311	
+FAILED	
+18/03/2016 - 10:57:32 - no data read	
+r6	
+SUCCESS	S
+n 14248	
+r3	
+SUCCESS	S
+r3	
+SUCCESS	S
+n 5715	
+FAILED	
+18/03/2016 - 10:58:38 - no data read	
+r2	
+SUCCESS	S
+n 3116	
+r3	
+r6	
+SUCCESS	S
+n 9311	
+r3	
+r2	
+FAILED	
+66	
+18/03/2016 - 11:01:56 - no data read	
+r3	
+SUCCESS	S
+n 19173	
+r6	
+SUCCESS	S
+n 11556	
+r6	
+SUCCESS	S
+n 6709	
+FAILED	
+18/03/2016 - 11:03:02 - no data read	
+r5	
+SUCCESS	S
+n 22271	
+FAILED	
+18/03/2016 - 11:04:08 - no data read	
+lr	
+FAILED	
+4	
+18/03/2016 - 11:05:14 - no data read	
+r8	
+r3	
+r11	
+SUCCESS	S
+n 5872	
+r3	
+r7	
+SUCCESS	S
+n 15564	
+r6	
+SUCCESS	S
+n 19012	
+r2	
+FAILED	
+103	
+18/03/2016 - 11:09:38 - no data read	
+r3	
+SUCCESS	S
+n 12296	
+FAILED	
+18/03/2016 - 11:10:45 - no data read	
+r7	
+SUCCESS	S
+n 21068	
+r11	
+SUCCESS	S
+n 12769	
+r9	
+FAILED	
+18	
+18/03/2016 - 11:11:50 - no data read	
+FAILED	
+18/03/2016 - 11:12:57 - no data read	
+r4	
+SUCCESS	S
+n 17686	
+r1	
+FAILED	
+18	
+18/03/2016 - 11:14:03 - no data read	
+r6	
+SUCCESS	S
+n 21409	
+r12	
+SUCCESS	S
+n 12485	
+r2	
+FAILED	
+226	
+18/03/2016 - 11:15:09 - no data read	
+r7	
+SUCCESS	S
+n 2491	
+r1	
+FAILED	
+398	
+18/03/2016 - 11:16:15 - no data read	
+FAILED	
+18/03/2016 - 11:17:21 - no data read	
+r4	
+SUCCESS	S
+lr	
+SUCCESS	S
+n 6688	
+FAILED	
+5	
+18/03/2016 - 11:18:27 - no data read	
+r9	
+FAILED	
+13	
+18/03/2016 - 11:19:34 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 11:20:40 - no data read	
+r12	
+SUCCESS	S
+n 10694	
+r12	
+SUCCESS	S
+n 15411	
+r6	
+SUCCESS	S
+n 13482	
+r3	
+r8	
+r4	
+FAILED	
+1	
+18/03/2016 - 11:23:58 - no data read	
+r7	
+SUCCESS	S
+n 16189	
+r1	
+FAILED	
+7	
+18/03/2016 - 11:25:04 - no data read	
+r3	
+r5	
+FAILED	
+1	
+18/03/2016 - 11:27:16 - no data read	
+FAILED	
+18/03/2016 - 11:28:21 - no data read	
+r1	
+FAILED	
+89	
+18/03/2016 - 11:29:28 - no data read	
+r1	
+SUCCESS	S
+n 3751	
+r5	
+SUCCESS	S
+n 9094	
+r5	
+SUCCESS	S
+n 13829	
+r3	
+r9	
+FAILED	
+13	
+18/03/2016 - 11:31:40 - no data read	
+r5	
+SUCCESS	S
+n 22963	
+FAILED	
+1	
+18/03/2016 - 11:32:46 - no data read	
+r6	
+SUCCESS	S
+n 17165	
+r12	
+SUCCESS	S
+n 17695	
+r9	
+FAILED	
+13	
+18/03/2016 - 11:33:52 - no data read	
+FAILED	
+18/03/2016 - 11:34:58 - no data read	
+r11	
+SUCCESS	S
+n 11841	
+r12	
+SUCCESS	S
+n 4109	
+r1	
+FAILED	
+18/03/2016 - 11:36:04 - no data read	
+r12	
+SUCCESS	S
+n 17685	
+r8	
+r4	
+SUCCESS	S
+n 24904	
+r11	
+SUCCESS	S
+n 19816	
+r5	
+SUCCESS	S
+n 10066	
+r5	
+SUCCESS	S
+r1	
+FAILED	
+46	
+18/03/2016 - 11:38:16 - no data read	
+r1	
+FAILED	
+382	
+18/03/2016 - 11:39:22 - no data read	
+r2	
+FAILED	
+5	
+18/03/2016 - 11:40:27 - no data read	
+r8	
+FAILED	
+18/03/2016 - 11:41:33 - no data read	
+r3	
+r2	
+FAILED	
+381	
+18/03/2016 - 11:43:45 - no data read	
+r9	
+FAILED	
+1	
+18/03/2016 - 11:44:51 - no data read	
+SUCCESS	S
+n 5588	
+r3	
+r2	
+FAILED	
+24	
+18/03/2016 - 11:47:04 - no data read	
+r1	
+FAILED	
+15	
+18/03/2016 - 11:48:10 - no data read	
+r2	
+FAILED	
+261	
+18/03/2016 - 11:49:15 - no data read	
+lr	
+FAILED	
+5	
+18/03/2016 - 11:50:22 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 11:51:28 - no data read	
+r6	
+SUCCESS	S
+n 8108	
+r3	
+r8	
+FAILED	
+18/03/2016 - 11:54:46 - no data read	
+r3	
+r5	
+SUCCESS	S
+n 16994	
+r11	
+FAILED	
+18/03/2016 - 11:56:59 - no data read	
+FAILED	
+18/03/2016 - 11:58:05 - no data read	
+r9	
+FAILED	
+18	
+18/03/2016 - 11:59:11 - no data read	
+r3	
+lr	
+SUCCESS	S
+r4	
+FAILED	
+1	
+18/03/2016 - 12:01:23 - no data read	
+r9	
+FAILED	
+11	
+18/03/2016 - 12:02:30 - no data read	
+r12	
+SUCCESS	S
+n 24279	
+r7	
+SUCCESS	S
+FAILED	
+18/03/2016 - 12:03:35 - no data read	
+r11	
+SUCCESS	S
+n 10524	
+r6	
+SUCCESS	S
+r1	
+FAILED	
+394	
+18/03/2016 - 12:04:41 - no data read	
+r5	
+SUCCESS	S
+n 3116	
+r1	
+FAILED	
+386	
+18/03/2016 - 12:05:48 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 12:06:53 - no data read	
+FAILED	
+18/03/2016 - 12:08:00 - no data read	
+r5	
+SUCCESS	S
+r3	
+SUCCESS	S
+n 9615	
+r1	
+SUCCESS	S
+n 9739	
+r9	
+FAILED	
+11	
+18/03/2016 - 12:09:06 - no data read	
+lr	
+FAILED	
+19	
+18/03/2016 - 12:10:12 - no data read	
+r6	
+SUCCESS	S
+r8	
+r9	
+FAILED	
+1	
+18/03/2016 - 12:12:24 - no data read	
+r9	
+FAILED	
+6	
+18/03/2016 - 12:13:30 - no data read	
+r2	
+FAILED	
+1	
+18/03/2016 - 12:14:37 - no data read	
+r8	
+r7	
+SUCCESS	S
+n 4205	
+r9	
+FAILED	
+8	
+18/03/2016 - 12:16:49 - no data read	
+lr	
+SUCCESS	S
+n 8336	
+r7	
+SUCCESS	S
+r5	
+SUCCESS	S
+n 20659	
+r6	
+SUCCESS	S
+n 4674	
+r12	
+SUCCESS	S
+r1	
+FAILED	
+246	
+18/03/2016 - 12:17:54 - no data read	
+FAILED	
+3	
+18/03/2016 - 12:19:01 - no data read	
+r11	
+SUCCESS	S
+n 11841	
+FAILED	
+16	
+18/03/2016 - 12:20:07 - no data read	
+r5	
+SUCCESS	S
+r3	
+SUCCESS	S
+n 21087	
+r4	
+FAILED	
+1	
+18/03/2016 - 12:21:13 - no data read	
+r2	
+FAILED	
+166	
+18/03/2016 - 12:22:19 - no data read	
+r8	
+FAILED	
+18/03/2016 - 12:23:25 - no data read	
+r3	
+SUCCESS	S
+n 12636	
+lr	
+FAILED	
+11	
+18/03/2016 - 12:24:32 - no data read	
+r7	
+SUCCESS	S
+n 6792	
+r12	
+SUCCESS	S
+n 1306	
+r3	
+FAILED	
+18/03/2016 - 12:26:43 - no data read	
+lr	
+FAILED	
+3	
+18/03/2016 - 12:27:49 - no data read	
+r7	
+SUCCESS	S
+n 21522	
+r9	
+FAILED	
+6	
+18/03/2016 - 12:28:56 - no data read	
+r1	
+r7	
+SUCCESS	S
+n 23417	
+r1	
+FAILED	
+33	
+18/03/2016 - 12:30:02 - no data read	
+FAILED	
+18/03/2016 - 12:31:07 - no data read	
+r9	
+FAILED	
+2	
+18/03/2016 - 12:32:14 - no data read	
+r4	
+SUCCESS	S
+n 21011	
+r4	
+FAILED	
+1	
+18/03/2016 - 12:33:20 - no data read	
+r1	
+FAILED	
+18/03/2016 - 12:34:26 - no data read	
+r9	
+FAILED	
+18/03/2016 - 12:35:32 - no data read	
+r11	
+SUCCESS	S
+n 18775	
+r7	
+SUCCESS	S
+n 9273	
+r12	
+SUCCESS	S
+n 19447	
+r8	
+r2	
+FAILED	
+18/03/2016 - 12:37:44 - no data read	
+lr	
+FAILED	
+17	
+18/03/2016 - 12:38:50 - no data read	
+r12	
+SUCCESS	S
+n 12181	
+r12	
+SUCCESS	S
+r7	
+SUCCESS	S
+n 21921	
+lr	
+FAILED	
+2	
+18/03/2016 - 12:39:56 - no data read	
+r3	
+r4	
+FAILED	
+1	
+18/03/2016 - 12:42:08 - no data read	
+r9	
+SUCCESS	S
+n 14815	
+r11	
+SUCCESS	S
+n 13517	
+r8	
+r2	
+FAILED	
+86	
+18/03/2016 - 12:44:20 - no data read	
+r8	
+r8	
+r2	
+FAILED	
+381	
+18/03/2016 - 12:47:39 - no data read	
+r6	
+SUCCESS	S
+FAILED	
+18/03/2016 - 12:48:45 - no data read	
+r3	
+SUCCESS	S
+n 1401	
+r9	
+SUCCESS	S
+n 4451	
+r5	
+SUCCESS	S
+n 6211	
+r8	
+r5	
+FAILED	
+1	
+18/03/2016 - 12:50:57 - no data read	
+FAILED	
+18/03/2016 - 12:52:03 - no data read	
+r6	
+SUCCESS	S
+n 16767	
+r8	
+r9	
+FAILED	
+18	
+18/03/2016 - 12:54:15 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 12:55:21 - no data read	
+r11	
+SUCCESS	S
+n 24857	
+r8	
+r6	
+SUCCESS	S
+n 11433	
+r3	
+r6	
+SUCCESS	S
+n 20945	
+r12	
+SUCCESS	S
+n 15459	
+r2	
+FAILED	
+166	
+18/03/2016 - 12:58:40 - no data read	
+r12	
+SUCCESS	S
+n 2036	
+FAILED	
+18/03/2016 - 12:59:46 - no data read	
+r6	
+SUCCESS	S
+n 14986	
+r8	
+r2	
+FAILED	
+18/03/2016 - 13:01:57 - no data read	
+FAILED	
+11	
+18/03/2016 - 13:03:02 - no data read	
+r4	
+SUCCESS	S
+n 8108	
+r2	
+FAILED	
+307	
+18/03/2016 - 13:04:08 - no data read	
+lr	
+SUCCESS	S
+n 767	
+r9	
+SUCCESS	S
+r6	
+SUCCESS	S
+n 5697	
+lr	
+FAILED	
+17	
+18/03/2016 - 13:05:14 - no data read	
+r7	
+SUCCESS	S
+n 24393	
+r11	
+SUCCESS	S
+n 23493	
+r9	
+FAILED	
+12	
+18/03/2016 - 13:06:19 - no data read	
+r9	
+FAILED	
+17	
+18/03/2016 - 13:07:25 - no data read	
+r5	
+SUCCESS	S
+n 7597	
+r7	
+SUCCESS	S
+n 8003	
+r3	
+SUCCESS	S
+n 10738	
+r2	
+FAILED	
+246	
+18/03/2016 - 13:08:30 - no data read	
+r2	
+FAILED	
+2	
+18/03/2016 - 13:09:36 - no data read	
+r11	
+SUCCESS	S
+n 10638	
+r3	
+FAILED	
+18/03/2016 - 13:11:47 - no data read	
+r2	
+FAILED	
+2	
+18/03/2016 - 13:12:53 - no data read	
+lr	
+SUCCESS	S
+n 17165	
+r7	
+SUCCESS	S
+n 20215	
+r9	
+FAILED	
+9	
+18/03/2016 - 13:14:00 - no data read	
+r12	
+SUCCESS	S
+n 23654	
+r3	
+SUCCESS	S
+n 2102	
+r5	
+FAILED	
+18/03/2016 - 13:15:06 - no data read	
+r9	
+FAILED	
+6	
+18/03/2016 - 13:16:12 - no data read	
+r6	
+SUCCESS	S
+r3	
+r7	
+SUCCESS	S
+n 22612	
+r2	
+FAILED	
+41	
+18/03/2016 - 13:18:25 - no data read	
+r9	
+FAILED	
+17	
+18/03/2016 - 13:19:31 - no data read	
+r8	
+r6	
+SUCCESS	S
+r9	
+FAILED	
+2	
+18/03/2016 - 13:21:44 - no data read	
+r1	
+FAILED	
+287	
+18/03/2016 - 13:22:50 - no data read	
+FAILED	
+18/03/2016 - 13:23:56 - no data read	
+r3	
+r1	
+FAILED	
+383	
+18/03/2016 - 13:26:09 - no data read	
+r6	
+SUCCESS	S
+n 2083	
+lr	
+SUCCESS	S
+n 24402	
+SUCCESS	S
+n 3146	
+FAILED	
+7	
+18/03/2016 - 13:27:15 - no data read	
+lr	
+SUCCESS	S
+n 12059	
+lr	
+FAILED	
+11	
+18/03/2016 - 13:28:21 - no data read	
+FAILED	
+16	
+18/03/2016 - 13:29:27 - no data read	
+r12	
+SUCCESS	S
+n 15166	
+r6	
+SUCCESS	S
+n 7832	
+r12	
+SUCCESS	S
+n 11042	
+lr	
+FAILED	
+12	
+18/03/2016 - 13:30:34 - no data read	
+lr	
+FAILED	
+19	
+18/03/2016 - 13:31:40 - no data read	
+r4	
+FAILED	
+1	
+18/03/2016 - 13:32:46 - no data read	
+r2	
+FAILED	
+381	
+18/03/2016 - 13:33:53 - no data read	
+r2	
+FAILED	
+18/03/2016 - 13:34:59 - no data read	
+r2	
+FAILED	
+4	
+18/03/2016 - 13:36:05 - no data read	
+r11	
+SUCCESS	S
+n 662	
+r7	
+SUCCESS	S
+n 12077	
+r4	
+SUCCESS	S
+n 24179	
+r7	
+SUCCESS	S
+n 20291	
+r8	
+r7	
+SUCCESS	S
+n 4386	
+r12	
+SUCCESS	S
+n 10419	
+r1	
+FAILED	
+13	
+18/03/2016 - 13:38:17 - no data read	
+r7	
+SUCCESS	S
+r5	
+SUCCESS	S
+n 4224	
+r4	
+SUCCESS	S
+n 23732	
+r9	
+FAILED	
+7	
+18/03/2016 - 13:39:23 - no data read	
+SUCCESS	S
+n 10866	
+r6	
+SUCCESS	S
+n 3135	
+r9	
+FAILED	
+6	
+18/03/2016 - 13:40:29 - no data read	
+r2	
+FAILED	
+384	
+18/03/2016 - 13:41:35 - no data read	
+r2	
+FAILED	
+306	
+18/03/2016 - 13:42:42 - no data read	
+r6	
+SUCCESS	S
+n 9198	
+r1	
+FAILED	
+281	
+18/03/2016 - 13:43:48 - no data read	
+r3	
+r4	
+FAILED	
+1	
+18/03/2016 - 13:46:00 - no data read	
+FAILED	
+11	
+18/03/2016 - 13:47:06 - no data read	
+FAILED	
+18/03/2016 - 13:48:12 - no data read	
+r5	
+FAILED	
+1	
+18/03/2016 - 13:49:18 - no data read	
+FAILED	
+18/03/2016 - 13:50:24 - no data read	
+r5	
+SUCCESS	S
+n 3694	
+r4	
+FAILED	
+1	
+18/03/2016 - 13:51:30 - no data read	
+r8	
+lr	
+FAILED	
+19	
+18/03/2016 - 13:53:43 - no data read	
+r5	
+SUCCESS	S
+n 22963	
+r5	
+SUCCESS	S
+n 4044	
+FAILED	
+11	
+18/03/2016 - 13:54:49 - no data read	
+r8	
+r11	
+SUCCESS	S
+n 20499	
+r12	
+SUCCESS	S
+r9	
+FAILED	
+7	
+7	

@@ -1,0 +1,6 @@
+15:06:22 **** Incremental Build of configuration Debug for project FFT_RegTeste ****
+make all 
+make: Nothing to be done for `all'.
+
+15:06:23 Build Finished (took 243ms)
+
